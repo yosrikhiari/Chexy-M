@@ -1,12 +1,17 @@
 import os
+import random
+import time
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
 import sys
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from engine import MultiModalLearningSystem, EnhancedRPGPiece
+from RPGengine import MultiModalLearningSystem, EnhancedRPGPiece
 from typing import List, Optional, Dict
+from classic_chess_ai import cleanup_ai_instances, get_classic_ai
+import chess
 import tensorflow as tf
 
 tf.get_logger().setLevel('ERROR')
@@ -131,12 +136,88 @@ def update_ai():
         print(f"❌ Error in update_ai: {e}")
         return jsonify({'error': 'Failed to update AI'}), 500
 
+########################################################################
+@app.route('/api/classic/ai-move', methods=['POST'])
+def classic_ai_move():
+    try:
+        data = request.get_json()
+        fen = data.get('fen')
+        bot_points = data.get('botPoints', 600)
+
+        if not fen:
+            return jsonify({'error': 'FEN string is required'}), 400
+
+        try:
+            chess.Board(fen)
+        except ValueError as e:
+            print(f"Invalid FEN: {fen}, error: {e}")
+            fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
+
+        ai = get_classic_ai(bot_points)
+        ai.set_board(fen)
+
+        base_time = ai.difficulty.time_limit
+        variation = random.uniform(0.5, 1.5)
+        thinking_time = base_time * variation
+        time.sleep(thinking_time)
+
+        move = ai.make_move()
+        if not move:
+            return jsonify({'move': None})
+
+        (from_row, from_col), (to_row, to_col) = move
+        return jsonify({
+            'move': {
+                'from': {'row': from_row, 'col': from_col},
+                'to': {'row': to_row, 'col': to_col}
+            }
+        })
+    except Exception as e:
+        print(f"Error in classic_ai_move: {e}")
+        return jsonify({
+            'move': {
+                'from': {'row': 6, 'col': 4},
+                'to': {'row': 4, 'col': 4}
+            }
+        })
+
+
+@app.route('/api/classic/validate-move', methods=['POST'])
+def classic_validate_move():
+    try:
+        data = request.get_json()
+        fen = data.get('fen')
+        from_row = data.get('from', {}).get('row')
+        from_col = data.get('from', {}).get('col')
+        to_row = data.get('to', {}).get('row')
+        to_col = data.get('to', {}).get('col')
+
+        if None in [fen, from_row, from_col, to_row, to_col]:
+            return jsonify({'error': 'Invalid move data'}), 400
+
+        # Convert to chess library coordinates
+        board = chess.Board(fen)
+        from_square = chess.square(from_col, 7 - from_row)
+        to_square = chess.square(to_col, 7 - to_row)
+        move = chess.Move(from_square, to_square)
+
+        is_valid = move in board.legal_moves
+        return jsonify({'valid': is_valid})
+    except Exception as e:
+        print(f"Error in classic_validate_move: {e}")
+        return jsonify({'error': 'Failed to validate move'}), 500
+
+
+# Update your health check endpoint
 @app.route('/health', methods=['GET'])
 def health_check():
     return jsonify({
         'status': 'healthy',
         'message': 'AI Chess Game Server is running',
-        'endpoints': ['/api/enemy-army', '/api/ai-strategy', '/api/ai-move', '/api/update-ai']
+        'endpoints': [
+            '/api/enemy-army', '/api/ai-strategy', '/api/ai-move', '/api/update-ai',
+            '/api/classic/ai-move', '/api/classic/validate-move'
+        ]
     })
 
 def main():
@@ -158,6 +239,14 @@ def main():
         sys.exit(0)
     except Exception as e:
         print(f"❌ Error starting server: {e}")
+        sys.exit(1)
+    except KeyboardInterrupt:
+        print("\n✅ Server stopped gracefully")
+        cleanup_ai_instances()
+        sys.exit(0)
+    except Exception as e:
+        print(f"❌ Error starting server: {e}")
+        cleanup_ai_instances()
         sys.exit(1)
 
 if __name__ == '__main__':
