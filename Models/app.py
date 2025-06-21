@@ -1,253 +1,276 @@
 import os
+import sys
+import logging
 import random
 import time
-
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
-
-import sys
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from RPGengine import MultiModalLearningSystem, EnhancedRPGPiece
-from typing import List, Optional, Dict
-from classic_chess_ai import cleanup_ai_instances, get_classic_ai
 import chess
-import tensorflow as tf
+import chess.engine
 
-tf.get_logger().setLevel('ERROR')
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('chess_ai.log'),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 CORS(app)
 
-try:
-    ai_system = MultiModalLearningSystem(board_size=8)
-except Exception as e:
-    print(f"❌ Failed to initialize AI system: {e}")
+# Path to Stockfish executable
+STOCKFISH_PATH = r"C:\Engines\stockfish\stockfish-windows-x86-64-avx2.exe"
+
+# Ensure Stockfish is accessible
+if not os.path.exists(STOCKFISH_PATH):
+    logger.error(f"Stockfish not found at {STOCKFISH_PATH}. Please install it or update the path.")
     sys.exit(1)
+else:
+    logger.info(f"Stockfish found at {STOCKFISH_PATH}")
 
-def serialize_piece(piece: EnhancedRPGPiece) -> Dict:
-    return {
-        'id': piece.id, 'type': piece.type, 'color': piece.color, 'name': piece.name,
-        'description': piece.description, 'hp': piece.hp, 'currentHp': piece.current_hp,
-        'maxHp': piece.max_hp, 'attack': piece.attack, 'defense': piece.defense,
-        'level': piece.level, 'experience': piece.experience, 'rarity': piece.rarity,
-        'owner': piece.owner,  # Now explicitly supported
-        'pluscurrentHp': piece.pluscurrentHp, 'plusmaxHp': piece.plusmaxHp,
-        'plusattack': piece.plusattack, 'plusdefense': piece.plusdefense,
-        'pluslevel': piece.pluslevel, 'plusexperience': piece.plusexperience,
-        'position': piece.position, 'hasMoved': piece.hasMoved, 'isJoker': piece.isJoker,
-        'specialAbility': piece.specialAbility
-    }
 
-def create_piece_safely(piece_data: dict) -> Optional[EnhancedRPGPiece]:
+def get_bot_config(bot_points: int) -> dict:
+    """Get bot configuration based on points with more aggressive difficulty scaling"""
+    if bot_points <= 400:  # Beginner Bot - Make mistakes frequently
+        return {
+            'skill_level': -5,  # Negative skill level for very weak play
+            'think_time': 0.1,
+            'mistake_probability': 0.4,  # 40% chance to make a mistake
+            'blunder_probability': 0.15,  # 15% chance to blunder
+            'random_move_probability': 0.1,  # 10% chance for completely random move
+            'depth_limit': 3
+        }
+    elif bot_points <= 600:  # Easy Bot
+        return {
+            'skill_level': 0,
+            'think_time': 0.2,
+            'mistake_probability': 0.25,
+            'blunder_probability': 0.08,
+            'random_move_probability': 0.05,
+            'depth_limit': 5
+        }
+    elif bot_points <= 800:  # Novice Bot
+        return {
+            'skill_level': 3,
+            'think_time': 0.5,
+            'mistake_probability': 0.15,
+            'blunder_probability': 0.04,
+            'random_move_probability': 0.02,
+            'depth_limit': 8
+        }
+    elif bot_points <= 1200:  # Intermediate Bot
+        return {
+            'skill_level': 8,
+            'think_time': 1.0,
+            'mistake_probability': 0.08,
+            'blunder_probability': 0.02,
+            'random_move_probability': 0.01,
+            'depth_limit': 12
+        }
+    elif bot_points <= 1800:  # Advanced Bot
+        return {
+            'skill_level': 15,
+            'think_time': 2.0,
+            'mistake_probability': 0.03,
+            'blunder_probability': 0.005,
+            'random_move_probability': 0.0,
+            'depth_limit': 18
+        }
+    else:  # Master Bot (2400+ points)
+        return {
+            'skill_level': 20,
+            'think_time': 3.0,
+            'mistake_probability': 0.0,
+            'blunder_probability': 0.0,
+            'random_move_probability': 0.0,
+            'depth_limit': 20
+        }
+
+
+def evaluate_move_quality(board: chess.Board, move: chess.Move, engine) -> float:
+    """Evaluate how good a move is using engine analysis"""
     try:
-        required_fields = [
-            'id', 'type', 'color', 'name', 'description', 'hp', 'current_hp', 'max_hp',
-            'attack', 'defense', 'level', 'experience', 'rarity', 'owner',
-            'pluscurrentHp', 'plusmaxHp', 'plusattack', 'plusdefense', 'pluslevel', 'plusexperience'
-        ]
-        for field in required_fields:
-            if field not in piece_data:
-                piece_data[field] = '' if field in ['id', 'name', 'description', 'rarity', 'owner'] else 0
-        piece_data.setdefault('position', None)
-        piece_data.setdefault('hasMoved', False)
-        piece_data.setdefault('isJoker', False)
-        piece_data.setdefault('specialAbility', '')
-        return EnhancedRPGPiece(**piece_data)
-    except Exception as e:
-        print(f"⚠️ Error creating piece from data {piece_data.get('id', 'unknown')}: {e}")
+        # Analyze position before move
+        info_before = engine.analyse(board, chess.engine.Limit(depth=10))
+        score_before = info_before["score"].relative.score(mate_score=10000) if info_before["score"].relative else 0
+
+        # Make the move temporarily
+        board.push(move)
+
+        # Analyze position after move (from opponent's perspective, so negate)
+        info_after = engine.analyse(board, chess.engine.Limit(depth=10))
+        score_after = -(info_after["score"].relative.score(mate_score=10000) if info_after["score"].relative else 0)
+
+        # Undo the move
+        board.pop()
+
+        # Return the evaluation difference (positive = good move)
+        return score_after - score_before
+    except:
+        return 0
+
+
+def get_weak_move(board: chess.Board, engine, config: dict):
+    """Intentionally select a weaker move based on bot difficulty"""
+    legal_moves = list(board.legal_moves)
+
+    if not legal_moves:
         return None
 
-@app.route('/api/enemy-army', methods=['POST'])
-def generate_enemy_army():
+    # For very weak bots, sometimes just pick a random legal move
+    if random.random() < config['random_move_probability']:
+        logger.info("Bot making random move")
+        return random.choice(legal_moves)
+
     try:
-        data = request.get_json()
-        round = data.get('round', 1)
-        board_size = data.get('boardSize', 8)
-        modifiers = data.get('activeModifiers', [])
-        capacity_modifiers = data.get('activeCapacityModifiers', [])
-        army = ai_system.generate_enemy_army(round, board_size, modifiers, capacity_modifiers)
-        serialized_army = [serialize_piece(piece) for piece in army if piece]
-        return jsonify({'pieces': serialized_army})
+        # Get all legal moves with their evaluations
+        move_evaluations = []
+        for move in legal_moves:
+            eval_score = evaluate_move_quality(board, move, engine)
+            move_evaluations.append((move, eval_score))
+
+        # Sort by evaluation (best to worst)
+        move_evaluations.sort(key=lambda x: x[1], reverse=True)
+
+        # Decide if we should make a mistake or blunder
+        if random.random() < config['blunder_probability']:
+            # Pick one of the worst 3 moves (blunder)
+            logger.info("Bot making blunder")
+            worst_moves = move_evaluations[-3:]
+            return random.choice(worst_moves)[0]
+        elif random.random() < config['mistake_probability']:
+            # Pick from bottom 25% of moves (mistake)
+            logger.info("Bot making mistake")
+            bottom_quarter = max(1, len(move_evaluations) // 4)
+            weak_moves = move_evaluations[-bottom_quarter:]
+            return random.choice(weak_moves)[0]
+        else:
+            # Pick from top moves but with some randomness
+            top_moves = move_evaluations[:min(3, len(move_evaluations))]
+            return random.choice(top_moves)[0]
+
     except Exception as e:
-        print(f"❌ Error in generate_enemy_army: {e}")
-        return jsonify({'error': 'Failed to generate enemy army'}), 500
+        logger.error(f"Error in get_weak_move: {e}")
+        # Fallback to random move
+        return random.choice(legal_moves)
 
-@app.route('/api/ai-strategy', methods=['POST'])
-def get_ai_strategy():
-    try:
-        data = request.get_json()
-        round = data.get('round', 1)
-        player_army_size = data.get('playerArmySize', 8)
-        strategy = ai_system.get_ai_strategy(round, player_army_size)
-        return jsonify({'strategy': strategy.lower()})  # Ensure lowercase
-    except Exception as e:
-        print(f"❌ Error in get_ai_strategy: {e}")
-        return jsonify({'error': 'Failed to get AI strategy'}), 500
 
-@app.route('/api/ai-move', methods=['POST'])
-def calculate_ai_move():
-    try:
-        data = request.get_json()
-        board = data.get('board')
-        enemy_pieces_data = data.get('enemyPieces', [])
-        player_pieces_data = data.get('playerPieces', [])
-        enemy_pieces = [create_piece_safely(piece) for piece in enemy_pieces_data]
-        player_pieces = [create_piece_safely(piece) for piece in player_pieces_data]
-        enemy_pieces = [piece for piece in enemy_pieces if piece is not None]
-        player_pieces = [piece for piece in player_pieces if piece is not None]
-        strategy = data.get('strategy', 'balanced').lower()  # Convert to lowercase
-        board_size = data.get('boardSize', 8)
-        round = data.get('round', 1)
-        game_id = data.get('gameId', '')
-        game_mode = data.get('gameMode', 'ENHANCED_RPG')
-        player_id = data.get('playerId')
-
-        board_array = [[None for _ in range(board_size)] for _ in range(board_size)]
-        for row_idx, row in enumerate(board):
-            for col_idx, piece_data in enumerate(row):
-                if piece_data:
-                    piece = create_piece_safely(piece_data)
-                    if piece and 0 <= row_idx < board_size and 0 <= col_idx < board_size:
-                        board_array[row_idx][col_idx] = piece
-
-        move = ai_system.calculate_ai_move(board_array, enemy_pieces, strategy, board_size, round, game_id, game_mode, player_id)
-        if move:
-            return jsonify({
-                'from': {'row': move['from'][0], 'col': move['from'][1]},
-                'to': {'row': move['to'][0], 'col': move['to'][1]}
-            })
-        return jsonify({'move': None})
-    except Exception as e:
-        print(f"❌ Error in calculate_ai_move: {e}")
-        return jsonify({'error': 'Failed to calculate AI move'}), 500
-
-@app.route('/api/update-ai', methods=['POST'])
-def update_ai():
-    try:
-        data = request.get_json()
-        state = (data.get('round'), data.get('playerArmySize'))
-        strategy = data.get('strategy').lower()  # Convert to lowercase
-        reward = data.get('reward')
-        next_state = (data.get('nextRound'), data.get('nextPlayerArmySize'))
-        ai_system.update_q_table(state, strategy, reward, next_state)
-        return jsonify({'status': 'success'})
-    except Exception as e:
-        print(f"❌ Error in update_ai: {e}")
-        return jsonify({'error': 'Failed to update AI'}), 500
-
-########################################################################
 @app.route('/api/classic/ai-move', methods=['POST'])
 def classic_ai_move():
     try:
         data = request.get_json()
         fen = data.get('fen')
         bot_points = data.get('botPoints', 600)
+        game_id = data.get('gameId', '')
+
+        logger.info(f"Received AI move request for game {game_id}: botPoints={bot_points}, fen={fen}")
 
         if not fen:
+            logger.error(f"Missing FEN string for game {game_id}")
             return jsonify({'error': 'FEN string is required'}), 400
 
+        # Initialize chess board
         try:
-            chess.Board(fen)
+            board = chess.Board(fen)
+            logger.info(f"Successfully initialized board for game {game_id} with FEN: {fen}")
         except ValueError as e:
-            print(f"Invalid FEN: {fen}, error: {e}")
-            fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
+            logger.warning(f"Invalid FEN for game {game_id}: {fen}, error: {e}. Using fallback position.")
+            turn = fen.split()[1] if len(fen.split()) > 1 and fen.split()[1] in ['w', 'b'] else 'w'
+            fen = f"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR {turn} KQkq - 0 1"
+            board = chess.Board(fen)
+            logger.info(f"Fallback FEN applied for game {game_id}: {fen}")
 
-        ai = get_classic_ai(bot_points)
-        ai.set_board(fen)
-
-        base_time = ai.difficulty.time_limit
-        variation = random.uniform(0.5, 1.5)
-        thinking_time = base_time * variation
-        time.sleep(thinking_time)
-
-        move = ai.make_move()
-        if not move:
+        if board.is_game_over():
+            logger.info(f"Game over for game {game_id}: {board.outcome()}")
             return jsonify({'move': None})
 
-        (from_row, from_col), (to_row, to_col) = move
-        return jsonify({
-            'move': {
-                'from': {'row': from_row, 'col': from_col},
-                'to': {'row': to_row, 'col': to_col}
-            }
-        })
+        # Get bot configuration
+        config = get_bot_config(bot_points)
+        logger.info(f"Game {game_id}: Bot config for {bot_points} points: {config}")
+
+        # Use Stockfish engine
+        with chess.engine.SimpleEngine.popen_uci(STOCKFISH_PATH) as engine:
+            # Configure engine
+            if config['skill_level'] >= 0:
+                engine.configure({"Skill Level": config['skill_level']})
+            else:
+                # For negative skill levels, we'll handle weakness manually
+                engine.configure({"Skill Level": 0})
+
+            logger.debug(f"Stockfish configured for game {game_id}")
+
+            # For weak bots, use our custom weak move selection
+            if bot_points <= 600:
+                move = get_weak_move(board, engine, config)
+            else:
+                # For stronger bots, use normal engine play with limited time/depth
+                limit = chess.engine.Limit(
+                    time=config['think_time'],
+                    depth=config['depth_limit']
+                )
+                result = engine.play(board, limit)
+                move = result.move
+
+                # Still apply occasional mistakes for intermediate bots
+                if random.random() < config['mistake_probability']:
+                    move = get_weak_move(board, engine, config)
+
+            if not move:
+                logger.warning(f"No move returned for game {game_id}")
+                return jsonify({'move': None})
+
+            # Convert move to frontend coordinates
+            from_square = move.from_square
+            to_square = move.to_square
+            from_row = 7 - (from_square // 8)
+            from_col = from_square % 8
+            to_row = 7 - (to_square // 8)
+            to_col = to_square % 8
+
+            logger.info(
+                f"Bot move for game {game_id} (points: {bot_points}): {move.uci()} (from: [{from_row},{from_col}], to: [{to_row},{to_col}])")
+
+            return jsonify({
+                'move': {
+                    'from': {'row': from_row, 'col': from_col},
+                    'to': {'row': to_row, 'col': to_col},
+                    'gameId': game_id,
+                    'botPoints': bot_points,
+                    'difficulty': 'weak' if bot_points <= 600 else 'normal'
+                }
+            })
+
     except Exception as e:
-        print(f"Error in classic_ai_move: {e}")
-        return jsonify({
-            'move': {
-                'from': {'row': 6, 'col': 4},
-                'to': {'row': 4, 'col': 4}
-            }
-        })
+        logger.error(f"Error in classic_ai_move for game {game_id}: {str(e)}", exc_info=True)
+        return jsonify({'error': 'Failed to get AI move'}), 500
 
 
-@app.route('/api/classic/validate-move', methods=['POST'])
-def classic_validate_move():
-    try:
-        data = request.get_json()
-        fen = data.get('fen')
-        from_row = data.get('from', {}).get('row')
-        from_col = data.get('from', {}).get('col')
-        to_row = data.get('to', {}).get('row')
-        to_col = data.get('to', {}).get('col')
-
-        if None in [fen, from_row, from_col, to_row, to_col]:
-            return jsonify({'error': 'Invalid move data'}), 400
-
-        # Convert to chess library coordinates
-        board = chess.Board(fen)
-        from_square = chess.square(from_col, 7 - from_row)
-        to_square = chess.square(to_col, 7 - to_row)
-        move = chess.Move(from_square, to_square)
-
-        is_valid = move in board.legal_moves
-        return jsonify({'valid': is_valid})
-    except Exception as e:
-        print(f"Error in classic_validate_move: {e}")
-        return jsonify({'error': 'Failed to validate move'}), 500
-
-
-# Update your health check endpoint
 @app.route('/health', methods=['GET'])
 def health_check():
+    logger.info("Health check requested")
     return jsonify({
         'status': 'healthy',
         'message': 'AI Chess Game Server is running',
-        'endpoints': [
-            '/api/enemy-army', '/api/ai-strategy', '/api/ai-move', '/api/update-ai',
-            '/api/classic/ai-move', '/api/classic/validate-move'
-        ]
+        'endpoints': ['/api/classic/ai-move']
     })
+
 
 def main():
     try:
         from waitress import serve
-        print("🚀 Starting AI Chess Game Server with Waitress...")
-        print("📡 Server running at: http://localhost:5000")
-        print("📡 Server also available at: http://0.0.0.0:5000")
-        print("⏹️  Press Ctrl+C to stop")
-        print("=" * 50)
-        serve(app, host='0.0.0.0', port=5000, threads=4, max_request_body_size=1073741824,
-              cleanup_interval=30, channel_timeout=120, log_untrusted_proxy_headers=True,
-              connection_limit=1000, recv_bytes=65536, send_bytes=65536, _quiet=True)
+        logger.info("Starting AI Chess Game Server with Waitress on http://localhost:5000")
+        serve(app, host='0.0.0.0', port=5000, threads=4)
     except ImportError:
-        print("❌ Waitress not found! Falling back to Flask...")
-        app.run(debug=False, port=5000, host='0.0.0.0', use_reloader=False, threaded=True)
-    except KeyboardInterrupt:
-        print("\n✅ Server stopped gracefully")
-        sys.exit(0)
+        logger.warning("Waitress not found! Falling back to Flask development server")
+        app.run(debug=False, port=5000, host='0.0.0.0', threaded=True)
     except Exception as e:
-        print(f"❌ Error starting server: {e}")
+        logger.error(f"Error starting server: {str(e)}", exc_info=True)
         sys.exit(1)
-    except KeyboardInterrupt:
-        print("\n✅ Server stopped gracefully")
-        cleanup_ai_instances()
-        sys.exit(0)
-    except Exception as e:
-        print(f"❌ Error starting server: {e}")
-        cleanup_ai_instances()
-        sys.exit(1)
+
 
 if __name__ == '__main__':
     main()
