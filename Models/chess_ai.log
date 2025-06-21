@@ -405,3 +405,16 @@
 2025-06-21 08:50:11,461 - INFO - Successfully initialized board for game 66b2e5f2-98b1-40be-aa27-0189734e2460 with FEN: 1rb2knQ/3pp3/2p4B/p1N5/4P3/2N5/PPP1PPPP/R3KB1R b KQkq - 0 1
 2025-06-21 08:50:11,461 - INFO - Game 66b2e5f2-98b1-40be-aa27-0189734e2460: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
 2025-06-21 08:50:11,714 - INFO - Bot move for game 66b2e5f2-98b1-40be-aa27-0189734e2460 (points: 300): f8e8 (from: [0,5], to: [0,4])
+2025-06-21 08:53:45,822 - INFO - Stockfish found at C:\Engines\stockfish\stockfish-windows-x86-64-avx2.exe
+2025-06-21 08:53:45,850 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-06-21 08:53:45,856 - INFO - Serving on http://0.0.0.0:5000
+2025-06-21 08:54:13,448 - INFO - Received AI move request for game 47520af5-d09a-4463-917c-3a43141fdb29: botPoints=400, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-06-21 08:54:13,448 - INFO - Successfully initialized board for game 47520af5-d09a-4463-917c-3a43141fdb29 with FEN: rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-06-21 08:54:13,449 - INFO - Game 47520af5-d09a-4463-917c-3a43141fdb29: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-21 08:54:14,611 - INFO - Bot making mistake
+2025-06-21 08:54:14,611 - INFO - Bot move for game 47520af5-d09a-4463-917c-3a43141fdb29 (points: 400): b8a6 (from: [0,1], to: [2,0])
+2025-06-21 08:54:17,130 - INFO - Received AI move request for game 47520af5-d09a-4463-917c-3a43141fdb29: botPoints=400, fen=r1bqkbnr/pppppppp/n7/4N3/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-06-21 08:54:17,130 - INFO - Successfully initialized board for game 47520af5-d09a-4463-917c-3a43141fdb29 with FEN: r1bqkbnr/pppppppp/n7/4N3/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-06-21 08:54:17,130 - INFO - Game 47520af5-d09a-4463-917c-3a43141fdb29: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-21 08:54:18,427 - INFO - Bot making mistake
+2025-06-21 08:54:18,427 - INFO - Bot move for game 47520af5-d09a-4463-917c-3a43141fdb29 (points: 400): a6c5 (from: [2,0], to: [3,2])
