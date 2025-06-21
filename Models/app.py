@@ -23,7 +23,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Path to Stockfish executable
-STOCKFISH_PATH = r"C:\Engines\stockfish\stockfish-windows-x86-64-avx2.exe"
+STOCKFISH_PATH = r"C:\Users\yosri\PycharmProjects\PythonProject\Engines\stockfish\stockfish-windows-x86-64-avx2.exe"
 
 # Ensure Stockfish is accessible
 if not os.path.exists(STOCKFISH_PATH):
