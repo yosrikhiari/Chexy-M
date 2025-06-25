@@ -1,12 +1,12 @@
-import os
-import sys
 import logging
+import os
 import random
-import time
-from flask import Flask, request, jsonify
-from flask_cors import CORS
+import sys
+
 import chess
 import chess.engine
+from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 # Configure logging
 logging.basicConfig(
@@ -23,7 +23,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Path to Stockfish executable
-STOCKFISH_PATH = r"C:\Users\yosri\PycharmProjects\PythonProject\Engines\stockfish\stockfish-windows-x86-64-avx2.exe"
+STOCKFISH_PATH = os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish')
 
 # Ensure Stockfish is accessible
 if not os.path.exists(STOCKFISH_PATH):

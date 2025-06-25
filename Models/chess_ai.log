@@ -418,3 +418,4 @@
 2025-06-21 08:54:17,130 - INFO - Game 47520af5-d09a-4463-917c-3a43141fdb29: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
 2025-06-21 08:54:18,427 - INFO - Bot making mistake
 2025-06-21 08:54:18,427 - INFO - Bot move for game 47520af5-d09a-4463-917c-3a43141fdb29 (points: 400): a6c5 (from: [2,0], to: [3,2])
+2025-06-22 09:44:04,232 - INFO - Stockfish found at /home/yosri/Documents/Tools/stockfish/stockfish-ubuntu-x86-64-avx2
