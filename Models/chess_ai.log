@@ -419,3 +419,214 @@
 2025-06-21 08:54:18,427 - INFO - Bot making mistake
 2025-06-21 08:54:18,427 - INFO - Bot move for game 47520af5-d09a-4463-917c-3a43141fdb29 (points: 400): a6c5 (from: [2,0], to: [3,2])
 2025-06-22 09:44:04,232 - INFO - Stockfish found at /home/yosri/Documents/Tools/stockfish/stockfish-ubuntu-x86-64-avx2
+2025-06-30 17:31:26,871 - ERROR - Stockfish not found at /usr/local/bin/stockfish. Please install it or update the path.
+2025-06-30 20:43:06,188 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 20:43:35,483 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 20:45:08,364 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 20:45:20,565 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 20:45:22,845 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 20:45:25,134 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 20:45:42,060 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 21:12:18,794 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 21:15:01,818 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 21:20:37,340 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 21:22:43,641 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 21:22:56,453 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 21:26:40,615 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 21:29:16,816 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 21:30:31,261 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 21:30:47,037 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 21:31:58,358 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-06-30 21:32:45,058 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-06-30 21:32:45,061 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 21:32:45,061 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-30 21:38:00,487 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-06-30 21:38:00,492 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-30 21:38:00,493 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-30 22:44:15,472 - INFO - 127.0.0.1 - - [30/Jun/2025 22:44:15] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:44:15,507 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-06-30 22:44:15,528 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-06-30 22:44:15,545 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:44:17,455 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): e7e6 (from: [1,4], to: [2,4])
+2025-06-30 22:44:17,460 - INFO - 127.0.0.1 - - [30/Jun/2025 22:44:17] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:44:20,542 - INFO - 127.0.0.1 - - [30/Jun/2025 22:44:20] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:44:20,545 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbqkbnr/pppp1ppp/4p3/6N1/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-06-30 22:44:20,545 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbqkbnr/pppp1ppp/4p3/6N1/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-06-30 22:44:20,545 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:44:22,614 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): c7c5 (from: [1,2], to: [3,2])
+2025-06-30 22:44:22,615 - INFO - 127.0.0.1 - - [30/Jun/2025 22:44:22] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:44:42,211 - INFO - 127.0.0.1 - - [30/Jun/2025 22:44:42] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:44:42,219 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbqkbnr/pp1p1ppp/4p3/2p3N1/8/6P1/PPPPPP1P/RNBQKB1R b KQkq - 0 1
+2025-06-30 22:44:42,219 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbqkbnr/pp1p1ppp/4p3/2p3N1/8/6P1/PPPPPP1P/RNBQKB1R b KQkq - 0 1
+2025-06-30 22:44:42,219 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:44:44,497 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): f8e7 (from: [0,5], to: [1,4])
+2025-06-30 22:44:44,498 - INFO - 127.0.0.1 - - [30/Jun/2025 22:44:44] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:44:46,669 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbqk1nr/pp1pbppp/4p3/2p3N1/8/6PB/PPPPPP1P/RNBQK2R b KQkq - 0 1
+2025-06-30 22:44:46,669 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbqk1nr/pp1pbppp/4p3/2p3N1/8/6PB/PPPPPP1P/RNBQK2R b KQkq - 0 1
+2025-06-30 22:44:46,670 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:44:48,165 - INFO - Bot making mistake
+2025-06-30 22:44:48,165 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): e7f8 (from: [1,4], to: [0,5])
+2025-06-30 22:44:48,165 - INFO - 127.0.0.1 - - [30/Jun/2025 22:44:48] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:45:06,036 - INFO - 127.0.0.1 - - [30/Jun/2025 22:45:06] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:45:06,048 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbqkbnr/pp1p1ppp/4p3/2p3N1/8/4P1PB/PPPP1P1P/RNBQK2R b KQkq - 0 1
+2025-06-30 22:45:06,049 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbqkbnr/pp1p1ppp/4p3/2p3N1/8/4P1PB/PPPP1P1P/RNBQK2R b KQkq - 0 1
+2025-06-30 22:45:06,049 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:45:07,850 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): d8g5 (from: [0,3], to: [3,6])
+2025-06-30 22:45:07,851 - INFO - 127.0.0.1 - - [30/Jun/2025 22:45:07] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:45:11,638 - INFO - 127.0.0.1 - - [30/Jun/2025 22:45:11] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:45:11,641 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnb1kbnr/pp1p1ppp/4p3/2p3q1/8/4PQPB/PPPP1P1P/RNB1K2R b KQkq - 0 1
+2025-06-30 22:45:11,641 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnb1kbnr/pp1p1ppp/4p3/2p3q1/8/4PQPB/PPPP1P1P/RNB1K2R b KQkq - 0 1
+2025-06-30 22:45:11,642 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:45:12,729 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): g5d8 (from: [3,6], to: [0,3])
+2025-06-30 22:45:12,730 - INFO - 127.0.0.1 - - [30/Jun/2025 22:45:12] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:45:36,069 - INFO - 127.0.0.1 - - [30/Jun/2025 22:45:36] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:45:36,073 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbqkbnr/pp1p1ppp/4p3/2p5/8/2N1PQPB/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:45:36,073 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbqkbnr/pp1p1ppp/4p3/2p5/8/2N1PQPB/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:45:36,073 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:45:37,004 - INFO - Bot making mistake
+2025-06-30 22:45:37,005 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): d8h4 (from: [0,3], to: [4,7])
+2025-06-30 22:45:37,005 - INFO - 127.0.0.1 - - [30/Jun/2025 22:45:37] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:45:39,311 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnb1kbnr/pp1p1ppp/4p3/2p5/7P/2N1PQ1B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:45:39,311 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnb1kbnr/pp1p1ppp/4p3/2p5/7P/2N1PQ1B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:45:39,311 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:45:39,879 - INFO - Bot making blunder
+2025-06-30 22:45:39,880 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): e8d8 (from: [0,4], to: [0,3])
+2025-06-30 22:45:39,881 - INFO - 127.0.0.1 - - [30/Jun/2025 22:45:39] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:45:47,121 - INFO - 127.0.0.1 - - [30/Jun/2025 22:45:47] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:45:47,137 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbk1bnr/pp1p1Qpp/4p3/2p5/7P/2N1P2B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:45:47,137 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbk1bnr/pp1p1Qpp/4p3/2p5/7P/2N1P2B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:45:47,137 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:45:47,713 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): g8f6 (from: [0,6], to: [2,5])
+2025-06-30 22:45:47,714 - INFO - 127.0.0.1 - - [30/Jun/2025 22:45:47] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:45:58,596 - INFO - 127.0.0.1 - - [30/Jun/2025 22:45:58] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:45:58,606 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbk1b1r/pp1p1Qpp/4pn2/1Np5/7P/4P2B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:45:58,606 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbk1b1r/pp1p1Qpp/4pn2/1Np5/7P/4P2B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:45:58,610 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:45:59,341 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): b8a6 (from: [0,1], to: [2,0])
+2025-06-30 22:45:59,341 - INFO - 127.0.0.1 - - [30/Jun/2025 22:45:59] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:03,515 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=r1bk1Q1r/pp1p2pp/n3pn2/1Np5/7P/4P2B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:46:03,521 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: r1bk1Q1r/pp1p2pp/n3pn2/1Np5/7P/4P2B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:46:03,522 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:46:03,968 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): h8f8 (from: [0,7], to: [0,5])
+2025-06-30 22:46:03,968 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:03] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:14,278 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:14] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:14,291 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=r1bk1r2/pp1p2pp/n2Npn2/2p5/7P/4P2B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:46:14,293 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: r1bk1r2/pp1p2pp/n2Npn2/2p5/7P/4P2B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:46:14,293 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:46:16,782 - INFO - Bot making mistake
+2025-06-30 22:46:16,782 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): c5c4 (from: [3,2], to: [4,2])
+2025-06-30 22:46:16,783 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:16] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:21,028 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:21] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:21,046 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=r1bk1r2/pp1p2pp/n3pn2/8/2N4P/4P2B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:46:21,046 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: r1bk1r2/pp1p2pp/n3pn2/8/2N4P/4P2B/PPPP1P1P/R1B1K2R b KQkq - 0 1
+2025-06-30 22:46:21,047 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:46:22,387 - INFO - Bot making blunder
+2025-06-30 22:46:22,387 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): a6b8 (from: [2,0], to: [0,1])
+2025-06-30 22:46:22,388 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:22] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:30,594 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:30] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:30,600 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbk1r2/pp1p2pp/4pn2/8/2N4P/4P2B/PPPP1P1P/R1B1K1R1 b KQkq - 0 1
+2025-06-30 22:46:30,601 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbk1r2/pp1p2pp/4pn2/8/2N4P/4P2B/PPPP1P1P/R1B1K1R1 b KQkq - 0 1
+2025-06-30 22:46:30,601 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:46:31,445 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): b8c6 (from: [0,1], to: [2,2])
+2025-06-30 22:46:31,446 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:31] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:38,059 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:38] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:38,069 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=r1bk1r2/pp1p2Rp/2n1pn2/8/2N4P/4P2B/PPPP1P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:46:38,069 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: r1bk1r2/pp1p2Rp/2n1pn2/8/2N4P/4P2B/PPPP1P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:46:38,069 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:46:39,213 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): f6e8 (from: [2,5], to: [0,4])
+2025-06-30 22:46:39,214 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:39] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:41,519 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=r1bknr2/pp1p3R/2n1p3/8/2N4P/4P2B/PPPP1P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:46:41,520 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: r1bknr2/pp1p3R/2n1p3/8/2N4P/4P2B/PPPP1P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:46:41,520 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:46:42,710 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): b7b5 (from: [1,1], to: [3,1])
+2025-06-30 22:46:42,711 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:42] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:48,846 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:48] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:48,868 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=r1bknr2/p2p3R/2n1p3/1p6/7P/N3P2B/PPPP1P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:46:48,868 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: r1bknr2/p2p3R/2n1p3/1p6/7P/N3P2B/PPPP1P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:46:48,868 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:46:50,719 - INFO - Bot making mistake
+2025-06-30 22:46:50,719 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): c6b8 (from: [2,2], to: [0,1])
+2025-06-30 22:46:50,719 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:50] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:46:53,369 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbknr2/p2p3R/4p3/1N6/7P/4P2B/PPPP1P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:46:53,372 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbknr2/p2p3R/4p3/1N6/7P/4P2B/PPPP1P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:46:53,372 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:46:54,252 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): f8g8 (from: [0,5], to: [0,6])
+2025-06-30 22:46:54,253 - INFO - 127.0.0.1 - - [30/Jun/2025 22:46:54] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:06,291 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:06] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:06,301 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbkn1r1/p2p3R/4p3/1N6/3P3P/4P2B/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:06,301 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbkn1r1/p2p3R/4p3/1N6/3P3P/4P2B/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:06,302 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:07,233 - INFO - Bot making blunder
+2025-06-30 22:47:07,234 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): g8g4 (from: [0,6], to: [4,6])
+2025-06-30 22:47:07,234 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:07] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:09,468 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbkn3/p2p3R/4p3/1N6/3P2BP/4P3/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:09,470 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbkn3/p2p3R/4p3/1N6/3P2BP/4P3/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:09,470 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:10,018 - INFO - Bot making mistake
+2025-06-30 22:47:10,018 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): e8g7 (from: [0,4], to: [1,6])
+2025-06-30 22:47:10,018 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:10] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:12,464 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:12] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:12,477 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbk4/p2p2R1/4p3/1N6/3P2BP/4P3/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:12,477 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbk4/p2p2R1/4p3/1N6/3P2BP/4P3/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:12,477 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:12,850 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): e6e5 (from: [2,4], to: [3,4])
+2025-06-30 22:47:12,850 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:12] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:15,176 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbk4/p2p2R1/8/1N2P3/6BP/4P3/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:15,177 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbk4/p2p2R1/8/1N2P3/6BP/4P3/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:15,177 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:15,549 - INFO - Bot making blunder
+2025-06-30 22:47:15,550 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): a7a6 (from: [1,0], to: [2,0])
+2025-06-30 22:47:15,550 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:15] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:20,268 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:20] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:20,273 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=rnbk4/3p2R1/p2N4/4P3/6BP/4P3/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:20,273 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: rnbk4/3p2R1/p2N4/4P3/6BP/4P3/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:20,273 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:20,654 - INFO - Bot making mistake
+2025-06-30 22:47:20,654 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): a8a7 (from: [0,0], to: [1,0])
+2025-06-30 22:47:20,654 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:20] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:26,625 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:26] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:26,631 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=1nbk4/r2p2R1/p2N4/4P2P/6B1/4P3/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:26,631 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: 1nbk4/r2p2R1/p2N4/4P2P/6B1/4P3/PPP2P1P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:26,631 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:26,912 - INFO - Bot making random move
+2025-06-30 22:47:26,913 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): b8c6 (from: [0,1], to: [2,2])
+2025-06-30 22:47:26,913 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:26] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:32,263 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:32] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:32,296 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=2bk4/r2p2R1/p1nN4/4P2P/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:32,296 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: 2bk4/r2p2R1/p1nN4/4P2P/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:32,296 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:32,845 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): a7a8 (from: [1,0], to: [0,0])
+2025-06-30 22:47:32,846 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:32] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:34,318 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=r1bk4/3p2R1/p1nN3P/4P3/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:34,319 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: r1bk4/3p2R1/p1nN3P/4P3/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:34,319 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:35,081 - INFO - Bot making mistake
+2025-06-30 22:47:35,081 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): a8a7 (from: [0,0], to: [1,0])
+2025-06-30 22:47:35,082 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:35] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:37,101 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=2bk4/r2p2RP/p1nN4/4P3/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:37,102 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: 2bk4/r2p2RP/p1nN4/4P3/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:37,103 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:37,505 - INFO - Bot making mistake
+2025-06-30 22:47:37,505 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): c8b7 (from: [0,2], to: [1,1])
+2025-06-30 22:47:37,506 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:37] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:44,696 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:44] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:44,699 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=3k4/rb1p2RP/p1nNP3/8/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:44,699 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: 3k4/rb1p2RP/p1nNP3/8/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:44,699 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:45,121 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): b7c8 (from: [1,1], to: [0,2])
+2025-06-30 22:47:45,122 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:45] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:47,673 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=2bk4/r2P2RP/p1nN4/8/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:47,673 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: 2bk4/r2P2RP/p1nN4/8/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:47,674 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:48,073 - INFO - Bot making mistake
+2025-06-30 22:47:48,073 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): a7a8 (from: [1,0], to: [0,0])
+2025-06-30 22:47:48,074 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:48] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:51,582 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:51] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-06-30 22:47:51,589 - INFO - Received AI move request for game 38b53fad-9174-4186-a022-ce6cf712dccb: botPoints=300, fen=r1Qk4/6RP/p1nN4/8/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:51,589 - INFO - Successfully initialized board for game 38b53fad-9174-4186-a022-ce6cf712dccb with FEN: r1Qk4/6RP/p1nN4/8/5PB1/4P3/PPP4P/R1B1K3 b KQkq - 0 1
+2025-06-30 22:47:51,589 - INFO - Game 38b53fad-9174-4186-a022-ce6cf712dccb: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-06-30 22:47:51,948 - INFO - Bot making mistake
+2025-06-30 22:47:51,948 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): a8c8 (from: [0,0], to: [0,2])
+2025-06-30 22:47:51,949 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:51] "POST /api/classic/ai-move HTTP/1.1" 200 -

@@ -5,12 +5,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91402c40-b942-4a4c-8b53-f6fbf1945b18" name="Changes" comment="gj">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/chess_ai.log" beforeDir="false" afterPath="$PROJECT_DIR$/Models/chess_ai.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/CITATION.cff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/Copying.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/Top CPU Contributors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/scripts/get_native_properties.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/scripts/net.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/benchmark.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/benchmark.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/bitboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/bitboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/engine.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/engine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/evaluate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/evaluate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/history.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/incbin/UNLICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/incbin/incbin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/memory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/memory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/misc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/movegen.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/movegen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/movepick.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/movepick.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/features/half_ka_v2_hm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/features/half_ka_v2_hm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/layers/affine_transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/layers/affine_transform_sparse_input.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/layers/clipped_relu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/layers/simd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/layers/sqr_clipped_relu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/network.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/network.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/nnue_accumulator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/nnue_accumulator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/nnue_architecture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/nnue_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/nnue_feature_transformer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/nnue_misc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/nnue/nnue_misc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/numa.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/perft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/position.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/position.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/score.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/score.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/search.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/search.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/syzygy/tbprobe.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/syzygy/tbprobe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/thread.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/thread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/thread_win32_osx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/timeman.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/timeman.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/tt.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/tt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/tune.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/tune.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/uci.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/uci.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/ucioption.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/src/ucioption.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/stockfish-windows-x86-64-avx2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/Advanced-topics.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/Compiling-from-source.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/Developers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/Download-and-usage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/Governance-and-responsibilities.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/Home.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/Regression-Tests.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/Stockfish-FAQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/Terminology.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/UCI-&amp;-Commands.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/Useful-data.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/stockfish/wiki/_Footer.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +103,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -45,7 +125,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/yosri/Documents/Projects/Chexy/Chexy-M",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,6 +154,7 @@
       <workItem from="1750578392746" duration="1114000" />
       <workItem from="1750579528657" duration="414000" />
       <workItem from="1750866430777" duration="659000" />
+      <workItem from="1751297229114" duration="470000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit For My MML Model">
       <option name="closed" value="true" />
