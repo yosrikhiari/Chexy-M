@@ -2,6 +2,7 @@ import logging
 import os
 import random
 import sys
+from opening_detector import load_openings, detect_opening
 
 import chess
 import chess.engine
@@ -24,6 +25,17 @@ CORS(app)
 
 # Path to Stockfish executable
 STOCKFISH_PATH = os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish')
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+OPENING_FILES = [
+    os.path.join(BASE_DIR, 'Openings', 'a.tsv'),
+    os.path.join(BASE_DIR, 'Openings', 'b.tsv'),
+    os.path.join(BASE_DIR, 'Openings', 'c.tsv'),
+    os.path.join(BASE_DIR, 'Openings', 'd.tsv'),
+    os.path.join(BASE_DIR, 'Openings', 'e.tsv')
+]
+openings = load_openings(OPENING_FILES)
 
 # Ensure Stockfish is accessible
 if not os.path.exists(STOCKFISH_PATH):
@@ -247,6 +259,121 @@ def classic_ai_move():
     except Exception as e:
         logger.error(f"Error in classic_ai_move for game {game_id}: {str(e)}", exc_info=True)
         return jsonify({'error': 'Failed to get AI move'}), 500
+
+
+@app.route('/api/detect-opening', methods=['POST'])
+def detect_opening_endpoint():
+    data = request.json
+    if not data or 'moves' not in data:
+        return jsonify({'error': 'Move list required'}), 400
+
+    moves = data.get('moves')  # List of { from: { row, col }, to: { row, col } }
+    game_id = data.get('gameId', 'unknown')  # Optional game ID for logging
+
+    logger.info(f"Opening detection request for game {game_id}")
+    logger.info(f"Received moves: {moves}")
+
+    try:
+        # Initialize a chess board
+        board = chess.Board()
+        san_moves = []
+
+        # Convert coordinate moves to SAN
+        for i, move in enumerate(moves):
+            try:
+                from_row = move['from']['row']
+                from_col = move['from']['col']
+                to_row = move['to']['row']
+                to_col = move['to']['col']
+
+                logger.debug(f"Move {i + 1}: from ({from_row}, {from_col}) to ({to_row}, {to_col})")
+
+                # Convert to chess library square indices (0-63)
+                from_square = chess.square(from_col, 7 - from_row)
+                to_square = chess.square(to_col, 7 - to_row)
+
+                # Create the move
+                move_obj = chess.Move(from_square, to_square)
+
+                # Check if the piece at from_square exists
+                piece = board.piece_at(from_square)
+                if not piece:
+                    logger.error(f"No piece found at square {from_square} (row {from_row}, col {from_col})")
+                    logger.error(f"Current board: {board}")
+                    return jsonify({'error': f"No piece at position ({from_row}, {from_col})"}), 400
+
+                # Handle pawn promotion (assume queen promotion if to_row is 0 or 7)
+                if piece.piece_type == chess.PAWN and to_row in (0, 7):
+                    move_obj = chess.Move(from_square, to_square, promotion=chess.QUEEN)
+                    logger.debug(f"Pawn promotion detected for move {i + 1}")
+
+                # Check if the move is legal
+                if move_obj not in board.legal_moves:
+                    logger.error(f"Illegal move in game {game_id}: {move} at move {i + 1}")
+                    logger.error(f"Legal moves: {[str(m) for m in board.legal_moves]}")
+                    logger.error(f"Current board: {board}")
+                    return jsonify({'error': f"Illegal move at position {i + 1}: {move}"}), 400
+
+                # Convert to SAN notation
+                san = board.san(move_obj)
+                san_moves.append(san)
+                logger.debug(f"Move {i + 1} converted to SAN: {san}")
+
+                # Make the move on the board
+                board.push(move_obj)
+
+            except Exception as e:
+                logger.error(f"Error processing move {i + 1} in game {game_id}: {move}, error: {e}")
+                return jsonify({'error': f"Error processing move {i + 1}: {str(e)}"}), 400
+
+        logger.info(f"Game {game_id}: Successfully converted {len(san_moves)} moves to SAN: {san_moves}")
+
+        # Detect the opening using the existing function
+        result = detect_opening(san_moves, openings)
+        if result:
+            logger.info(f"Game {game_id}: Detected opening: {result['name']} ({result['eco']})")
+            return jsonify(result)
+        else:
+            logger.info(f"Game {game_id}: No opening detected for moves: {san_moves}")
+            return jsonify({'opening': None})
+
+    except Exception as e:
+        logger.error(f"Error detecting opening for game {game_id}: {str(e)}")
+        logger.error(f"Exception details: {type(e).__name__}: {e}")
+        return jsonify({'error': str(e)}), 400
+
+
+@app.route('/api/debug-opening', methods=['POST'])
+def debug_opening_endpoint():
+    """Debug endpoint to test opening detection with raw move data"""
+    data = request.json
+    if not data:
+        return jsonify({'error': 'No data provided'}), 400
+
+    try:
+        # Test with a known opening
+        test_moves = [
+            "e4", "e5", "Nf3", "Nc6", "Bb5"  # Ruy Lopez
+        ]
+
+        result = detect_opening(test_moves, openings)
+
+        # Also test the moves provided in the request
+        user_moves = data.get('moves', [])
+        user_result = None
+        if user_moves:
+            user_result = detect_opening(user_moves, openings)
+
+        return jsonify({
+            'test_opening': result,
+            'user_opening': user_result,
+            'test_moves': test_moves,
+            'user_moves': user_moves,
+            'total_openings_loaded': len(openings)
+        })
+    except Exception as e:
+        logger.error(f"Error in debug endpoint: {str(e)}")
+        return jsonify({'error': str(e)}), 500
 
 
 @app.route('/health', methods=['GET'])

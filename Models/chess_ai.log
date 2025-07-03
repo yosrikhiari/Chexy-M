@@ -630,3 +630,104 @@
 2025-06-30 22:47:51,948 - INFO - Bot making mistake
 2025-06-30 22:47:51,948 - INFO - Bot move for game 38b53fad-9174-4186-a022-ce6cf712dccb (points: 300): a8c8 (from: [0,0], to: [0,2])
 2025-06-30 22:47:51,949 - INFO - 127.0.0.1 - - [30/Jun/2025 22:47:51] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-01 15:40:14,158 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-07-01 15:41:40,469 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-07-01 15:41:40,471 - WARNING - Waitress not found! Falling back to Flask development server
+2025-07-01 15:41:40,482 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.246.128:5000
+2025-07-01 15:41:40,482 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-01 15:47:59,285 - INFO - 127.0.0.1 - - [01/Jul/2025 15:47:59] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-01 15:47:59,305 - INFO - Received AI move request for game 6e257048-8cb6-4bad-90ee-22922bcbe2b4: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-01 15:47:59,313 - INFO - Successfully initialized board for game 6e257048-8cb6-4bad-90ee-22922bcbe2b4 with FEN: rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-01 15:47:59,321 - INFO - Game 6e257048-8cb6-4bad-90ee-22922bcbe2b4: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-01 15:48:01,458 - INFO - Bot making mistake
+2025-07-01 15:48:01,459 - INFO - Bot move for game 6e257048-8cb6-4bad-90ee-22922bcbe2b4 (points: 300): f7f6 (from: [1,5], to: [2,5])
+2025-07-01 15:48:01,461 - INFO - 127.0.0.1 - - [01/Jul/2025 15:48:01] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-01 15:52:59,076 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-07-01 15:52:59,077 - WARNING - Waitress not found! Falling back to Flask development server
+2025-07-01 15:52:59,090 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.246.128:5000
+2025-07-01 15:52:59,091 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-01 15:53:31,271 - INFO - 127.0.0.1 - - [01/Jul/2025 15:53:31] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-01 15:53:31,278 - INFO - Received AI move request for game a05da2ee-2e38-4241-8b64-b4a893c90652: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-01 15:53:31,279 - INFO - Successfully initialized board for game a05da2ee-2e38-4241-8b64-b4a893c90652 with FEN: rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-01 15:53:31,279 - INFO - Game a05da2ee-2e38-4241-8b64-b4a893c90652: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-01 15:53:32,945 - INFO - Bot move for game a05da2ee-2e38-4241-8b64-b4a893c90652 (points: 300): d7d5 (from: [1,3], to: [3,3])
+2025-07-01 15:53:32,946 - INFO - 127.0.0.1 - - [01/Jul/2025 15:53:32] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-01 15:53:42,984 - INFO - 127.0.0.1 - - [01/Jul/2025 15:53:42] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-01 15:53:42,996 - INFO - Received AI move request for game a05da2ee-2e38-4241-8b64-b4a893c90652: botPoints=300, fen=rnbqkbnr/ppp1pppp/8/3pN3/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-01 15:53:42,996 - INFO - Successfully initialized board for game a05da2ee-2e38-4241-8b64-b4a893c90652 with FEN: rnbqkbnr/ppp1pppp/8/3pN3/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-01 15:53:42,996 - INFO - Game a05da2ee-2e38-4241-8b64-b4a893c90652: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-01 15:53:45,305 - INFO - Bot move for game a05da2ee-2e38-4241-8b64-b4a893c90652 (points: 300): g8f6 (from: [0,6], to: [2,5])
+2025-07-01 15:53:45,305 - INFO - 127.0.0.1 - - [01/Jul/2025 15:53:45] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-01 19:31:58,013 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-07-01 19:32:20,863 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/Stockfish'). Please install it or update the path.
+2025-07-01 19:35:05,063 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-07-01 19:36:03,601 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-07-01 19:41:18,175 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-07-01 19:42:42,350 - ERROR - Stockfish not found at os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish'). Please install it or update the path.
+2025-07-01 19:42:49,902 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-07-01 19:42:49,903 - WARNING - Waitress not found! Falling back to Flask development server
+2025-07-01 19:42:49,925 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.246.128:5000
+2025-07-01 19:42:49,926 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-01 19:44:09,123 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-07-01 19:44:09,124 - WARNING - Waitress not found! Falling back to Flask development server
+2025-07-01 19:44:22,700 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-07-01 19:44:22,702 - WARNING - Waitress not found! Falling back to Flask development server
+2025-07-01 19:44:22,711 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.246.128:5000
+2025-07-01 19:44:22,711 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-01 19:45:38,207 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-07-01 19:45:38,221 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-01 19:45:38,226 - INFO - Serving on http://0.0.0.0:5000
+2025-07-01 20:13:06,312 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-07-01 20:13:06,331 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-01 20:13:06,337 - INFO - Serving on http://0.0.0.0:5000
+2025-07-01 20:15:02,091 - INFO - Received AI move request for game 71f525be-b612-4058-8955-07679adec54c: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-01 20:15:02,096 - INFO - Successfully initialized board for game 71f525be-b612-4058-8955-07679adec54c with FEN: rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-01 20:15:02,098 - INFO - Game 71f525be-b612-4058-8955-07679adec54c: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-01 20:15:03,904 - INFO - Bot making blunder
+2025-07-01 20:15:03,905 - INFO - Bot move for game 71f525be-b612-4058-8955-07679adec54c (points: 300): f7f6 (from: [1,5], to: [2,5])
+2025-07-02 06:26:22,077 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-07-02 06:26:22,095 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-02 06:26:22,099 - INFO - Serving on http://0.0.0.0:5000
+2025-07-02 06:31:01,132 - INFO - Received AI move request for game 83172b0c-4c66-4445-9670-c31c69fc0d5b: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-02 06:31:01,133 - INFO - Successfully initialized board for game 83172b0c-4c66-4445-9670-c31c69fc0d5b with FEN: rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-02 06:31:01,133 - INFO - Game 83172b0c-4c66-4445-9670-c31c69fc0d5b: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-02 06:31:03,744 - INFO - Bot making mistake
+2025-07-02 06:31:03,745 - INFO - Bot move for game 83172b0c-4c66-4445-9670-c31c69fc0d5b (points: 300): b7b5 (from: [1,1], to: [3,1])
+2025-07-02 07:31:13,175 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-07-02 07:31:13,204 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-02 07:31:13,211 - INFO - Serving on http://0.0.0.0:5000
+2025-07-02 07:40:31,993 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Converted moves to SAN: []
+2025-07-02 07:40:32,202 - INFO - Received AI move request for game 69eee3b3-abce-45f9-b78b-607196c0c75b: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-02 07:40:32,204 - INFO - Successfully initialized board for game 69eee3b3-abce-45f9-b78b-607196c0c75b with FEN: rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-02 07:40:32,204 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-02 07:40:34,004 - INFO - Bot move for game 69eee3b3-abce-45f9-b78b-607196c0c75b (points: 300): d7d5 (from: [1,3], to: [3,3])
+2025-07-02 07:40:34,199 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Converted moves to SAN: []
+2025-07-02 07:40:41,131 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Converted moves to SAN: ['Nf3', 'd5']
+2025-07-02 07:40:41,133 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Detected opening: Zukertort Opening (A06)
+2025-07-02 07:40:41,296 - INFO - Received AI move request for game 69eee3b3-abce-45f9-b78b-607196c0c75b: botPoints=300, fen=rnbqkbnr/ppp1pppp/8/3pN3/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-02 07:40:41,296 - INFO - Successfully initialized board for game 69eee3b3-abce-45f9-b78b-607196c0c75b with FEN: rnbqkbnr/ppp1pppp/8/3pN3/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-02 07:40:41,296 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-02 07:40:43,688 - INFO - Bot making mistake
+2025-07-02 07:40:43,688 - INFO - Bot move for game 69eee3b3-abce-45f9-b78b-607196c0c75b (points: 300): c8h3 (from: [0,2], to: [5,7])
+2025-07-02 07:40:43,950 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Converted moves to SAN: ['Nf3', 'd5']
+2025-07-02 07:40:43,951 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Detected opening: Zukertort Opening (A06)
+2025-07-02 07:40:48,717 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Converted moves to SAN: ['Nf3', 'd5', 'Ne5', 'Bh3']
+2025-07-02 07:40:48,718 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Detected opening: Zukertort Opening (A06)
+2025-07-02 07:40:48,867 - INFO - Received AI move request for game 69eee3b3-abce-45f9-b78b-607196c0c75b: botPoints=300, fen=rn1qkbnr/ppp1pppp/8/3pN3/8/7P/PPPPPP1P/RNBQKB1R b KQkq - 0 1
+2025-07-02 07:40:48,868 - INFO - Successfully initialized board for game 69eee3b3-abce-45f9-b78b-607196c0c75b with FEN: rn1qkbnr/ppp1pppp/8/3pN3/8/7P/PPPPPP1P/RNBQKB1R b KQkq - 0 1
+2025-07-02 07:40:48,868 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-02 07:40:49,641 - INFO - Bot move for game 69eee3b3-abce-45f9-b78b-607196c0c75b (points: 300): b8d7 (from: [0,1], to: [1,3])
+2025-07-02 07:40:49,810 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Converted moves to SAN: ['Nf3', 'd5', 'Ne5', 'Bh3']
+2025-07-02 07:40:49,811 - INFO - Game 69eee3b3-abce-45f9-b78b-607196c0c75b: Detected opening: Zukertort Opening (A06)
