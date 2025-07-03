@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91402c40-b942-4a4c-8b53-f6fbf1945b18" name="Changes" comment="gj">
-      <change afterPath="$PROJECT_DIR$/Models/opening_detector.py" afterDir="false" />
+    <list default="true" id="91402c40-b942-4a4c-8b53-f6fbf1945b18" name="Changes" comment="+opening_detector">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/a.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Openings/a.tsv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/b.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Openings/b.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/c.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Openings/c.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/chess_ai.log" beforeDir="false" afterPath="$PROJECT_DIR$/Models/chess_ai.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/d.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Openings/d.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/e.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Openings/e.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/opening_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/opening_detector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chess_ai.log" beforeDir="false" afterPath="$PROJECT_DIR$/chess_ai.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Models/opening_detector.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -85,7 +82,7 @@
       <workItem from="1750866430777" duration="659000" />
       <workItem from="1751297229114" duration="470000" />
       <workItem from="1751484588276" duration="37000" />
-      <workItem from="1751522484592" duration="7842000" />
+      <workItem from="1751522484592" duration="13913000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit For My MML Model">
       <option name="closed" value="true" />
@@ -144,10 +141,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit For My MML Model" />
     <MESSAGE value="gj" />
-    <option name="LAST_COMMIT_MESSAGE" value="gj" />
+    <MESSAGE value="+opening_detector" />
+    <option name="LAST_COMMIT_MESSAGE" value="+opening_detector" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Chexy_M$Flask__Models_app_py_.coverage" NAME="Flask (Models/app.py) Coverage Results" MODIFIED="1751533537143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Chexy_M$Flask__Models_app_py_.coverage" NAME="Flask (Models/app.py) Coverage Results" MODIFIED="1751539212503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Chexy_M$app.coverage" NAME="app Coverage Results" MODIFIED="1750579180763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models" />
   </component>
 </project>

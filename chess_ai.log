@@ -2021,3 +2021,346 @@ R N B Q K B N R
 2025-07-03 10:12:21,065 - INFO - Game ec5e705d-fad3-486f-a052-031b15972a98: Successfully converted 4 moves to SAN: ['Nf3', 'Na6', 'h4', 'Nh6']
 2025-07-03 10:12:21,066 - INFO - Game ec5e705d-fad3-486f-a052-031b15972a98: Detected opening: Zukertort Opening (A04)
 2025-07-03 10:12:21,069 - INFO - 127.0.0.1 - - [03/Jul/2025 10:12:21] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:18:11,560 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-07-03 11:18:11,573 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-03 11:18:11,573 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-03 11:18:44,161 - INFO - 127.0.0.1 - - [03/Jul/2025 11:18:44] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:18:44,239 - INFO - 127.0.0.1 - - [03/Jul/2025 11:18:44] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:18:44,264 - INFO - 127.0.0.1 - - [03/Jul/2025 11:18:44] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:18:44,301 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:18:44,303 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:18:44,303 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:18:47,470 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): e7e6 (from: [1,4], to: [2,4])
+2025-07-03 11:18:47,481 - INFO - 127.0.0.1 - - [03/Jul/2025 11:18:47] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:18:48,387 - INFO - 127.0.0.1 - - [03/Jul/2025 11:18:48] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:18:53,542 - INFO - 127.0.0.1 - - [03/Jul/2025 11:18:53] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:18:53,613 - INFO - 127.0.0.1 - - [03/Jul/2025 11:18:53] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:18:53,718 - INFO - 127.0.0.1 - - [03/Jul/2025 11:18:53] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:18:53,732 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbqkbnr/pppp1ppp/4p3/8/7P/5N2/PPPPPPP1/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:18:53,734 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbqkbnr/pppp1ppp/4p3/8/7P/5N2/PPPPPPP1/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:18:53,735 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:18:57,369 - INFO - Bot making mistake
+2025-07-03 11:18:57,373 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): e8e7 (from: [0,4], to: [1,4])
+2025-07-03 11:18:57,376 - INFO - 127.0.0.1 - - [03/Jul/2025 11:18:57] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:18:57,831 - INFO - 127.0.0.1 - - [03/Jul/2025 11:18:57] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:02,844 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:02] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:03,016 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:03] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:03,039 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq1bnr/ppppkppp/4p3/8/7P/5N1R/PPPPPPP1/RNBQKB2 b KQkq - 0 1
+2025-07-03 11:19:03,046 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq1bnr/ppppkppp/4p3/8/7P/5N1R/PPPPPPP1/RNBQKB2 b KQkq - 0 1
+2025-07-03 11:19:03,046 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:19:04,826 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:04] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:07,947 - INFO - Bot making blunder
+2025-07-03 11:19:07,949 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): e7f6 (from: [1,4], to: [2,5])
+2025-07-03 11:19:07,955 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:07] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:08,379 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:08] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:09,489 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:09] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:14,559 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:14] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:14,869 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:14] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:14,902 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq1bnr/pppp1ppp/4pk2/8/7P/2N2N1R/PPPPPPP1/R1BQKB2 b KQkq - 0 1
+2025-07-03 11:19:14,903 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq1bnr/pppp1ppp/4pk2/8/7P/2N2N1R/PPPPPPP1/R1BQKB2 b KQkq - 0 1
+2025-07-03 11:19:14,924 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:19:16,552 - INFO - Bot making random move
+2025-07-03 11:19:16,554 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): g7g5 (from: [1,6], to: [3,6])
+2025-07-03 11:19:16,555 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:16] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:17,162 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:17] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:18,672 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:18] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:23,195 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:23] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:23,547 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:23] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:23,582 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq1bnr/pppp1p1p/4pk2/6N1/7P/2N4R/PPPPPPP1/R1BQKB2 b KQkq - 0 1
+2025-07-03 11:19:23,582 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq1bnr/pppp1p1p/4pk2/6N1/7P/2N4R/PPPPPPP1/R1BQKB2 b KQkq - 0 1
+2025-07-03 11:19:23,582 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:19:25,452 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:25] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:26,506 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): g8e7 (from: [0,6], to: [1,4])
+2025-07-03 11:19:26,513 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:26] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:28,248 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:28] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:35,442 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:35] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:35,665 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:35] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:35,704 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq1b1r/ppppnp1p/4pk2/6N1/7P/2N1P2R/PPPP1PP1/R1BQKB2 b KQkq - 0 1
+2025-07-03 11:19:35,704 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq1b1r/ppppnp1p/4pk2/6N1/7P/2N1P2R/PPPP1PP1/R1BQKB2 b KQkq - 0 1
+2025-07-03 11:19:35,704 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:19:36,867 - INFO - Bot making random move
+2025-07-03 11:19:36,879 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): e7g6 (from: [1,4], to: [2,6])
+2025-07-03 11:19:36,882 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:36] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:37,195 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:37] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:38,863 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:38] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:43,358 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:43] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:43,551 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:43] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:43,584 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq1b1r/pppp1p1p/4pkn1/6NQ/7P/2N1P2R/PPPP1PP1/R1B1KB2 b KQkq - 0 1
+2025-07-03 11:19:43,607 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq1b1r/pppp1p1p/4pkn1/6NQ/7P/2N1P2R/PPPP1PP1/R1B1KB2 b KQkq - 0 1
+2025-07-03 11:19:43,607 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:19:45,829 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:45] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:48,465 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): f6e7 (from: [2,5], to: [1,4])
+2025-07-03 11:19:48,476 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:48] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:48,829 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:48] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:50,098 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:50] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:53,565 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:53] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:53,592 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq1b1r/ppppkp1N/4p1n1/7Q/7P/2N1P2R/PPPP1PP1/R1B1KB2 b KQkq - 0 1
+2025-07-03 11:19:53,600 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq1b1r/ppppkp1N/4p1n1/7Q/7P/2N1P2R/PPPP1PP1/R1B1KB2 b KQkq - 0 1
+2025-07-03 11:19:53,600 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:19:54,642 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:54] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:55,616 - INFO - Bot making blunder
+2025-07-03 11:19:55,620 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): f7f6 (from: [1,5], to: [2,5])
+2025-07-03 11:19:55,624 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:55] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:19:55,796 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:55] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:19:56,899 - INFO - 127.0.0.1 - - [03/Jul/2025 11:19:56] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:02,745 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:02] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:02,958 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:02] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:20:02,982 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq1b1r/ppppk2N/4ppn1/7Q/4N2P/4P2R/PPPP1PP1/R1B1KB2 b KQkq - 0 1
+2025-07-03 11:20:02,984 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq1b1r/ppppk2N/4ppn1/7Q/4N2P/4P2R/PPPP1PP1/R1B1KB2 b KQkq - 0 1
+2025-07-03 11:20:02,985 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:20:04,459 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:04] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:04,943 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): g6f4 (from: [2,6], to: [4,5])
+2025-07-03 11:20:04,944 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:04] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:20:06,509 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:06] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:08,181 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:08] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:08,301 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:08] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:20:08,348 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq1b1r/ppppk2N/4pp2/7Q/4NP1P/7R/PPPP1PP1/R1B1KB2 b KQkq - 0 1
+2025-07-03 11:20:08,355 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq1b1r/ppppk2N/4pp2/7Q/4NP1P/7R/PPPP1PP1/R1B1KB2 b KQkq - 0 1
+2025-07-03 11:20:08,360 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:20:10,365 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:10] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:11,107 - INFO - Bot making mistake
+2025-07-03 11:20:11,113 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): h8g8 (from: [0,7], to: [0,6])
+2025-07-03 11:20:11,121 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:11] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:20:12,987 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:12] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:22,685 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:22] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:23,090 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:23] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:20:23,167 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq1br1/ppppk2N/4pN2/7Q/5P1P/7R/PPPP1PP1/R1B1KB2 b KQkq - 0 1
+2025-07-03 11:20:23,183 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq1br1/ppppk2N/4pN2/7Q/5P1P/7R/PPPP1PP1/R1B1KB2 b KQkq - 0 1
+2025-07-03 11:20:23,194 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:20:24,420 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:24] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:24,992 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): g8g2 (from: [0,6], to: [6,6])
+2025-07-03 11:20:25,000 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:25] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:20:26,514 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:26] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:27,818 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq1b2/ppppk2N/4pN2/7Q/5P1P/7R/PPPP1PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:20:27,819 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq1b2/ppppk2N/4pN2/7Q/5P1P/7R/PPPP1PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:20:27,820 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:20:29,590 - INFO - Bot making mistake
+2025-07-03 11:20:29,605 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): a7a6 (from: [1,0], to: [2,0])
+2025-07-03 11:20:29,609 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:29] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:29,610 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:29] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:20:30,134 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:30] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:31,447 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:31] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:47,193 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:47] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:47,349 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:47] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:20:47,399 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq1b2/1pppk2N/p3pN2/7Q/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:20:47,400 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq1b2/1pppk2N/p3pN2/7Q/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:20:47,400 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:20:48,736 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:48] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:48,928 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): f8g7 (from: [0,5], to: [1,6])
+2025-07-03 11:20:48,928 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:48] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:20:50,372 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:50] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:58,179 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:58] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:20:58,334 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:58] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:20:58,390 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnbq2N1/1pppk1bN/p3p3/7Q/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:20:58,397 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnbq2N1/1pppk1bN/p3p3/7Q/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:20:58,403 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:20:59,258 - INFO - Bot making random move
+2025-07-03 11:20:59,267 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): d8g8 (from: [0,3], to: [0,6])
+2025-07-03 11:20:59,277 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:59] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:20:59,826 - INFO - 127.0.0.1 - - [03/Jul/2025 11:20:59] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:01,638 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:01] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:03,752 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:03] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:03,929 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:03] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:03,948 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnb3q1/1pppk1b1/p3p3/6NQ/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:03,954 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnb3q1/1pppk1b1/p3p3/6NQ/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:03,976 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:21:05,725 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:05] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:06,004 - INFO - Bot making mistake
+2025-07-03 11:21:06,004 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): g8f7 (from: [0,6], to: [1,5])
+2025-07-03 11:21:06,004 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:06] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:07,664 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:07] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:11,438 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:11] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:11,831 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:11] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:11,872 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnb5/1pppkQb1/p3p3/6N1/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:11,881 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnb5/1pppkQb1/p3p3/6N1/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:11,881 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:21:12,843 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): e7d6 (from: [1,4], to: [2,3])
+2025-07-03 11:21:12,856 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:12] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:13,092 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:13] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:14,451 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:14] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:15,831 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnb5/1ppp2Q1/p2kp3/6N1/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:15,843 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnb5/1ppp2Q1/p2kp3/6N1/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:15,843 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:21:17,634 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:17] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:17,731 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): b7b5 (from: [1,1], to: [3,1])
+2025-07-03 11:21:17,732 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:17] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:18,300 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:18] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:20,172 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:20] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:31,455 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:31] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:31,591 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:31] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:31,622 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnb5/2pp1NQ1/p2kp3/1p6/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:31,623 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnb5/2pp1NQ1/p2kp3/1p6/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:31,623 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:21:32,864 - INFO - Bot making mistake
+2025-07-03 11:21:32,872 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): d6e7 (from: [2,3], to: [1,4])
+2025-07-03 11:21:32,880 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:32] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:33,581 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:33] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:34,785 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:34] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:39,309 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:39] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:39,508 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:39] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:39,545 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnb2Q2/2ppkN2/p3p3/1p6/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:39,555 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnb2Q2/2ppkN2/p3p3/1p6/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:39,561 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:21:40,565 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): e7f8 (from: [1,4], to: [0,5])
+2025-07-03 11:21:40,577 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:40] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:40,889 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:40] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:42,707 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:42] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:51,455 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:51] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:51,627 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:51] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:51,649 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnb2k2/2pp4/p3p3/1p4N1/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:51,650 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnb2k2/2pp4/p3p3/1p4N1/3P1P1P/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:51,651 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:21:53,529 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:53] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:53,702 - INFO - Bot making mistake
+2025-07-03 11:21:53,708 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): f8g7 (from: [0,5], to: [1,6])
+2025-07-03 11:21:53,709 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:53] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:56,373 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:56] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:57,249 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:57] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:57,410 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:57] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:21:57,481 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnb5/2pp2k1/p3p3/1p4NP/3P1P2/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:57,487 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnb5/2pp2k1/p3p3/1p4NP/3P1P2/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:21:57,487 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:21:58,877 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:58] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:21:59,049 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): g7h8 (from: [1,6], to: [0,7])
+2025-07-03 11:21:59,051 - INFO - 127.0.0.1 - - [03/Jul/2025 11:21:59] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:00,561 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:00] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:01,924 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=rnb4k/2pp4/p3p2P/1p4N1/3P1P2/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:01,931 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: rnb4k/2pp4/p3p2P/1p4N1/3P1P2/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:01,937 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:22:03,403 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:03] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:03,512 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): b8c6 (from: [0,1], to: [2,2])
+2025-07-03 11:22:03,514 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:03] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:04,198 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:04] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:05,701 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:05] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:07,183 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:07] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:07,209 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=r1b4k/2pp1N2/p1n1p2P/1p6/3P1P2/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:07,215 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: r1b4k/2pp1N2/p1n1p2P/1p6/3P1P2/7R/PPP2PB1/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:07,226 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:22:08,203 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): h8h7 (from: [0,7], to: [1,7])
+2025-07-03 11:22:08,214 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:08] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:08,635 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:08] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:10,010 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:10] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:17,345 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:17] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:17,603 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:17] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:17,665 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=r1b5/2pp1N1k/p1n1p2P/1p6/3PBP2/7R/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:17,667 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: r1b5/2pp1N1k/p1n1p2P/1p6/3PBP2/7R/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:17,667 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:22:24,094 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): h7g8 (from: [1,7], to: [0,6])
+2025-07-03 11:22:24,108 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:24] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:24,707 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:24] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:25,000 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:25] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:26,171 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:26] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:42,418 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:42] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:42,634 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:42] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:42,649 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=r1b3k1/2pp1N1P/p1n1p3/1p6/3PBP2/7R/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:42,657 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: r1b3k1/2pp1N1P/p1n1p3/1p6/3PBP2/7R/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:42,657 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:22:43,712 - INFO - Bot making blunder
+2025-07-03 11:22:43,721 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): g8g7 (from: [0,6], to: [1,6])
+2025-07-03 11:22:43,729 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:43] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:43,855 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:43] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:46,327 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:46] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:48,548 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:48] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:48,770 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:48] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:48,797 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=r1b4Q/2pp1Nk1/p1n1p3/1p6/3PBP2/7R/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:48,798 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: r1b4Q/2pp1Nk1/p1n1p3/1p6/3PBP2/7R/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:48,798 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:22:49,814 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): g7f7 (from: [1,6], to: [1,5])
+2025-07-03 11:22:49,819 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:49] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:49,973 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:49] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:51,386 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:51] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:53,666 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:53] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:53,825 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:53] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:53,860 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=r1b4Q/2pp1k2/p1n1p2R/1p6/3PBP2/8/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:53,860 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: r1b4Q/2pp1k2/p1n1p2R/1p6/3PBP2/8/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:22:53,866 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:22:55,370 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:55] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:22:55,476 - INFO - Bot making mistake
+2025-07-03 11:22:55,478 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): b5b4 (from: [3,1], to: [4,1])
+2025-07-03 11:22:55,479 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:55] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:22:57,525 - INFO - 127.0.0.1 - - [03/Jul/2025 11:22:57] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:23:04,265 - INFO - 127.0.0.1 - - [03/Jul/2025 11:23:04] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:23:04,466 - INFO - 127.0.0.1 - - [03/Jul/2025 11:23:04] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:23:04,485 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=r1b4Q/2pp1k2/p1n1pR2/8/1p1PBP2/8/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:23:04,486 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: r1b4Q/2pp1k2/p1n1pR2/8/1p1PBP2/8/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:23:04,492 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:23:05,542 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): f7e7 (from: [1,5], to: [1,4])
+2025-07-03 11:23:05,553 - INFO - 127.0.0.1 - - [03/Jul/2025 11:23:05] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:23:05,718 - INFO - 127.0.0.1 - - [03/Jul/2025 11:23:05] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:23:07,294 - INFO - 127.0.0.1 - - [03/Jul/2025 11:23:07] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:23:09,420 - INFO - 127.0.0.1 - - [03/Jul/2025 11:23:09] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:23:09,659 - INFO - 127.0.0.1 - - [03/Jul/2025 11:23:09] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:23:09,677 - INFO - Received AI move request for game 564909e7-93c5-4a5f-9b78-ba989a851056: botPoints=400, fen=r1b5/2ppk1Q1/p1n1pR2/8/1p1PBP2/8/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:23:09,678 - INFO - Successfully initialized board for game 564909e7-93c5-4a5f-9b78-ba989a851056 with FEN: r1b5/2ppk1Q1/p1n1pR2/8/1p1PBP2/8/PPP2P2/R1B1K3 b KQkq - 0 1
+2025-07-03 11:23:09,678 - INFO - Game 564909e7-93c5-4a5f-9b78-ba989a851056: Bot config for 400 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:23:10,985 - INFO - Bot making mistake
+2025-07-03 11:23:10,998 - INFO - Bot move for game 564909e7-93c5-4a5f-9b78-ba989a851056 (points: 400): e7d8 (from: [1,4], to: [0,3])
+2025-07-03 11:23:11,001 - INFO - 127.0.0.1 - - [03/Jul/2025 11:23:11] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:23:11,136 - INFO - 127.0.0.1 - - [03/Jul/2025 11:23:11] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:23:12,640 - INFO - 127.0.0.1 - - [03/Jul/2025 11:23:12] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:23:14,569 - INFO - 127.0.0.1 - - [03/Jul/2025 11:23:14] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:40:12,891 - INFO - Stockfish found at /usr/local/bin/stockfish
+2025-07-03 11:40:12,898 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-03 11:40:12,899 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-03 11:40:31,976 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:31] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:40:32,100 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:32] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:40:32,232 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:32] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:40:32,296 - INFO - Received AI move request for game ba6445a3-6c98-450c-8f56-8ef35b7ade64: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:40:32,296 - INFO - Successfully initialized board for game ba6445a3-6c98-450c-8f56-8ef35b7ade64 with FEN: rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:40:32,296 - INFO - Game ba6445a3-6c98-450c-8f56-8ef35b7ade64: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:40:34,761 - INFO - Bot move for game ba6445a3-6c98-450c-8f56-8ef35b7ade64 (points: 300): c7c5 (from: [1,2], to: [3,2])
+2025-07-03 11:40:34,775 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:34] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:40:35,371 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:35] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:40:40,968 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:40] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:40:41,013 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:41] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:40:41,443 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:41] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:40:41,458 - INFO - Received AI move request for game ba6445a3-6c98-450c-8f56-8ef35b7ade64: botPoints=300, fen=rnbqkbnr/pp1ppppp/8/2p5/7P/5N2/PPPPPPP1/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:40:41,459 - INFO - Successfully initialized board for game ba6445a3-6c98-450c-8f56-8ef35b7ade64 with FEN: rnbqkbnr/pp1ppppp/8/2p5/7P/5N2/PPPPPPP1/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:40:41,460 - INFO - Game ba6445a3-6c98-450c-8f56-8ef35b7ade64: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:40:49,286 - INFO - Bot making mistake
+2025-07-03 11:40:49,289 - INFO - Bot move for game ba6445a3-6c98-450c-8f56-8ef35b7ade64 (points: 300): c5c4 (from: [3,2], to: [4,2])
+2025-07-03 11:40:49,292 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:49] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:40:49,663 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:49] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:40:49,673 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:49] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:40:55,183 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:55] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:40:55,189 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:55] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:40:55,334 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:55] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:40:55,339 - INFO - Received AI move request for game ba6445a3-6c98-450c-8f56-8ef35b7ade64: botPoints=300, fen=rnbqkbnr/pp1ppppp/8/8/2p4P/2P2N2/PP1PPPP1/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:40:55,340 - INFO - Successfully initialized board for game ba6445a3-6c98-450c-8f56-8ef35b7ade64 with FEN: rnbqkbnr/pp1ppppp/8/8/2p4P/2P2N2/PP1PPPP1/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:40:55,341 - INFO - Game ba6445a3-6c98-450c-8f56-8ef35b7ade64: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:40:56,099 - INFO - Bot making random move
+2025-07-03 11:40:56,106 - INFO - Bot move for game ba6445a3-6c98-450c-8f56-8ef35b7ade64 (points: 300): h7h5 (from: [1,7], to: [3,7])
+2025-07-03 11:40:56,107 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:56] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:40:56,669 - INFO - 127.0.0.1 - - [03/Jul/2025 11:40:56] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:41:00,372 - INFO - 127.0.0.1 - - [03/Jul/2025 11:41:00] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:41:00,383 - INFO - 127.0.0.1 - - [03/Jul/2025 11:41:00] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 11:41:00,482 - INFO - 127.0.0.1 - - [03/Jul/2025 11:41:00] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:41:00,494 - INFO - Received AI move request for game ba6445a3-6c98-450c-8f56-8ef35b7ade64: botPoints=300, fen=rnbqkbnr/pp1pppp1/8/6Np/2p4P/2P5/PP1PPPP1/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:41:00,494 - INFO - Successfully initialized board for game ba6445a3-6c98-450c-8f56-8ef35b7ade64 with FEN: rnbqkbnr/pp1pppp1/8/6Np/2p4P/2P5/PP1PPPP1/RNBQKB1R b KQkq - 0 1
+2025-07-03 11:41:00,497 - INFO - Game ba6445a3-6c98-450c-8f56-8ef35b7ade64: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 11:41:04,125 - INFO - Bot move for game ba6445a3-6c98-450c-8f56-8ef35b7ade64 (points: 300): e7e6 (from: [1,4], to: [2,4])
+2025-07-03 11:41:04,141 - INFO - 127.0.0.1 - - [03/Jul/2025 11:41:04] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 11:41:04,785 - INFO - 127.0.0.1 - - [03/Jul/2025 11:41:04] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 13:32:35,597 - INFO - 127.0.0.1 - - [03/Jul/2025 13:32:35] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 13:32:35,632 - INFO - 127.0.0.1 - - [03/Jul/2025 13:32:35] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 13:32:35,665 - INFO - 127.0.0.1 - - [03/Jul/2025 13:32:35] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 13:32:35,702 - INFO - Received AI move request for game 6c489e48-f4cb-4dab-9b69-cf874fbffcf1: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-07-03 13:32:35,703 - INFO - Successfully initialized board for game 6c489e48-f4cb-4dab-9b69-cf874fbffcf1 with FEN: rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-07-03 13:32:35,703 - INFO - Game 6c489e48-f4cb-4dab-9b69-cf874fbffcf1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 13:32:38,338 - INFO - Bot making mistake
+2025-07-03 13:32:38,346 - INFO - Bot move for game 6c489e48-f4cb-4dab-9b69-cf874fbffcf1 (points: 300): h7h5 (from: [1,7], to: [3,7])
+2025-07-03 13:32:38,350 - INFO - 127.0.0.1 - - [03/Jul/2025 13:32:38] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 13:32:38,953 - INFO - 127.0.0.1 - - [03/Jul/2025 13:32:38] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 13:32:47,406 - INFO - 127.0.0.1 - - [03/Jul/2025 13:32:47] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 13:32:47,437 - INFO - 127.0.0.1 - - [03/Jul/2025 13:32:47] "POST /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 13:32:47,568 - INFO - 127.0.0.1 - - [03/Jul/2025 13:32:47] "OPTIONS /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 13:32:47,578 - INFO - Received AI move request for game 6c489e48-f4cb-4dab-9b69-cf874fbffcf1: botPoints=300, fen=rnbqkbnr/ppppppp1/8/7p/3P4/4P3/PPP2PPP/RNBQKBNR b KQkq - 0 1
+2025-07-03 13:32:47,579 - INFO - Successfully initialized board for game 6c489e48-f4cb-4dab-9b69-cf874fbffcf1 with FEN: rnbqkbnr/ppppppp1/8/7p/3P4/4P3/PPP2PPP/RNBQKBNR b KQkq - 0 1
+2025-07-03 13:32:47,579 - INFO - Game 6c489e48-f4cb-4dab-9b69-cf874fbffcf1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-03 13:41:29,272 - INFO - Bot making mistake
+2025-07-03 13:41:29,283 - INFO - Bot move for game 6c489e48-f4cb-4dab-9b69-cf874fbffcf1 (points: 300): f7f6 (from: [1,5], to: [2,5])
+2025-07-03 13:41:29,288 - INFO - 127.0.0.1 - - [03/Jul/2025 13:41:29] "POST /api/classic/ai-move HTTP/1.1" 200 -
+2025-07-03 13:41:33,599 - INFO - 127.0.0.1 - - [03/Jul/2025 13:41:33] "OPTIONS /api/detect-opening HTTP/1.1" 200 -
+2025-07-03 13:41:33,658 - INFO - 127.0.0.1 - - [03/Jul/2025 13:41:33] "POST /api/detect-opening HTTP/1.1" 200 -

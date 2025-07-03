@@ -32,20 +32,14 @@ def load_openings(file_paths: list[str]) -> list[Opening]:
 
 
 def detect_opening(game_moves: list[str], openings: list[Opening]) -> dict | None:
-    """Detect the most specific opening that matches the game move sequence."""
-    matching_openings = []
-    for opening in openings:
-        if len(opening.moves) > len(game_moves):
-            continue
-        if opening.moves == game_moves[:len(opening.moves)]:
-            matching_openings.append(opening)
-
+    matching_openings = [op for op in openings if op.moves == game_moves[:len(op.moves)]]
     if not matching_openings:
         return None
-
-    # Select the opening with the longest move sequence
     max_length = max(len(op.moves) for op in matching_openings)
     longest_openings = [op for op in matching_openings if len(op.moves) == max_length]
-    selected_opening = longest_openings[0]  # Pick the first if multiple match
-
-    return {'eco': selected_opening.eco, 'name': selected_opening.name}
+    selected = longest_openings[0]
+    return {
+        'eco': selected.eco,
+        'name': selected.name,
+        'is_fallback': len(selected.moves) < len(game_moves)
+    }

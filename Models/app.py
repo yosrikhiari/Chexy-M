@@ -2,7 +2,7 @@ import logging
 import os
 import random
 import sys
-from opening_detector import load_openings, detect_opening
+from opening_detector import load_openings, detect_opening, Opening
 
 import chess
 import chess.engine
@@ -262,85 +262,31 @@ def classic_ai_move():
 
 
 @app.route('/api/detect-opening', methods=['POST'])
+@app.route('/api/detect-opening', methods=['POST'])
 def detect_opening_endpoint():
     data = request.json
-    if not data or 'moves' not in data:
-        return jsonify({'error': 'Move list required'}), 400
+    moves = data.get('moves')
+    game_id = data.get('gameId', 'unknown')
 
-    moves = data.get('moves')  # List of { from: { row, col }, to: { row, col } }
-    game_id = data.get('gameId', 'unknown')  # Optional game ID for logging
+    board = chess.Board()
+    san_moves = []
+    for move in moves:
+        from_square = chess.square(move['from']['col'], 7 - move['from']['row'])
+        to_square = chess.square(move['to']['col'], 7 - move['to']['row'])
+        move_obj = chess.Move(from_square, to_square)
+        if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+            move_obj = chess.Move(from_square, to_square, promotion=chess.QUEEN)
+        san = board.san(move_obj)
+        san_moves.append(san)
+        board.push(move_obj)
 
-    logger.info(f"Opening detection request for game {game_id}")
-    logger.info(f"Received moves: {moves}")
+    result = detect_opening(san_moves, openings)
+    if result:
+        return jsonify(result)
+    else:
+        return jsonify({'eco': 'Unknown', 'name': 'Unrecognized Opening'})
 
-    try:
-        # Initialize a chess board
-        board = chess.Board()
-        san_moves = []
 
-        # Convert coordinate moves to SAN
-        for i, move in enumerate(moves):
-            try:
-                from_row = move['from']['row']
-                from_col = move['from']['col']
-                to_row = move['to']['row']
-                to_col = move['to']['col']
-
-                logger.debug(f"Move {i + 1}: from ({from_row}, {from_col}) to ({to_row}, {to_col})")
-
-                # Convert to chess library square indices (0-63)
-                from_square = chess.square(from_col, 7 - from_row)
-                to_square = chess.square(to_col, 7 - to_row)
-
-                # Create the move
-                move_obj = chess.Move(from_square, to_square)
-
-                # Check if the piece at from_square exists
-                piece = board.piece_at(from_square)
-                if not piece:
-                    logger.error(f"No piece found at square {from_square} (row {from_row}, col {from_col})")
-                    logger.error(f"Current board: {board}")
-                    return jsonify({'error': f"No piece at position ({from_row}, {from_col})"}), 400
-
-                # Handle pawn promotion (assume queen promotion if to_row is 0 or 7)
-                if piece.piece_type == chess.PAWN and to_row in (0, 7):
-                    move_obj = chess.Move(from_square, to_square, promotion=chess.QUEEN)
-                    logger.debug(f"Pawn promotion detected for move {i + 1}")
-
-                # Check if the move is legal
-                if move_obj not in board.legal_moves:
-                    logger.error(f"Illegal move in game {game_id}: {move} at move {i + 1}")
-                    logger.error(f"Legal moves: {[str(m) for m in board.legal_moves]}")
-                    logger.error(f"Current board: {board}")
-                    return jsonify({'error': f"Illegal move at position {i + 1}: {move}"}), 400
-
-                # Convert to SAN notation
-                san = board.san(move_obj)
-                san_moves.append(san)
-                logger.debug(f"Move {i + 1} converted to SAN: {san}")
-
-                # Make the move on the board
-                board.push(move_obj)
-
-            except Exception as e:
-                logger.error(f"Error processing move {i + 1} in game {game_id}: {move}, error: {e}")
-                return jsonify({'error': f"Error processing move {i + 1}: {str(e)}"}), 400
-
-        logger.info(f"Game {game_id}: Successfully converted {len(san_moves)} moves to SAN: {san_moves}")
-
-        # Detect the opening using the existing function
-        result = detect_opening(san_moves, openings)
-        if result:
-            logger.info(f"Game {game_id}: Detected opening: {result['name']} ({result['eco']})")
-            return jsonify(result)
-        else:
-            logger.info(f"Game {game_id}: No opening detected for moves: {san_moves}")
-            return jsonify({'opening': None})
-
-    except Exception as e:
-        logger.error(f"Error detecting opening for game {game_id}: {str(e)}")
-        logger.error(f"Exception details: {type(e).__name__}: {e}")
-        return jsonify({'error': str(e)}), 400
 
 
 @app.route('/api/debug-opening', methods=['POST'])
