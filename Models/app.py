@@ -24,7 +24,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Path to Stockfish executable
-STOCKFISH_PATH = os.getenv('STOCKFISH_PATH', '/usr/local/bin/stockfish')
+STOCKFISH_PATH = os.getenv('STOCKFISH_PATH', r'C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe')
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -261,7 +261,6 @@ def classic_ai_move():
         return jsonify({'error': 'Failed to get AI move'}), 500
 
 
-@app.route('/api/detect-opening', methods=['POST'])
 @app.route('/api/detect-opening', methods=['POST'])
 def detect_opening_endpoint():
     data = request.json
