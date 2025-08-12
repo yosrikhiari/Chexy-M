@@ -1382,3 +1382,1086 @@
 2025-07-11 07:03:19,440 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
 2025-07-11 07:03:19,609 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
 2025-07-11 07:03:19,624 - INFO - Serving on http://0.0.0.0:5000
+2025-07-11 07:12:41,220 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:12:41,221 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:12:41,221 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:12:42,645 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): e7e6 (from: [1,4], to: [2,4])
+2025-07-11 07:12:48,036 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rnbqkbnr/pppp1ppp/4p3/6N1/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:12:48,036 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rnbqkbnr/pppp1ppp/4p3/6N1/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:12:48,036 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:12:49,470 - INFO - Bot making blunder
+2025-07-11 07:12:49,470 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): e8e7 (from: [0,4], to: [1,4])
+2025-07-11 07:12:51,563 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rnbq1bnr/ppppkNpp/4p3/8/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:12:51,563 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rnbq1bnr/ppppkNpp/4p3/8/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:12:51,563 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:12:51,863 - INFO - Bot making random move
+2025-07-11 07:12:51,864 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): b7b6 (from: [1,1], to: [2,1])
+2025-07-11 07:12:54,751 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rnbN1bnr/p1ppk1pp/1p2p3/8/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:12:54,751 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rnbN1bnr/p1ppk1pp/1p2p3/8/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:12:54,751 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:12:55,194 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): e7d8 (from: [1,4], to: [0,3])
+2025-07-11 07:12:58,257 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rnbk1bnr/p1pp2pp/1p2p3/8/8/4P3/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:12:58,257 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rnbk1bnr/p1pp2pp/1p2p3/8/8/4P3/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:12:58,257 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:12:58,769 - INFO - Bot making mistake
+2025-07-11 07:12:58,769 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): h7h6 (from: [1,7], to: [2,7])
+2025-07-11 07:13:04,088 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rnbk1bnr/p1pp2p1/1p2p2p/8/8/1P2P3/P1PP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:13:04,088 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rnbk1bnr/p1pp2p1/1p2p2p/8/8/1P2P3/P1PP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 07:13:04,088 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:13:04,551 - INFO - Bot making blunder
+2025-07-11 07:13:04,551 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): c8a6 (from: [0,2], to: [2,0])
+2025-07-11 07:13:06,452 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k1bnr/p1pp2p1/bp2p2p/8/8/BP2P3/P1PP1PPP/RN1QKB1R b KQkq - 0 1
+2025-07-11 07:13:06,452 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k1bnr/p1pp2p1/bp2p2p/8/8/BP2P3/P1PP1PPP/RN1QKB1R b KQkq - 0 1
+2025-07-11 07:13:06,452 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:13:06,921 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): a6f1 (from: [2,0], to: [7,5])
+2025-07-11 07:13:10,837 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k1bnr/p1pp2p1/1p2p2p/8/8/BP2P3/P1PP1PPP/RN1QKR2 b KQkq - 0 1
+2025-07-11 07:13:10,837 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k1bnr/p1pp2p1/1p2p2p/8/8/BP2P3/P1PP1PPP/RN1QKR2 b KQkq - 0 1
+2025-07-11 07:13:10,838 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:13:11,278 - INFO - Bot making mistake
+2025-07-11 07:13:11,278 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): g7g6 (from: [1,6], to: [2,6])
+2025-07-11 07:13:13,627 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k1Bnr/p1pp4/1p2p1pp/8/8/1P2P3/P1PP1PPP/RN1QKR2 b KQkq - 0 1
+2025-07-11 07:13:13,627 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k1Bnr/p1pp4/1p2p1pp/8/8/1P2P3/P1PP1PPP/RN1QKR2 b KQkq - 0 1
+2025-07-11 07:13:13,627 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:13:14,066 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): d7d6 (from: [1,3], to: [2,3])
+2025-07-11 07:13:29,403 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k1Bnr/p1p5/1p1pp1pp/8/6Q1/1P2P3/P1PP1PPP/RN2KR2 b KQkq - 0 1
+2025-07-11 07:13:29,403 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k1Bnr/p1p5/1p1pp1pp/8/6Q1/1P2P3/P1PP1PPP/RN2KR2 b KQkq - 0 1
+2025-07-11 07:13:29,404 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:13:29,857 - INFO - Bot making blunder
+2025-07-11 07:13:29,858 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): d6d5 (from: [2,3], to: [3,3])
+2025-07-11 07:13:33,762 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k1Bnr/p1p5/1p2Q1pp/3p4/8/1P2P3/P1PP1PPP/RN2KR2 b KQkq - 0 1
+2025-07-11 07:13:33,762 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k1Bnr/p1p5/1p2Q1pp/3p4/8/1P2P3/P1PP1PPP/RN2KR2 b KQkq - 0 1
+2025-07-11 07:13:33,762 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:13:34,168 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): b6b5 (from: [2,1], to: [3,1])
+2025-07-11 07:13:37,984 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k2nr/p1p1B3/4Q1pp/1p1p4/8/1P2P3/P1PP1PPP/RN2KR2 b KQkq - 0 1
+2025-07-11 07:13:37,985 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k2nr/p1p1B3/4Q1pp/1p1p4/8/1P2P3/P1PP1PPP/RN2KR2 b KQkq - 0 1
+2025-07-11 07:13:37,985 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:13:38,285 - INFO - Bot making blunder
+2025-07-11 07:13:38,285 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): g8e7 (from: [0,6], to: [1,4])
+2025-07-11 07:13:48,371 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k3r/p1p1n3/4Q1pp/1p1p4/8/1PN1P3/P1PP1PPP/R3KR2 b KQkq - 0 1
+2025-07-11 07:13:48,371 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k3r/p1p1n3/4Q1pp/1p1p4/8/1PN1P3/P1PP1PPP/R3KR2 b KQkq - 0 1
+2025-07-11 07:13:48,371 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:13:48,824 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): h6h5 (from: [2,7], to: [3,7])
+2025-07-11 07:13:50,582 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k3r/p1p1n3/4Q1p1/1p1N3p/8/1P2P3/P1PP1PPP/R3KR2 b KQkq - 0 1
+2025-07-11 07:13:50,582 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k3r/p1p1n3/4Q1p1/1p1N3p/8/1P2P3/P1PP1PPP/R3KR2 b KQkq - 0 1
+2025-07-11 07:13:50,582 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:13:51,020 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): b8c6 (from: [0,1], to: [2,2])
+2025-07-11 07:13:56,718 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=r2k3r/p1p1n3/2n1QNp1/1p5p/8/1P2P3/P1PP1PPP/R3KR2 b KQkq - 0 1
+2025-07-11 07:13:56,719 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: r2k3r/p1p1n3/2n1QNp1/1p5p/8/1P2P3/P1PP1PPP/R3KR2 b KQkq - 0 1
+2025-07-11 07:13:56,719 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:13:57,138 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): c6b8 (from: [2,2], to: [0,1])
+2025-07-11 07:14:05,468 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k3r/p1p1n3/4QNp1/1p5p/8/1P2P3/P1PP1PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:05,468 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k3r/p1p1n3/4QNp1/1p5p/8/1P2P3/P1PP1PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:05,468 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:14:05,728 - INFO - Bot making random move
+2025-07-11 07:14:05,728 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): b5b4 (from: [3,1], to: [4,1])
+2025-07-11 07:14:09,511 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k3r/p1p1n3/4QNp1/7p/1p1P4/1P2P3/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:09,511 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k3r/p1p1n3/4QNp1/7p/1p1P4/1P2P3/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:09,511 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:14:09,919 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): a7a6 (from: [1,0], to: [2,0])
+2025-07-11 07:14:11,467 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k3r/2p1n3/p3QNp1/3P3p/1p6/1P2P3/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:11,467 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k3r/2p1n3/p3QNp1/3P3p/1p6/1P2P3/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:11,467 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:14:11,917 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): e7f5 (from: [1,4], to: [3,5])
+2025-07-11 07:14:23,231 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k3r/2p5/p3QNp1/3P1n1p/1p2P3/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:23,231 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k3r/2p5/p3QNp1/3P1n1p/1p2P3/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:23,231 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:14:23,701 - INFO - Bot making mistake
+2025-07-11 07:14:23,701 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): c7c6 (from: [1,2], to: [2,2])
+2025-07-11 07:14:25,558 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k3r/8/p1p1QNp1/3P1P1p/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:25,558 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k3r/8/p1p1QNp1/3P1P1p/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:25,558 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:14:25,843 - INFO - Bot making random move
+2025-07-11 07:14:25,844 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): c6c5 (from: [2,2], to: [3,2])
+2025-07-11 07:14:29,485 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=rn1k3r/8/p2PQNp1/2p2P1p/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:29,485 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: rn1k3r/8/p2PQNp1/2p2P1p/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:29,485 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:14:29,817 - INFO - Bot making mistake
+2025-07-11 07:14:29,817 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): b8d7 (from: [0,1], to: [1,3])
+2025-07-11 07:14:32,188 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=r2k3r/3N4/p2PQ1p1/2p2P1p/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:32,188 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: r2k3r/3N4/p2PQ1p1/2p2P1p/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:32,188 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:14:32,436 - INFO - Bot making random move
+2025-07-11 07:14:32,436 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): h8f8 (from: [0,7], to: [0,5])
+2025-07-11 07:14:34,006 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=r2k1N2/8/p2PQ1p1/2p2P1p/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:34,006 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: r2k1N2/8/p2PQ1p1/2p2P1p/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:34,006 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:14:34,361 - INFO - Bot making mistake
+2025-07-11 07:14:34,362 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): g6g5 (from: [2,6], to: [3,6])
+2025-07-11 07:14:36,708 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=r2k1N2/3P4/p3Q3/2p2Ppp/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:36,708 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: r2k1N2/3P4/p3Q3/2p2Ppp/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:36,708 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:14:37,044 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): a8a7 (from: [0,0], to: [1,0])
+2025-07-11 07:14:43,071 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=3kQN2/r2P4/p7/2p2Ppp/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:43,071 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: 3kQN2/r2P4/p7/2p2Ppp/1p6/1P6/P1P2PPP/2KR1R2 b KQkq - 0 1
+2025-07-11 07:14:43,071 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:14:43,348 - INFO - Bot making mistake
+2025-07-11 07:14:43,348 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): d8c7 (from: [0,3], to: [1,2])
+2025-07-11 07:14:50,380 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=4QN2/r1kP4/p7/2pR1Ppp/1p6/1P6/P1P2PPP/2K2R2 b KQkq - 0 1
+2025-07-11 07:14:50,380 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: 4QN2/r1kP4/p7/2pR1Ppp/1p6/1P6/P1P2PPP/2K2R2 b KQkq - 0 1
+2025-07-11 07:14:50,381 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:14:50,652 - INFO - Bot making random move
+2025-07-11 07:14:50,652 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): c5c4 (from: [3,2], to: [4,2])
+2025-07-11 07:15:03,480 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=5N2/r1kP4/p3Q3/3R1Ppp/1pp5/1P6/P1P2PPP/2K2R2 b KQkq - 0 1
+2025-07-11 07:15:03,480 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: 5N2/r1kP4/p3Q3/3R1Ppp/1pp5/1P6/P1P2PPP/2K2R2 b KQkq - 0 1
+2025-07-11 07:15:03,480 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:15:03,825 - INFO - Bot making blunder
+2025-07-11 07:15:03,825 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): c7b8 (from: [1,2], to: [0,1])
+2025-07-11 07:15:08,752 - INFO - Received AI move request for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: botPoints=300, fen=1k1Q1N2/r7/p3Q3/3R1Ppp/1pp5/1P6/P1P2PPP/2K2R2 b KQkq - 0 1
+2025-07-11 07:15:08,752 - INFO - Successfully initialized board for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 with FEN: 1k1Q1N2/r7/p3Q3/3R1Ppp/1pp5/1P6/P1P2PPP/2K2R2 b KQkq - 0 1
+2025-07-11 07:15:08,753 - INFO - Game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 07:15:09,040 - INFO - Bot move for game f5e4112d-80a9-4a45-927b-5d15d5bdf5a1 (points: 300): b8b7 (from: [0,1], to: [1,1])
+2025-07-11 15:49:52,978 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-07-11 15:49:52,982 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-07-11 15:49:52,983 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:49:54,212 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): f7f5 (from: [1,5], to: [3,5])
+2025-07-11 15:49:57,966 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=rnbqkbnr/ppppp1pp/8/5p2/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 15:49:57,966 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: rnbqkbnr/ppppp1pp/8/5p2/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 15:49:57,966 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:49:59,003 - INFO - Bot making mistake
+2025-07-11 15:49:59,003 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): f5f4 (from: [3,5], to: [4,5])
+2025-07-11 15:50:01,222 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=rnbqkbnr/ppppp1pp/8/8/3PPp2/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 15:50:01,222 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: rnbqkbnr/ppppp1pp/8/8/3PPp2/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-07-11 15:50:01,222 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:01,856 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): d7d6 (from: [1,3], to: [2,3])
+2025-07-11 15:50:04,758 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=rnbqkbnr/ppp1p1pp/3p4/8/2BPPp2/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:04,758 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: rnbqkbnr/ppp1p1pp/3p4/8/2BPPp2/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:04,758 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:05,596 - INFO - Bot making blunder
+2025-07-11 15:50:05,597 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): c8f5 (from: [0,2], to: [3,5])
+2025-07-11 15:50:08,277 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=rn1qkbnr/ppp1p1pp/3p4/5P2/2BP1p2/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:08,277 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: rn1qkbnr/ppp1p1pp/3p4/5P2/2BP1p2/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:08,277 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:08,865 - INFO - Bot making mistake
+2025-07-11 15:50:08,865 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): e8d7 (from: [0,4], to: [1,3])
+2025-07-11 15:50:17,027 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=rn1q1bBr/pppkp1pp/3p4/5P2/3P1p2/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:17,027 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: rn1q1bBr/pppkp1pp/3p4/5P2/3P1p2/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:17,027 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:17,539 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): b8c6 (from: [0,1], to: [2,2])
+2025-07-11 15:50:20,763 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=r2q1b1r/pppkp1pp/2np4/3B1P2/3P1p2/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:20,763 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: r2q1b1r/pppkp1pp/2np4/3B1P2/3P1p2/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:20,763 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:21,262 - INFO - Bot making blunder
+2025-07-11 15:50:21,263 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): h8g8 (from: [0,7], to: [0,6])
+2025-07-11 15:50:24,022 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=r2q1bB1/pppkp1pp/2np4/5P2/3P1p2/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:24,022 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: r2q1bB1/pppkp1pp/2np4/5P2/3P1p2/5N2/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:24,022 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:24,463 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): g7g6 (from: [1,6], to: [2,6])
+2025-07-11 15:50:28,579 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=r2q1bB1/pppkp2p/2np2p1/5PN1/3P1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:28,580 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: r2q1bB1/pppkp2p/2np2p1/5PN1/3P1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:28,580 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:29,062 - INFO - Bot making blunder
+2025-07-11 15:50:29,062 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): a8c8 (from: [0,0], to: [0,2])
+2025-07-11 15:50:30,901 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=2rq1bB1/pppkp2N/2np2p1/5P2/3P1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:30,902 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: 2rq1bB1/pppkp2N/2np2p1/5P2/3P1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:30,902 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:31,363 - INFO - Bot making mistake
+2025-07-11 15:50:31,363 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): f8h6 (from: [0,5], to: [2,7])
+2025-07-11 15:50:35,026 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=2rq1NB1/pppkp3/2np2pb/5P2/3P1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:35,027 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: 2rq1NB1/pppkp3/2np2pb/5P2/3P1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:35,027 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:35,310 - INFO - Bot making mistake
+2025-07-11 15:50:35,310 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): d7e8 (from: [1,3], to: [0,4])
+2025-07-11 15:50:38,354 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=2rqk1B1/ppp1p3/2npN1pb/5P2/3P1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:38,354 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: 2rqk1B1/ppp1p3/2npN1pb/5P2/3P1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:38,355 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:38,599 - INFO - Bot making random move
+2025-07-11 15:50:38,599 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): c6d4 (from: [2,2], to: [4,3])
+2025-07-11 15:50:41,845 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=2rNk1B1/ppp1p3/3p2pb/5P2/3n1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:41,845 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: 2rNk1B1/ppp1p3/3p2pb/5P2/3n1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:41,845 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:42,371 - INFO - Bot making mistake
+2025-07-11 15:50:42,371 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): d6d5 (from: [2,3], to: [3,3])
+2025-07-11 15:50:44,535 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=2r1k1B1/pNp1p3/6pb/3p1P2/3n1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:44,536 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: 2r1k1B1/pNp1p3/6pb/3p1P2/3n1p2/8/PPP2PPP/RNBQK2R b KQkq - 0 1
+2025-07-11 15:50:44,536 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:45,011 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): d4f5 (from: [4,3], to: [3,5])
+2025-07-11 15:50:49,066 - INFO - Received AI move request for game bfb46807-be5e-4b02-80e8-f7cfc520f134: botPoints=300, fen=2r1k1B1/pNp1p3/6pb/3Q1n2/5p2/8/PPP2PPP/RNB1K2R b KQkq - 0 1
+2025-07-11 15:50:49,066 - INFO - Successfully initialized board for game bfb46807-be5e-4b02-80e8-f7cfc520f134 with FEN: 2r1k1B1/pNp1p3/6pb/3Q1n2/5p2/8/PPP2PPP/RNB1K2R b KQkq - 0 1
+2025-07-11 15:50:49,066 - INFO - Game bfb46807-be5e-4b02-80e8-f7cfc520f134: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-11 15:50:49,590 - INFO - Bot making blunder
+2025-07-11 15:50:49,590 - INFO - Bot move for game bfb46807-be5e-4b02-80e8-f7cfc520f134 (points: 300): e8f8 (from: [0,4], to: [0,5])
+2025-07-11 18:04:00,568 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-11 18:04:00,794 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-11 18:04:00,805 - INFO - Serving on http://0.0.0.0:5000
+2025-07-12 07:36:33,477 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-12 07:36:33,747 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-12 07:36:33,760 - INFO - Serving on http://0.0.0.0:5000
+2025-07-24 08:05:40,993 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-24 08:05:41,156 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-24 08:05:41,163 - INFO - Serving on http://0.0.0.0:5000
+2025-07-24 15:22:58,939 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-24 15:22:59,202 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-24 15:22:59,209 - INFO - Serving on http://0.0.0.0:5000
+2025-07-25 11:33:08,613 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-25 11:33:08,722 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-25 11:33:08,728 - INFO - Serving on http://0.0.0.0:5000
+2025-07-26 13:31:57,367 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-26 13:31:57,468 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-26 13:31:57,475 - INFO - Serving on http://0.0.0.0:5000
+2025-07-26 19:51:11,252 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-26 19:51:11,589 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-26 19:51:11,601 - INFO - Serving on http://0.0.0.0:5000
+2025-07-27 09:11:52,842 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-27 09:11:52,983 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-27 09:11:52,989 - INFO - Serving on http://0.0.0.0:5000
+2025-07-27 09:29:24,465 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1
+2025-07-27 09:29:24,466 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1
+2025-07-27 09:29:24,466 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:29:25,907 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): d7d5 (from: [1,3], to: [3,3])
+2025-07-27 09:29:30,330 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=rnbqkbnr/ppp1pppp/8/3p4/5P2/8/PPPPPKPP/RNBQ1BNR b KQkq - 0 1
+2025-07-27 09:29:30,330 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: rnbqkbnr/ppp1pppp/8/3p4/5P2/8/PPPPPKPP/RNBQ1BNR b KQkq - 0 1
+2025-07-27 09:29:30,330 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:29:32,060 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): g7g5 (from: [1,6], to: [3,6])
+2025-07-27 09:29:45,126 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=rnbqkbnr/ppp1pp1p/8/3p2p1/4PP2/8/PPPP1KPP/RNBQ1BNR b KQkq - 0 1
+2025-07-27 09:29:45,126 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: rnbqkbnr/ppp1pp1p/8/3p2p1/4PP2/8/PPPP1KPP/RNBQ1BNR b KQkq - 0 1
+2025-07-27 09:29:45,126 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:29:47,137 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): d5e4 (from: [3,3], to: [4,4])
+2025-07-27 09:29:51,499 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=rnbqkbnr/ppp1pp1p/8/6pQ/4pP2/8/PPPP1KPP/RNB2BNR b KQkq - 0 1
+2025-07-27 09:29:51,500 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: rnbqkbnr/ppp1pp1p/8/6pQ/4pP2/8/PPPP1KPP/RNB2BNR b KQkq - 0 1
+2025-07-27 09:29:51,500 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:29:52,675 - INFO - Bot making mistake
+2025-07-27 09:29:52,676 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): d8d2 (from: [0,3], to: [6,3])
+2025-07-27 09:29:56,936 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=rnb1kbnr/ppp1pp1p/8/6pQ/4pP2/8/PPPB1KPP/RN3BNR b KQkq - 0 1
+2025-07-27 09:29:56,936 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: rnb1kbnr/ppp1pp1p/8/6pQ/4pP2/8/PPPB1KPP/RN3BNR b KQkq - 0 1
+2025-07-27 09:29:56,937 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:29:57,497 - INFO - Bot making mistake
+2025-07-27 09:29:57,497 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): c8h3 (from: [0,2], to: [5,7])
+2025-07-27 09:29:59,578 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=rn2kbnr/ppp1pp1p/8/6pQ/4pP2/7P/PPPB1K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:29:59,578 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: rn2kbnr/ppp1pp1p/8/6pQ/4pP2/7P/PPPB1K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:29:59,578 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:30:00,065 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): g8h6 (from: [0,6], to: [2,7])
+2025-07-27 09:30:08,489 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=rn2kb1r/ppp1pp1p/7n/6Q1/4pP2/7P/PPPB1K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:08,489 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: rn2kb1r/ppp1pp1p/7n/6Q1/4pP2/7P/PPPB1K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:08,490 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:30:08,952 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): e4e3 (from: [4,4], to: [5,4])
+2025-07-27 09:30:12,126 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=rn2kb1r/ppp1pp1p/7n/6Q1/5P2/4B2P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:12,127 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: rn2kb1r/ppp1pp1p/7n/6Q1/5P2/4B2P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:12,127 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:30:12,588 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): h8g8 (from: [0,7], to: [0,6])
+2025-07-27 09:30:34,525 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=rn2kb1r/Bpp1pp1p/8/5nQ1/5P2/7P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:34,525 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: rn2kb1r/Bpp1pp1p/8/5nQ1/5P2/7P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:34,525 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:30:35,019 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): f5d6 (from: [3,5], to: [2,3])
+2025-07-27 09:30:37,247 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=rB2kb1r/1pp1pp1p/3n4/6Q1/5P2/7P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:37,248 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: rB2kb1r/1pp1pp1p/3n4/6Q1/5P2/7P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:37,248 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:30:37,762 - INFO - Bot making mistake
+2025-07-27 09:30:37,763 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): a8a6 (from: [0,0], to: [2,0])
+2025-07-27 09:30:39,240 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=4kb1r/1pB1pp1p/r2n4/6Q1/5P2/7P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:39,240 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: 4kb1r/1pB1pp1p/r2n4/6Q1/5P2/7P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:39,240 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:30:39,524 - INFO - Bot making random move
+2025-07-27 09:30:39,525 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): f8h6 (from: [0,5], to: [2,7])
+2025-07-27 09:30:50,019 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=4kb1r/1pB1pp1p/r7/5Q2/5P2/7P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:50,019 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: 4kb1r/1pB1pp1p/r7/5Q2/5P2/7P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:50,019 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:30:50,657 - INFO - Bot making blunder
+2025-07-27 09:30:50,658 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): h8g8 (from: [0,7], to: [0,6])
+2025-07-27 09:30:52,184 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:30:52,232 - INFO - Received AI move request for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: botPoints=300, fen=4kbr1/1pB1pp1Q/r7/8/5P2/7P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:52,232 - INFO - Successfully initialized board for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 with FEN: 4kbr1/1pB1pp1Q/r7/8/5P2/7P/PPP2K1P/RN3BNR b KQkq - 0 1
+2025-07-27 09:30:52,232 - INFO - Game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:30:52,925 - INFO - Bot move for game 9c243643-e1bc-44c4-a2d8-5b5f0228feb1 (points: 300): e7e5 (from: [1,4], to: [3,4])
+2025-07-27 09:30:53,001 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:30:54,617 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:33:26,320 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+2025-07-27 09:33:26,321 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+2025-07-27 09:33:26,321 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:33:27,677 - INFO - Bot making mistake
+2025-07-27 09:33:27,677 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): f7f6 (from: [1,5], to: [2,5])
+2025-07-27 09:33:31,148 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=rnbqkbnr/ppppp1pp/5p2/8/4P1Q1/8/PPPP1PPP/RNB1KBNR b KQkq - 0 1
+2025-07-27 09:33:31,148 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: rnbqkbnr/ppppp1pp/5p2/8/4P1Q1/8/PPPP1PPP/RNB1KBNR b KQkq - 0 1
+2025-07-27 09:33:31,148 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:33:32,638 - INFO - Bot making mistake
+2025-07-27 09:33:32,638 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): c7c6 (from: [1,2], to: [2,2])
+2025-07-27 09:33:41,257 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=rnbqkbnr/pp1pp1pp/2p2p2/8/4P1Q1/5N2/PPPP1PPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:33:41,257 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: rnbqkbnr/pp1pp1pp/2p2p2/8/4P1Q1/5N2/PPPP1PPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:33:41,257 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:33:42,982 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): d7d6 (from: [1,3], to: [2,3])
+2025-07-27 09:33:46,051 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=rnbqkbnr/pp2p1pp/2pp1p2/8/3PP1Q1/5N2/PPP2PPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:33:46,052 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: rnbqkbnr/pp2p1pp/2pp1p2/8/3PP1Q1/5N2/PPP2PPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:33:46,052 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:33:47,359 - INFO - Bot making mistake
+2025-07-27 09:33:47,359 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): d8b6 (from: [0,3], to: [2,1])
+2025-07-27 09:33:51,642 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=rnb1kbnr/pp2p1pp/1qpp1p2/8/3PP1Q1/2N2N2/PPP2PPP/R1B1KB1R b KQkq - 0 1
+2025-07-27 09:33:51,643 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: rnb1kbnr/pp2p1pp/1qpp1p2/8/3PP1Q1/2N2N2/PPP2PPP/R1B1KB1R b KQkq - 0 1
+2025-07-27 09:33:51,643 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:33:52,567 - INFO - Bot making mistake
+2025-07-27 09:33:52,567 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): b6b2 (from: [2,1], to: [6,1])
+2025-07-27 09:34:15,027 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=rnb1kbnr/pp2p1pp/1qpp1p2/8/3PPBQ1/5N2/PPP2PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:15,027 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: rnb1kbnr/pp2p1pp/1qpp1p2/8/3PPBQ1/5N2/PPP2PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:15,027 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:34:16,001 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): b8a6 (from: [0,1], to: [2,0])
+2025-07-27 09:34:19,854 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=r1b1kbnr/pp2p1pp/nqpp1p2/8/2PPPBQ1/5N2/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:19,854 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: r1b1kbnr/pp2p1pp/nqpp1p2/8/2PPPBQ1/5N2/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:19,854 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:34:20,750 - INFO - Bot making blunder
+2025-07-27 09:34:20,750 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): b6b5 (from: [2,1], to: [3,1])
+2025-07-27 09:34:25,979 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=r1b1kbnr/pp2p1pp/n1pp1p2/1P6/3PPBQ1/5N2/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:25,980 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: r1b1kbnr/pp2p1pp/n1pp1p2/1P6/3PPBQ1/5N2/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:25,980 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:34:26,552 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): c8g4 (from: [0,2], to: [4,6])
+2025-07-27 09:34:37,529 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=r1b1kbnr/ppn1p1pp/2Pp1p2/8/3PPBQ1/5N2/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:37,529 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: r1b1kbnr/ppn1p1pp/2Pp1p2/8/3PPBQ1/5N2/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:37,530 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:34:38,063 - INFO - Bot making mistake
+2025-07-27 09:34:38,063 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): c7d5 (from: [1,2], to: [3,3])
+2025-07-27 09:34:41,583 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=r1b1kbnr/pp2p1pp/2Pp1p2/3P4/3P1BQ1/5N2/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:41,584 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: r1b1kbnr/pp2p1pp/2Pp1p2/3P4/3P1BQ1/5N2/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:41,584 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:34:42,076 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): c8g4 (from: [0,2], to: [4,6])
+2025-07-27 09:34:45,880 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:34:45,928 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=r3kbnr/pp2p1pp/2Pp1p2/3P2N1/3P1Bb1/8/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:45,928 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: r3kbnr/pp2p1pp/2Pp1p2/3P2N1/3P1Bb1/8/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:45,928 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:34:46,507 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): b7c6 (from: [1,1], to: [2,2])
+2025-07-27 09:34:46,576 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:34:54,874 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:34:57,629 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:34:57,678 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=r3kbnr/pp2p1pp/2Pp4/3P2B1/3P2b1/8/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:57,678 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: r3kbnr/pp2p1pp/2Pp4/3P2B1/3P2b1/8/PP3PPP/RN2KB1R b KQkq - 0 1
+2025-07-27 09:34:57,679 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:34:58,458 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): b7c6 (from: [1,1], to: [2,2])
+2025-07-27 09:35:04,993 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:05,041 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=r3kbnr/pp2p1pp/2Pp4/3P2p1/3P1Bb1/8/PP1K1PPP/RN3B1R b KQkq - 0 1
+2025-07-27 09:35:05,042 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: r3kbnr/pp2p1pp/2Pp4/3P2p1/3P1Bb1/8/PP1K1PPP/RN3B1R b KQkq - 0 1
+2025-07-27 09:35:05,042 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:35:05,993 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): g5f4 (from: [3,6], to: [4,5])
+2025-07-27 09:35:06,058 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:14,303 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:14,347 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=r3kbnr/pp2p1pp/2Pp4/3P4/3P1pb1/2N5/PP1K1PPP/R4B1R b KQkq - 0 1
+2025-07-27 09:35:14,347 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: r3kbnr/pp2p1pp/2Pp4/3P4/3P1pb1/2N5/PP1K1PPP/R4B1R b KQkq - 0 1
+2025-07-27 09:35:14,347 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:35:16,202 - INFO - Bot making mistake
+2025-07-27 09:35:16,202 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): g4h3 (from: [4,6], to: [5,7])
+2025-07-27 09:35:16,270 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:17,971 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:18,056 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=r3kbnr/pp2p1pp/2Pp4/3P4/3P1p2/2N4P/PP1K1P1P/R4B1R b KQkq - 0 1
+2025-07-27 09:35:18,057 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: r3kbnr/pp2p1pp/2Pp4/3P4/3P1p2/2N4P/PP1K1P1P/R4B1R b KQkq - 0 1
+2025-07-27 09:35:18,057 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:35:18,342 - INFO - Bot making random move
+2025-07-27 09:35:18,342 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): a8d8 (from: [0,0], to: [0,3])
+2025-07-27 09:35:18,412 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:27,710 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:27,756 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=3rkbnr/pp2p1pp/2Pp4/3P4/3P1p2/2N4P/PP1K1PBP/R6R b KQkq - 0 1
+2025-07-27 09:35:27,757 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: 3rkbnr/pp2p1pp/2Pp4/3P4/3P1p2/2N4P/PP1K1PBP/R6R b KQkq - 0 1
+2025-07-27 09:35:27,757 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:35:28,466 - INFO - Bot making mistake
+2025-07-27 09:35:28,466 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): b7b5 (from: [1,1], to: [3,1])
+2025-07-27 09:35:28,528 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:30,986 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:31,033 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=3rkbnr/p3p1pp/2Pp4/1N1P4/3P1p2/7P/PP1K1PBP/R6R b KQkq - 0 1
+2025-07-27 09:35:31,034 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: 3rkbnr/p3p1pp/2Pp4/1N1P4/3P1p2/7P/PP1K1PBP/R6R b KQkq - 0 1
+2025-07-27 09:35:31,035 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:35:31,590 - INFO - Bot making mistake
+2025-07-27 09:35:31,590 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): g8f6 (from: [0,6], to: [2,5])
+2025-07-27 09:35:46,598 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:46,649 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=3rkbnr/p1P1p1pp/3p4/1p1P4/3P1p2/2N4P/PP1K1PBP/R6R b KQkq - 0 1
+2025-07-27 09:35:46,650 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: 3rkbnr/p1P1p1pp/3p4/1p1P4/3P1p2/2N4P/PP1K1PBP/R6R b KQkq - 0 1
+2025-07-27 09:35:46,650 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:35:46,913 - INFO - Bot making random move
+2025-07-27 09:35:46,914 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): e8f7 (from: [0,4], to: [1,5])
+2025-07-27 09:35:47,003 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:51,680 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:51,729 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=3rkbnr/p3p1pp/2Pp4/1N1P4/3P1p2/7P/PP1K1PBP/R6R b KQkq - 0 1
+2025-07-27 09:35:51,729 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: 3rkbnr/p3p1pp/2Pp4/1N1P4/3P1p2/7P/PP1K1PBP/R6R b KQkq - 0 1
+2025-07-27 09:35:51,729 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:35:52,305 - INFO - Bot making mistake
+2025-07-27 09:35:52,305 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): h7h6 (from: [1,7], to: [2,7])
+2025-07-27 09:35:52,382 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:55,828 - ERROR - Exception on /api/detect-opening [POST]
+Traceback (most recent call last):
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\yosri\PyCharmMiscProject\.venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 276, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-07-27 09:35:55,879 - INFO - Received AI move request for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: botPoints=300, fen=3rkbnr/p1P1p1pp/3p4/1p1P4/3P1p2/2N4P/PP1K1PBP/R6R b KQkq - 0 1
+2025-07-27 09:35:55,879 - INFO - Successfully initialized board for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 with FEN: 3rkbnr/p1P1p1pp/3p4/1p1P4/3P1p2/2N4P/PP1K1PBP/R6R b KQkq - 0 1
+2025-07-27 09:35:55,879 - INFO - Game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:35:56,452 - INFO - Bot making mistake
+2025-07-27 09:35:56,452 - INFO - Bot move for game 6bdf2d91-8b18-4ffd-9a29-ecad1d62eca0 (points: 300): d8b8 (from: [0,3], to: [0,1])
+2025-07-27 09:40:58,909 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-27 09:40:59,127 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-27 09:40:59,133 - INFO - Serving on http://0.0.0.0:5000
+2025-07-27 09:43:38,668 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+2025-07-27 09:43:38,668 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+2025-07-27 09:43:38,669 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:43:39,950 - INFO - Bot making mistake
+2025-07-27 09:43:39,950 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): g8h6 (from: [0,6], to: [2,7])
+2025-07-27 09:43:43,086 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=rnbqkb1r/pppppppp/7n/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-27 09:43:43,086 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: rnbqkb1r/pppppppp/7n/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-27 09:43:43,087 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:43:44,101 - INFO - Bot making blunder
+2025-07-27 09:43:44,102 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): b7b5 (from: [1,1], to: [3,1])
+2025-07-27 09:43:46,018 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=rnbqkb1r/p1pppppp/7n/1p4N1/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-27 09:43:46,018 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: rnbqkb1r/p1pppppp/7n/1p4N1/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-27 09:43:46,018 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:43:47,204 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): a7a6 (from: [1,0], to: [2,0])
+2025-07-27 09:43:48,907 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=rnbqkb1r/2pppNpp/p6n/1p6/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-27 09:43:48,907 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: rnbqkb1r/2pppNpp/p6n/1p6/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-27 09:43:48,907 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:43:49,469 - INFO - Bot making mistake
+2025-07-27 09:43:49,469 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): c7c5 (from: [1,2], to: [3,2])
+2025-07-27 09:43:51,463 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=rnbqkb1N/3pp1pp/p6n/1pp5/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-27 09:43:51,463 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: rnbqkb1N/3pp1pp/p6n/1pp5/4P3/8/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-07-27 09:43:51,464 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:43:51,942 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): d7d5 (from: [1,3], to: [3,3])
+2025-07-27 09:43:57,463 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=rnbqkb1N/4p1pp/p6n/1ppp4/4P3/8/PPPPQPPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:43:57,463 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: rnbqkb1N/4p1pp/p6n/1ppp4/4P3/8/PPPPQPPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:43:57,463 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:43:57,711 - INFO - Bot making random move
+2025-07-27 09:43:57,711 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): b5b4 (from: [3,1], to: [4,1])
+2025-07-27 09:44:03,878 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=rnbqkb1N/4p1pp/p6n/2pp4/1p2P3/2P5/PP1PQPPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:44:03,878 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: rnbqkb1N/4p1pp/p6n/2pp4/1p2P3/2P5/PP1PQPPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:44:03,878 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:04,140 - INFO - Bot making random move
+2025-07-27 09:44:04,141 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): d8c7 (from: [0,3], to: [1,2])
+2025-07-27 09:44:09,880 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=rnb1kb1N/2q1p1pp/p6n/2pp4/1P2P3/8/PP1PQPPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:44:09,880 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: rnb1kb1N/2q1p1pp/p6n/2pp4/1P2P3/8/PP1PQPPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:44:09,880 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:10,662 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): c8g4 (from: [0,2], to: [4,6])
+2025-07-27 09:44:17,485 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=rn2kb1N/2q1p1pp/p6n/2pp4/1P2P1b1/4Q3/PP1P1PPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:44:17,485 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: rn2kb1N/2q1p1pp/p6n/2pp4/1P2P1b1/4Q3/PP1P1PPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:44:17,486 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:17,735 - INFO - Bot making random move
+2025-07-27 09:44:17,735 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): c7d7 (from: [1,2], to: [1,3])
+2025-07-27 09:44:23,538 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=rn2kb1N/3qp1pp/p6n/2Pp4/4P1b1/4Q3/PP1P1PPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:44:23,538 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: rn2kb1N/3qp1pp/p6n/2Pp4/4P1b1/4Q3/PP1P1PPP/RNB1KB1R b KQkq - 0 1
+2025-07-27 09:44:23,538 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:24,187 - INFO - Bot making mistake
+2025-07-27 09:44:24,187 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): d7b5 (from: [1,3], to: [3,1])
+2025-07-27 09:44:27,468 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=rn2kb1N/4p1pp/p6n/1BPp4/4P1b1/4Q3/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:27,468 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: rn2kb1N/4p1pp/p6n/1BPp4/4P1b1/4Q3/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:27,468 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:27,772 - INFO - Bot making blunder
+2025-07-27 09:44:27,772 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): b8c6 (from: [0,1], to: [2,2])
+2025-07-27 09:44:29,612 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=r3kb1N/4p1pp/p1B4n/2Pp4/4P1b1/4Q3/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:29,612 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: r3kb1N/4p1pp/p1B4n/2Pp4/4P1b1/4Q3/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:29,612 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:29,886 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): e8d8 (from: [0,4], to: [0,3])
+2025-07-27 09:44:31,317 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B2k1b1N/4p1pp/p6n/2Pp4/4P1b1/4Q3/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:31,317 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B2k1b1N/4p1pp/p6n/2Pp4/4P1b1/4Q3/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:31,317 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:31,874 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): e7e5 (from: [1,4], to: [3,4])
+2025-07-27 09:44:36,702 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B2k1b2/5Npp/p6n/2Ppp3/4P1b1/4Q3/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:36,702 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B2k1b2/5Npp/p6n/2Ppp3/4P1b1/4Q3/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:36,702 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:37,032 - INFO - Bot making blunder
+2025-07-27 09:44:37,032 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): d8e7 (from: [0,3], to: [1,4])
+2025-07-27 09:44:38,489 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B4b2/4k1pp/p6N/2Ppp3/4P1b1/4Q3/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:38,490 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B4b2/4k1pp/p6N/2Ppp3/4P1b1/4Q3/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:38,490 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:38,983 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): g7h6 (from: [1,6], to: [2,7])
+2025-07-27 09:44:42,108 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B4b2/4k2p/p6Q/2Ppp3/4P1b1/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:42,108 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B4b2/4k2p/p6Q/2Ppp3/4P1b1/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:42,108 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:42,582 - INFO - Bot making mistake
+2025-07-27 09:44:42,582 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): g4f5 (from: [4,6], to: [3,5])
+2025-07-27 09:44:46,667 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B4b2/4k2p/p6Q/2PppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:46,668 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B4b2/4k2p/p6Q/2PppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:46,668 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:47,037 - INFO - Bot making mistake
+2025-07-27 09:44:47,037 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): e7f7 (from: [1,4], to: [1,5])
+2025-07-27 09:44:50,406 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B4b2/5k1Q/p7/2PppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:50,406 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B4b2/5k1Q/p7/2PppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:50,406 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:50,705 - INFO - Bot making mistake
+2025-07-27 09:44:50,706 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): f7e8 (from: [1,5], to: [0,4])
+2025-07-27 09:44:55,164 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B3kb2/7Q/p1P5/3ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:55,164 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B3kb2/7Q/p1P5/3ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:44:55,165 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:44:55,585 - INFO - Bot making mistake
+2025-07-27 09:44:55,585 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): f8d6 (from: [0,5], to: [2,3])
+2025-07-27 09:45:00,207 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B3k3/3Q4/p1Pb4/3ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:45:00,208 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B3k3/3Q4/p1Pb4/3ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:45:00,208 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:45:00,485 - INFO - Bot making random move
+2025-07-27 09:45:00,485 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): e8f8 (from: [0,4], to: [0,5])
+2025-07-27 09:45:03,248 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B4k2/8/p1PQ4/3ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:45:03,248 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B4k2/8/p1PQ4/3ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:45:03,248 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:45:03,540 - INFO - Bot making mistake
+2025-07-27 09:45:03,540 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): f8e8 (from: [0,5], to: [0,4])
+2025-07-27 09:45:05,184 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B3k3/2P5/p2Q4/3ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:45:05,184 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B3k3/2P5/p2Q4/3ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:45:05,184 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:45:05,465 - INFO - Bot making mistake
+2025-07-27 09:45:05,465 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): a6a5 (from: [2,0], to: [3,0])
+2025-07-27 09:45:06,830 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B1Q1k3/8/3Q4/p2ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:45:06,830 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B1Q1k3/8/3Q4/p2ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:45:06,831 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:45:07,080 - INFO - Bot making random move
+2025-07-27 09:45:07,080 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): e8f7 (from: [0,4], to: [1,5])
+2025-07-27 09:45:09,812 - INFO - Received AI move request for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: botPoints=300, fen=B7/2Q2k2/3Q4/p2ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:45:09,812 - INFO - Successfully initialized board for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 with FEN: B7/2Q2k2/3Q4/p2ppP2/8/8/PP1P1PPP/RNB1K2R b KQkq - 0 1
+2025-07-27 09:45:09,812 - INFO - Game e6459d1a-f1ec-4261-996f-7f2fb545d9d2: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-07-27 09:45:10,085 - INFO - Bot making random move
+2025-07-27 09:45:10,085 - INFO - Bot move for game e6459d1a-f1ec-4261-996f-7f2fb545d9d2 (points: 300): f7g8 (from: [1,5], to: [0,6])
+2025-07-29 08:24:50,684 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-29 08:24:50,880 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-29 08:24:50,887 - INFO - Serving on http://0.0.0.0:5000
+2025-07-30 16:44:10,984 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-30 16:44:11,209 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-30 16:44:11,216 - INFO - Serving on http://0.0.0.0:5000
+2025-07-31 10:40:07,331 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-07-31 10:40:07,505 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-07-31 10:40:07,511 - INFO - Serving on http://0.0.0.0:5000
+2025-08-02 10:36:58,675 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1
+2025-08-02 10:36:58,679 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1
+2025-08-02 10:36:58,680 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:37:00,387 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): d7d5 (from: [1,3], to: [3,3])
+2025-08-02 10:37:03,326 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=rnbqkbnr/ppp1pppp/8/3p4/5P2/5N2/PPPPP1PP/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:03,326 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: rnbqkbnr/ppp1pppp/8/3p4/5P2/5N2/PPPPP1PP/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:03,326 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:37:05,061 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): c7c5 (from: [1,2], to: [3,2])
+2025-08-02 10:37:07,021 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=rnbqkbnr/pp2pppp/8/2ppN3/5P2/8/PPPPP1PP/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:07,021 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: rnbqkbnr/pp2pppp/8/2ppN3/5P2/8/PPPPP1PP/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:07,021 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:37:09,222 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): e7e6 (from: [1,4], to: [2,4])
+2025-08-02 10:37:14,833 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=rnbqkbnr/pp3ppp/4p3/2ppN3/5P2/3P4/PPP1P1PP/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:14,833 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: rnbqkbnr/pp3ppp/4p3/2ppN3/5P2/3P4/PPP1P1PP/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:14,833 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:37:17,043 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): g8e7 (from: [0,6], to: [1,4])
+2025-08-02 10:37:19,504 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=rnbqkb1r/pp2nppp/4p3/2ppN3/2P2P2/3P4/PP2P1PP/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:19,504 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: rnbqkb1r/pp2nppp/4p3/2ppN3/2P2P2/3P4/PP2P1PP/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:19,504 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:37:21,293 - INFO - Bot making mistake
+2025-08-02 10:37:21,293 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): b8a6 (from: [0,1], to: [2,0])
+2025-08-02 10:37:24,578 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=r1bqkb1r/pp2nNpp/n3p3/2pp4/2P2P2/3P4/PP2P1PP/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:24,578 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: r1bqkb1r/pp2nNpp/n3p3/2pp4/2P2P2/3P4/PP2P1PP/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:24,578 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:37:25,265 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): e8f7 (from: [0,4], to: [1,5])
+2025-08-02 10:37:41,073 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=r1bq1b1r/pp2nkpp/n3p3/2pp4/2P2P2/3P2P1/PP2P2P/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:41,074 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: r1bq1b1r/pp2nkpp/n3p3/2pp4/2P2P2/3P2P1/PP2P2P/RNBQKB1R b KQkq - 0 1
+2025-08-02 10:37:41,074 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:37:42,078 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): f7e8 (from: [1,5], to: [0,4])
+2025-08-02 10:37:48,817 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=r1bqkb1r/pp2n1pp/n3p3/2pp4/Q1P2P2/3P2P1/PP2P2P/RNB1KB1R b KQkq - 0 1
+2025-08-02 10:37:48,817 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: r1bqkb1r/pp2n1pp/n3p3/2pp4/Q1P2P2/3P2P1/PP2P2P/RNB1KB1R b KQkq - 0 1
+2025-08-02 10:37:48,817 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:37:49,182 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): d8d7 (from: [0,3], to: [1,3])
+2025-08-02 10:37:57,249 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=r1b1kb1r/pp1qn1pp/n3p3/2pp4/2P2P2/Q2P2P1/PP2P2P/RNB1KB1R b KQkq - 0 1
+2025-08-02 10:37:57,249 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: r1b1kb1r/pp1qn1pp/n3p3/2pp4/2P2P2/Q2P2P1/PP2P2P/RNB1KB1R b KQkq - 0 1
+2025-08-02 10:37:57,250 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:37:58,010 - INFO - Bot making mistake
+2025-08-02 10:37:58,011 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): d7b5 (from: [1,3], to: [3,1])
+2025-08-02 10:38:05,478 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=r1b1kb1r/pp2n1pp/n3p3/1qpp4/2P2P2/Q2P2PB/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:05,478 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: r1b1kb1r/pp2n1pp/n3p3/1qpp4/2P2P2/Q2P2PB/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:05,478 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:06,281 - INFO - Bot making mistake
+2025-08-02 10:38:06,281 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): a6b8 (from: [2,0], to: [0,1])
+2025-08-02 10:38:11,052 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=rnb1kb1r/pp2n1pp/4p3/1Ppp4/5P2/Q2P2PB/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:11,052 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: rnb1kb1r/pp2n1pp/4p3/1Ppp4/5P2/Q2P2PB/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:11,052 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:11,551 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): e7c6 (from: [1,4], to: [2,2])
+2025-08-02 10:38:15,120 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=rnb1kb1r/pp4pp/2P1p3/2pp4/5P2/Q2P2PB/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:15,121 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: rnb1kb1r/pp4pp/2P1p3/2pp4/5P2/Q2P2PB/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:15,121 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:15,595 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): b8c6 (from: [0,1], to: [2,2])
+2025-08-02 10:38:21,413 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=r1b1kb1r/pp4pp/2n1B3/2pp4/5P2/Q2P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:21,413 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: r1b1kb1r/pp4pp/2n1B3/2pp4/5P2/Q2P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:21,413 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:21,682 - INFO - Bot making random move
+2025-08-02 10:38:21,682 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): e8e7 (from: [0,4], to: [1,4])
+2025-08-02 10:38:23,862 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=r1B2b1r/pp2k1pp/2n5/2pp4/5P2/Q2P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:23,863 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: r1B2b1r/pp2k1pp/2n5/2pp4/5P2/Q2P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:23,863 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:24,309 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): h8g8 (from: [0,7], to: [0,6])
+2025-08-02 10:38:27,625 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=r4br1/pB2k1pp/2n5/2pp4/5P2/Q2P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:27,626 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: r4br1/pB2k1pp/2n5/2pp4/5P2/Q2P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:27,626 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:28,101 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): c6b4 (from: [2,2], to: [4,1])
+2025-08-02 10:38:32,852 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=r4br1/pB2k1pp/Q7/2pp4/1n3P2/3P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:32,852 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: r4br1/pB2k1pp/Q7/2pp4/1n3P2/3P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:32,852 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:33,256 - INFO - Bot making mistake
+2025-08-02 10:38:33,256 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): b4c6 (from: [4,1], to: [2,2])
+2025-08-02 10:38:36,135 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=r4br1/pB2k1pp/2Q5/2pp4/5P2/3P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:36,135 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: r4br1/pB2k1pp/2Q5/2pp4/5P2/3P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:36,135 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:36,596 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): e7f7 (from: [1,4], to: [1,5])
+2025-08-02 10:38:39,165 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=B4br1/p4kpp/2Q5/2pp4/5P2/3P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:39,165 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: B4br1/p4kpp/2Q5/2pp4/5P2/3P2P1/PP2P2P/RNB1K2R b KQkq - 0 1
+2025-08-02 10:38:39,165 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:39,533 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): h7h6 (from: [1,7], to: [2,7])
+2025-08-02 10:38:45,795 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=B4br1/p4kp1/2Q4p/2pp4/5P2/3P2P1/PP2P2P/RNB2RK1 b KQkq - 0 1
+2025-08-02 10:38:45,795 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: B4br1/p4kp1/2Q4p/2pp4/5P2/3P2P1/PP2P2P/RNB2RK1 b KQkq - 0 1
+2025-08-02 10:38:45,795 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:46,175 - INFO - Bot making mistake
+2025-08-02 10:38:46,175 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): g7g6 (from: [1,6], to: [2,6])
+2025-08-02 10:38:48,578 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=B4br1/p4k2/2Q3pp/2pp1P2/8/3P2P1/PP2P2P/RNB2RK1 b KQkq - 0 1
+2025-08-02 10:38:48,579 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: B4br1/p4k2/2Q3pp/2pp1P2/8/3P2P1/PP2P2P/RNB2RK1 b KQkq - 0 1
+2025-08-02 10:38:48,579 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:48,972 - INFO - Bot making mistake
+2025-08-02 10:38:48,972 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): f8g7 (from: [0,5], to: [1,6])
+2025-08-02 10:38:51,590 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=B5r1/p4kb1/2Q3Pp/2pp4/8/3P2P1/PP2P2P/RNB2RK1 b KQkq - 0 1
+2025-08-02 10:38:51,590 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: B5r1/p4kb1/2Q3Pp/2pp4/8/3P2P1/PP2P2P/RNB2RK1 b KQkq - 0 1
+2025-08-02 10:38:51,590 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:51,856 - INFO - Bot making mistake
+2025-08-02 10:38:51,857 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): f7e7 (from: [1,5], to: [1,4])
+2025-08-02 10:38:56,985 - INFO - Received AI move request for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: botPoints=300, fen=B5r1/p3kRb1/2Q3Pp/2pp4/8/3P2P1/PP2P2P/RNB3K1 b KQkq - 0 1
+2025-08-02 10:38:56,985 - INFO - Successfully initialized board for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 with FEN: B5r1/p3kRb1/2Q3Pp/2pp4/8/3P2P1/PP2P2P/RNB3K1 b KQkq - 0 1
+2025-08-02 10:38:56,986 - INFO - Game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 10:38:57,244 - INFO - Bot move for game e45b4e62-e543-4f4c-8b29-2f70a81fe1f8 (points: 300): e7d8 (from: [1,4], to: [0,3])
+2025-08-02 14:25:15,425 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+2025-08-02 14:25:15,432 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+2025-08-02 14:25:15,433 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:25:16,883 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): d7d6 (from: [1,3], to: [2,3])
+2025-08-02 14:25:22,806 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=rnbqkbnr/ppp1pppp/3p4/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:22,806 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: rnbqkbnr/ppp1pppp/3p4/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:22,806 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:25:24,266 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): e7e5 (from: [1,4], to: [3,4])
+2025-08-02 14:25:27,538 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=rnbqkbnr/ppp2ppp/3p4/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:27,538 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: rnbqkbnr/ppp2ppp/3p4/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:27,538 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:25:29,297 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): g8f6 (from: [0,6], to: [2,5])
+2025-08-02 14:25:31,762 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=rnbqkb1r/ppp2ppp/3p1n2/4P3/4P3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:31,762 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: rnbqkb1r/ppp2ppp/3p1n2/4P3/4P3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:31,762 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:25:32,813 - INFO - Bot making mistake
+2025-08-02 14:25:32,813 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): c8g4 (from: [0,2], to: [4,6])
+2025-08-02 14:25:35,338 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=rn1qkb1r/ppp2ppp/3p1P2/8/4P1b1/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:35,338 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: rn1qkb1r/ppp2ppp/3p1P2/8/4P1b1/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:35,338 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:25:36,029 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): d6d5 (from: [2,3], to: [3,3])
+2025-08-02 14:25:37,750 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=rn1qkb1r/ppp2pPp/8/3p4/4P1b1/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:37,750 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: rn1qkb1r/ppp2pPp/8/3p4/4P1b1/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:37,750 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:25:38,446 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): d8f6 (from: [0,3], to: [2,5])
+2025-08-02 14:25:40,827 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=rn2kb1Q/ppp2p1p/5q2/3p4/4P1b1/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:40,827 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: rn2kb1Q/ppp2p1p/5q2/3p4/4P1b1/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:40,827 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:25:41,498 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): b8d7 (from: [0,1], to: [1,3])
+2025-08-02 14:25:46,123 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=r3kb2/pppn1p1p/5Q2/3p4/4P1b1/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:46,123 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: r3kb2/pppn1p1p/5Q2/3p4/4P1b1/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-08-02 14:25:46,123 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:25:46,689 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): d7f6 (from: [1,3], to: [2,5])
+2025-08-02 14:25:52,118 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=r3kb2/ppp2p1p/5n2/3p4/3QP1b1/5N2/PPP2PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:25:52,118 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: r3kb2/ppp2p1p/5n2/3p4/3QP1b1/5N2/PPP2PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:25:52,119 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:25:52,743 - INFO - Bot making blunder
+2025-08-02 14:25:52,743 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): g4c8 (from: [4,6], to: [0,2])
+2025-08-02 14:25:57,821 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=r1b1kb2/ppp2p1p/5Q2/3p4/4P3/5N2/PPP2PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:25:57,822 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: r1b1kb2/ppp2p1p/5Q2/3p4/4P3/5N2/PPP2PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:25:57,822 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:25:58,392 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): f8b4 (from: [0,5], to: [4,1])
+2025-08-02 14:26:03,092 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=r1b1k3/ppp2p1p/5Q2/3p4/1b2P3/2P2N2/PP3PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:26:03,092 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: r1b1k3/ppp2p1p/5Q2/3p4/1b2P3/2P2N2/PP3PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:26:03,092 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:26:03,731 - INFO - Bot making mistake
+2025-08-02 14:26:03,731 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): c8g4 (from: [0,2], to: [4,6])
+2025-08-02 14:26:11,809 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=r3k3/ppp2p1p/5Q2/3p2N1/1b2P1b1/2P5/PP3PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:26:11,809 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: r3k3/ppp2p1p/5Q2/3p2N1/1b2P1b1/2P5/PP3PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:26:11,809 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:26:12,069 - INFO - Bot making random move
+2025-08-02 14:26:12,069 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): a8c8 (from: [0,0], to: [0,2])
+2025-08-02 14:26:13,807 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=2r1k3/ppp2Q1p/8/3p2N1/1b2P1b1/2P5/PP3PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:26:13,807 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: 2r1k3/ppp2Q1p/8/3p2N1/1b2P1b1/2P5/PP3PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:26:13,807 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:26:14,110 - INFO - Bot making mistake
+2025-08-02 14:26:14,110 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): e8d8 (from: [0,4], to: [0,3])
+2025-08-02 14:26:16,487 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=2rk4/ppp4Q/8/3p2N1/1b2P1b1/2P5/PP3PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:26:16,487 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: 2rk4/ppp4Q/8/3p2N1/1b2P1b1/2P5/PP3PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:26:16,487 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:26:17,123 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): c7c6 (from: [1,2], to: [2,2])
+2025-08-02 14:26:19,603 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=2rk4/pp5Q/2p5/3P2N1/1b4b1/2P5/PP3PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:26:19,603 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: 2rk4/pp5Q/2p5/3P2N1/1b4b1/2P5/PP3PPP/RNB1KB1R b KQkq - 0 1
+2025-08-02 14:26:19,603 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:26:20,197 - INFO - Bot making mistake
+2025-08-02 14:26:20,197 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): g4e2 (from: [4,6], to: [6,4])
+2025-08-02 14:26:22,307 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=2rk4/pp5Q/2p5/3P2N1/1b6/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:22,307 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: 2rk4/pp5Q/2p5/3P2N1/1b6/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:22,307 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:26:22,557 - INFO - Bot making random move
+2025-08-02 14:26:22,557 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): c8a8 (from: [0,2], to: [0,0])
+2025-08-02 14:26:26,886 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=r2k4/pp5Q/2P5/6N1/1b6/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:26,886 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: r2k4/pp5Q/2P5/6N1/1b6/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:26,887 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:26:27,230 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): d8e8 (from: [0,3], to: [0,4])
+2025-08-02 14:26:29,090 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=r3k3/pP5Q/8/6N1/1b6/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:29,090 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: r3k3/pP5Q/8/6N1/1b6/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:29,090 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:26:29,424 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): b4e7 (from: [4,1], to: [1,4])
+2025-08-02 14:26:30,790 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=Q3k3/p3b2Q/8/6N1/8/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:30,790 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: Q3k3/p3b2Q/8/6N1/8/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:30,790 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:26:31,082 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): e8d7 (from: [0,4], to: [1,3])
+2025-08-02 14:26:36,868 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=8/Q2kb2Q/8/6N1/8/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:36,868 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: 8/Q2kb2Q/8/6N1/8/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:36,868 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:26:37,152 - INFO - Bot making mistake
+2025-08-02 14:26:37,152 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): d7e8 (from: [1,3], to: [0,4])
+2025-08-02 14:26:40,323 - INFO - Received AI move request for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: botPoints=300, fen=4k3/Q3b2Q/4N3/8/8/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:40,323 - INFO - Successfully initialized board for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 with FEN: 4k3/Q3b2Q/4N3/8/8/2P5/PP2BPPP/RNB1K2R b KQkq - 0 1
+2025-08-02 14:26:40,323 - INFO - Game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0: Bot config for 300 points: {'skill_level': -5, 'think_time': 0.1, 'mistake_probability': 0.4, 'blunder_probability': 0.15, 'random_move_probability': 0.1, 'depth_limit': 3}
+2025-08-02 14:26:40,614 - INFO - Bot making blunder
+2025-08-02 14:26:40,614 - INFO - Bot move for game 4c6a7fbf-1ad8-4460-9691-7b61ee1de7b0 (points: 300): e7a3 (from: [1,4], to: [5,0])
+2025-08-04 12:33:10,245 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-04 12:33:10,480 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-04 12:33:10,486 - INFO - Serving on http://0.0.0.0:5000
+2025-08-04 13:53:27,569 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-04 13:53:27,833 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-04 13:53:27,844 - INFO - Serving on http://0.0.0.0:5000
+2025-08-06 06:42:02,073 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-06 06:42:02,241 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-06 06:42:02,247 - INFO - Serving on http://0.0.0.0:5000
+2025-08-12 13:27:47,174 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-12 13:27:47,180 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-12 13:27:47,187 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-12 13:27:47,192 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-12 13:27:47,195 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-12 13:27:47,195 - INFO - Total openings loaded: 3535
+2025-08-12 13:27:47,196 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-12 13:27:47,264 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-12 13:27:47,268 - INFO - Serving on http://0.0.0.0:5000

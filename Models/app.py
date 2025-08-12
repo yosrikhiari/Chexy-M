@@ -2,6 +2,7 @@ import logging
 import os
 import random
 import sys
+from functools import lru_cache
 from opening_detector import load_openings, detect_opening, Opening
 
 import chess
@@ -35,7 +36,14 @@ OPENING_FILES = [
     os.path.join(BASE_DIR, 'Openings', 'd.tsv'),
     os.path.join(BASE_DIR, 'Openings', 'e.tsv')
 ]
-openings = load_openings(OPENING_FILES)
+
+# Cache openings loading
+@lru_cache(maxsize=1)
+def get_openings() -> list[Opening]:
+    """Load and cache openings data"""
+    return load_openings(OPENING_FILES)
+
+openings = get_openings()
 
 # Ensure Stockfish is accessible
 if not os.path.exists(STOCKFISH_PATH):
@@ -44,63 +52,66 @@ if not os.path.exists(STOCKFISH_PATH):
 else:
     logger.info(f"Stockfish found at {STOCKFISH_PATH}")
 
+# Bot configuration cache
+BOT_CONFIGS = {
+    400: {
+        'skill_level': -5,
+        'think_time': 0.1,
+        'mistake_probability': 0.4,
+        'blunder_probability': 0.15,
+        'random_move_probability': 0.1,
+        'depth_limit': 3
+    },
+    600: {
+        'skill_level': 0,
+        'think_time': 0.2,
+        'mistake_probability': 0.25,
+        'blunder_probability': 0.08,
+        'random_move_probability': 0.05,
+        'depth_limit': 5
+    },
+    800: {
+        'skill_level': 3,
+        'think_time': 0.5,
+        'mistake_probability': 0.15,
+        'blunder_probability': 0.04,
+        'random_move_probability': 0.02,
+        'depth_limit': 8
+    },
+    1200: {
+        'skill_level': 8,
+        'think_time': 1.0,
+        'mistake_probability': 0.08,
+        'blunder_probability': 0.02,
+        'random_move_probability': 0.01,
+        'depth_limit': 12
+    },
+    1800: {
+        'skill_level': 15,
+        'think_time': 2.0,
+        'mistake_probability': 0.03,
+        'blunder_probability': 0.005,
+        'random_move_probability': 0.0,
+        'depth_limit': 18
+    }
+}
 
 def get_bot_config(bot_points: int) -> dict:
-    """Get bot configuration based on points with more aggressive difficulty scaling"""
-    if bot_points <= 400:  # Beginner Bot - Make mistakes frequently
-        return {
-            'skill_level': -5,  # Negative skill level for very weak play
-            'think_time': 0.1,
-            'mistake_probability': 0.4,  # 40% chance to make a mistake
-            'blunder_probability': 0.15,  # 15% chance to blunder
-            'random_move_probability': 0.1,  # 10% chance for completely random move
-            'depth_limit': 3
-        }
-    elif bot_points <= 600:  # Easy Bot
-        return {
-            'skill_level': 0,
-            'think_time': 0.2,
-            'mistake_probability': 0.25,
-            'blunder_probability': 0.08,
-            'random_move_probability': 0.05,
-            'depth_limit': 5
-        }
-    elif bot_points <= 800:  # Novice Bot
-        return {
-            'skill_level': 3,
-            'think_time': 0.5,
-            'mistake_probability': 0.15,
-            'blunder_probability': 0.04,
-            'random_move_probability': 0.02,
-            'depth_limit': 8
-        }
-    elif bot_points <= 1200:  # Intermediate Bot
-        return {
-            'skill_level': 8,
-            'think_time': 1.0,
-            'mistake_probability': 0.08,
-            'blunder_probability': 0.02,
-            'random_move_probability': 0.01,
-            'depth_limit': 12
-        }
-    elif bot_points <= 1800:  # Advanced Bot
-        return {
-            'skill_level': 15,
-            'think_time': 2.0,
-            'mistake_probability': 0.03,
-            'blunder_probability': 0.005,
-            'random_move_probability': 0.0,
-            'depth_limit': 18
-        }
-    else:  # Master Bot (2400+ points)
-        return {
-            'skill_level': 20,
-            'think_time': 3.0,
-            'mistake_probability': 0.0,
-            'blunder_probability': 0.0,
-            'random_move_probability': 0.0,
-            'depth_limit': 20
-        }
+    """Get bot configuration based on points with optimized lookup"""
+    # Find the appropriate config based on bot points
+    for threshold in sorted(BOT_CONFIGS.keys()):
+        if bot_points <= threshold:
+            return BOT_CONFIGS[threshold].copy()
+    
+    # Default to master level for 2400+ points
+    return {
+        'skill_level': 20,
+        'think_time': 3.0,
+        'mistake_probability': 0.0,
+        'blunder_probability': 0.0,
+        'random_move_probability': 0.0,
+        'depth_limit': 20
+    }
 
 
 def evaluate_move_quality(board: chess.Board, move: chess.Move, engine) -> float:
@@ -122,7 +133,8 @@ def evaluate_move_quality(board: chess.Board, move: chess.Move, engine) -> float
 
         # Return the evaluation difference (positive = good move)
         return score_after - score_before
-    except:
+    except Exception as e:
+        logger.warning(f"Error evaluating move quality: {e}")
         return 0
 
 
@@ -135,7 +147,7 @@ def get_weak_move(board: chess.Board, engine, config: dict):
 
     # For very weak bots, sometimes just pick a random legal move
     if random.random() < config['random_move_probability']:
-        logger.info("Bot making random move")
+        logger.debug("Bot making random move")
         return random.choice(legal_moves)
 
     try:
@@ -151,12 +163,12 @@ def get_weak_move(board: chess.Board, engine, config: dict):
         # Decide if we should make a mistake or blunder
         if random.random() < config['blunder_probability']:
             # Pick one of the worst 3 moves (blunder)
-            logger.info("Bot making blunder")
+            logger.debug("Bot making blunder")
             worst_moves = move_evaluations[-3:]
             return random.choice(worst_moves)[0]
         elif random.random() < config['mistake_probability']:
             # Pick from bottom 25% of moves (mistake)
-            logger.info("Bot making mistake")
+            logger.debug("Bot making mistake")
             bottom_quarter = max(1, len(move_evaluations) // 4)
             weak_moves = move_evaluations[-bottom_quarter:]
             return random.choice(weak_moves)[0]
@@ -188,7 +200,7 @@ def classic_ai_move():
         # Initialize chess board
         try:
             board = chess.Board(fen)
-            logger.info(f"Successfully initialized board for game {game_id} with FEN: {fen}")
+            logger.debug(f"Successfully initialized board for game {game_id} with FEN: {fen}")
         except ValueError as e:
             logger.warning(f"Invalid FEN for game {game_id}: {fen}, error: {e}. Using fallback position.")
             turn = fen.split()[1] if len(fen.split()) > 1 and fen.split()[1] in ['w', 'b'] else 'w'
@@ -202,7 +214,7 @@ def classic_ai_move():
 
         # Get bot configuration
         config = get_bot_config(bot_points)
-        logger.info(f"Game {game_id}: Bot config for {bot_points} points: {config}")
+        logger.debug(f"Game {game_id}: Bot config for {bot_points} points: {config}")
 
         # Use Stockfish engine
         with chess.engine.SimpleEngine.popen_uci(STOCKFISH_PATH) as engine:
@@ -263,39 +275,44 @@ def classic_ai_move():
 
 @app.route('/api/detect-opening', methods=['POST'])
 def detect_opening_endpoint():
-    data = request.json
-    moves = data.get('moves')
-    game_id = data.get('gameId', 'unknown')
+    try:
+        data = request.json
+        moves = data.get('moves')
+        game_id = data.get('gameId', 'unknown')
 
-    board = chess.Board()
-    san_moves = []
-    for move in moves:
-        from_square = chess.square(move['from']['col'], 7 - move['from']['row'])
-        to_square = chess.square(move['to']['col'], 7 - move['to']['row'])
-        move_obj = chess.Move(from_square, to_square)
-        if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
-            move_obj = chess.Move(from_square, to_square, promotion=chess.QUEEN)
-        san = board.san(move_obj)
-        san_moves.append(san)
-        board.push(move_obj)
+        if not moves:
+            return jsonify({'error': 'No moves provided'}), 400
 
-    result = detect_opening(san_moves, openings)
-    if result:
-        return jsonify(result)
-    else:
-        return jsonify({'eco': 'Unknown', 'name': 'Unrecognized Opening'})
+        board = chess.Board()
+        san_moves = []
+        for move in moves:
+            from_square = chess.square(move['from']['col'], 7 - move['from']['row'])
+            to_square = chess.square(move['to']['col'], 7 - move['to']['row'])
+            move_obj = chess.Move(from_square, to_square)
+            if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+                move_obj = chess.Move(from_square, to_square, promotion=chess.QUEEN)
+            san = board.san(move_obj)
+            san_moves.append(san)
+            board.push(move_obj)
 
-
+        result = detect_opening(san_moves, openings)
+        if result:
+            return jsonify(result)
+        else:
+            return jsonify({'eco': 'Unknown', 'name': 'Unrecognized Opening'})
+    except Exception as e:
+        logger.error(f"Error in detect_opening_endpoint: {str(e)}", exc_info=True)
+        return jsonify({'error': 'Failed to detect opening'}), 500
 
 
 @app.route('/api/debug-opening', methods=['POST'])
 def debug_opening_endpoint():
     """Debug endpoint to test opening detection with raw move data"""
-    data = request.json
-    if not data:
-        return jsonify({'error': 'No data provided'}), 400
-
     try:
+        data = request.json
+        if not data:
+            return jsonify({'error': 'No data provided'}), 400
+
         # Test with a known opening
         test_moves = [
             "e4", "e5", "Nf3", "Nc6", "Bb5"  # Ruy Lopez
@@ -327,7 +344,9 @@ def health_check():
     return jsonify({
         'status': 'healthy',
         'message': 'AI Chess Game Server is running',
-        'endpoints': ['/api/classic/ai-move']
+        'endpoints': ['/api/classic/ai-move', '/api/detect-opening'],
+        'openings_loaded': len(openings),
+        'stockfish_path': STOCKFISH_PATH
     })
 
 
