@@ -285,15 +285,53 @@ def detect_opening_endpoint():
 
         board = chess.Board()
         san_moves = []
-        for move in moves:
-            from_square = chess.square(move['from']['col'], 7 - move['from']['row'])
-            to_square = chess.square(move['to']['col'], 7 - move['to']['row'])
-            move_obj = chess.Move(from_square, to_square)
-            if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
-                move_obj = chess.Move(from_square, to_square, promotion=chess.QUEEN)
-            san = board.san(move_obj)
-            san_moves.append(san)
-            board.push(move_obj)
+
+        def is_valid_coord(row: int, col: int) -> bool:
+            return isinstance(row, int) and isinstance(col, int) and 0 <= row < 8 and 0 <= col < 8
+
+        for idx, move in enumerate(moves):
+            try:
+                from_row = move['from']['row']
+                from_col = move['from']['col']
+                to_row = move['to']['row']
+                to_col = move['to']['col']
+
+                if not (is_valid_coord(from_row, from_col) and is_valid_coord(to_row, to_col)):
+                    logger.warning(f"[Opening] Invalid coordinates at move {idx}: {move}")
+                    break
+
+                from_square = chess.square(from_col, 7 - from_row)
+                to_square = chess.square(to_col, 7 - to_row)
+
+                piece = board.piece_at(from_square)
+                promotion_piece = None
+                if piece and piece.piece_type == chess.PAWN and to_row in (0, 7):
+                    promotion_piece = chess.QUEEN
+
+                move_obj = chess.Move(from_square, to_square, promotion=promotion_piece) if promotion_piece else chess.Move(from_square, to_square)
+
+                if not board.is_legal(move_obj):
+                    # Try promotion fallback if not already set
+                    if piece and piece.piece_type == chess.PAWN and promotion_piece is None and to_row in (0, 7):
+                        promo_try = chess.Move(from_square, to_square, promotion=chess.QUEEN)
+                        if board.is_legal(promo_try):
+                            move_obj = promo_try
+                        else:
+                            logger.warning(f"[Opening] Illegal move at move {idx}: {move}. Stopping opening parsing.")
+                            break
+                    else:
+                        logger.warning(f"[Opening] Illegal move at move {idx}: {move}. Stopping opening parsing.")
+                        break
+
+                san = board.san(move_obj)
+                san_moves.append(san)
+                board.push(move_obj)
+            except Exception as e:
+                logger.error(f"[Opening] Error processing move {idx}: {move} - {e}")
+                break
+
+        if not san_moves:
+            return jsonify({'eco': 'Unknown', 'name': 'Unrecognized Opening'})
 
         result = detect_opening(san_moves, openings)
         if result:

@@ -2465,3 +2465,336 @@ AttributeError: 'NoneType' object has no attribute 'piece_type'
 2025-08-12 13:27:47,196 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
 2025-08-12 13:27:47,264 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
 2025-08-12 13:27:47,268 - INFO - Serving on http://0.0.0.0:5000
+2025-08-12 14:29:44,504 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-12 14:29:44,510 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-12 14:29:44,518 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-12 14:29:44,522 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-12 14:29:44,527 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-12 14:29:44,527 - INFO - Total openings loaded: 3535
+2025-08-12 14:29:44,527 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-12 14:29:44,755 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-12 14:29:44,763 - INFO - Serving on http://0.0.0.0:5000
+2025-08-12 14:30:03,000 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-08-12 14:30:04,474 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): g7g5 (from: [1,6], to: [3,6])
+2025-08-12 14:30:10,246 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=rnbqkbnr/pppppp1p/8/6p1/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-12 14:30:11,471 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): b7b5 (from: [1,1], to: [3,1])
+2025-08-12 14:30:15,497 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=rnbqkbnr/p1pppp1p/8/1p4N1/3P4/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-12 14:30:16,441 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): c7c5 (from: [1,2], to: [3,2])
+2025-08-12 14:30:18,639 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=rnbqkbnr/p2ppp1p/8/1pP3N1/8/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-12 14:30:20,087 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): c8b7 (from: [0,2], to: [1,1])
+2025-08-12 14:30:30,683 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=rn1qkbnr/pb1ppp1p/8/1pP3N1/3Q4/8/PPP1PPPP/RNB1KB1R b KQkq - 0 1
+2025-08-12 14:30:31,785 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): f7f6 (from: [1,5], to: [2,5])
+2025-08-12 14:30:38,400 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=rn1qkbnr/pb1pp2p/5p2/1pP5/3QN3/8/PPP1PPPP/RNB1KB1R b KQkq - 0 1
+2025-08-12 14:30:39,714 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): f6f5 (from: [2,5], to: [3,5])
+2025-08-12 14:30:41,418 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=rn1qkbnr/pb1pp2p/8/1pP2pN1/3Q4/8/PPP1PPPP/RNB1KB1R b KQkq - 0 1
+2025-08-12 14:30:42,452 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): b8a6 (from: [0,1], to: [2,0])
+2025-08-12 14:30:43,834 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=r2qkbnr/pb1pp2p/n7/1pPQ1pN1/8/8/PPP1PPPP/RNB1KB1R b KQkq - 0 1
+2025-08-12 14:30:44,595 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): a6c7 (from: [2,0], to: [1,2])
+2025-08-12 14:30:45,826 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=r2qkbnr/pbnppN1p/8/1pPQ1p2/8/8/PPP1PPPP/RNB1KB1R b KQkq - 0 1
+2025-08-12 14:30:46,719 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): c7d5 (from: [1,2], to: [3,3])
+2025-08-12 14:30:48,412 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=r2Nkbnr/pb1pp2p/8/1pPn1p2/8/8/PPP1PPPP/RNB1KB1R b KQkq - 0 1
+2025-08-12 14:30:49,886 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): d5f6 (from: [3,3], to: [2,5])
+2025-08-12 14:30:53,391 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=r3kbnr/pN1pp2p/5n2/1pP2p2/8/8/PPP1PPPP/RNB1KB1R b KQkq - 0 1
+2025-08-12 14:30:53,959 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): a8b8 (from: [0,0], to: [0,1])
+2025-08-12 14:31:01,755 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=1r2kbnr/p2pp2p/5n2/NpP2p2/8/8/PPP1PPPP/RNB1KB1R b KQkq - 0 1
+2025-08-12 14:31:02,580 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): d7d6 (from: [1,3], to: [2,3])
+2025-08-12 14:31:04,264 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=1r2kbnr/p3p2p/3P1n2/Np3p2/8/8/PPP1PPPP/RNB1KB1R b KQkq - 0 1
+2025-08-12 14:31:04,938 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): e8f7 (from: [0,4], to: [1,5])
+2025-08-12 14:31:08,382 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=1r3bnr/p3Pk1p/5n2/Np3p2/8/8/PPP1PPPP/RNB1KB1R b KQkq - 0 1
+2025-08-12 14:31:08,972 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): g8e7 (from: [0,6], to: [1,4])
+2025-08-12 14:31:16,073 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:16,118 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=1r3b1r/p3nk1p/5n2/Np3p2/8/6P1/PPP1PP1P/RNB1KB1R b KQkq - 0 1
+2025-08-12 14:31:16,843 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): e7d5 (from: [1,4], to: [3,3])
+2025-08-12 14:31:16,942 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:32,703 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:32,741 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=1r3b1r/p4k1p/5n2/Np1n1p2/8/6PB/PPP1PP1P/RNB1K2R b KQkq - 0 1
+2025-08-12 14:31:33,102 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): f8g7 (from: [0,5], to: [1,6])
+2025-08-12 14:31:33,180 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:35,401 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:35,435 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=1r5r/p4kbp/5n2/Np1n1B2/8/6P1/PPP1PP1P/RNB1K2R b KQkq - 0 1
+2025-08-12 14:31:36,188 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): b8d8 (from: [0,1], to: [0,3])
+2025-08-12 14:31:36,261 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:41,686 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:41,720 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=3r3r/p4kbp/5n2/Np1n1B2/8/2N3P1/PPP1PP1P/R1B1K2R b KQkq - 0 1
+2025-08-12 14:31:42,027 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): f7f8 (from: [1,5], to: [0,5])
+2025-08-12 14:31:42,102 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:43,535 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:43,570 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=3r1k1r/p5bp/5n2/Np1N1B2/8/6P1/PPP1PP1P/R1B1K2R b KQkq - 0 1
+2025-08-12 14:31:43,889 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): g7h6 (from: [1,6], to: [2,7])
+2025-08-12 14:31:43,962 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:45,062 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:45,099 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=3r1k1r/p6p/5N1b/Np3B2/8/6P1/PPP1PP1P/R1B1K2R b KQkq - 0 1
+2025-08-12 14:31:45,634 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): d8d5 (from: [0,3], to: [3,3])
+2025-08-12 14:31:45,730 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:47,461 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:47,497 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=5k1r/p6p/7b/Np1N1B2/8/6P1/PPP1PP1P/R1B1K2R b KQkq - 0 1
+2025-08-12 14:31:47,975 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): f8g8 (from: [0,5], to: [0,6])
+2025-08-12 14:31:48,054 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:51,596 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:51,631 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=6kr/pN5p/7b/1p1N1B2/8/6P1/PPP1PP1P/R1B1K2R b KQkq - 0 1
+2025-08-12 14:31:52,119 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): g8g7 (from: [0,6], to: [1,6])
+2025-08-12 14:31:52,227 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:53,571 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:31:53,615 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=7r/p5kp/3N3b/1p1N1B2/8/6P1/PPP1PP1P/R1B1K2R b KQkq - 0 1
+2025-08-12 14:31:54,059 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): g7f8 (from: [1,6], to: [0,5])
+2025-08-12 14:31:54,133 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:32:00,528 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:32:00,568 - INFO - Received AI move request for game 3629a269-3f03-4222-8b75-05d1feec57e1: botPoints=300, fen=5k1r/p6p/3N3B/1p1N1B2/8/6P1/PPP1PP1P/R3K2R b KQkq - 0 1
+2025-08-12 14:32:00,908 - INFO - Bot move for game 3629a269-3f03-4222-8b75-05d1feec57e1 (points: 300): f8g8 (from: [0,5], to: [0,6])
+2025-08-12 14:32:00,984 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:32:04,653 - ERROR - Error in detect_opening_endpoint: 'NoneType' object has no attribute 'piece_type'
+Traceback (most recent call last):
+  File "C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\app.py", line 292, in detect_opening_endpoint
+    if board.piece_at(from_square).piece_type == chess.PAWN and move['to']['row'] in (0, 7):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'piece_type'
+2025-08-12 14:37:35,612 - INFO - Received AI move request for game cbc91cb8-b72a-4cc6-a358-253393d39031: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-08-12 14:37:36,749 - INFO - Bot move for game cbc91cb8-b72a-4cc6-a358-253393d39031 (points: 300): f7f6 (from: [1,5], to: [2,5])
+2025-08-12 14:37:53,573 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-12 14:37:53,577 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-12 14:37:53,584 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-12 14:37:53,588 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-12 14:37:53,591 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-12 14:37:53,591 - INFO - Total openings loaded: 3535
+2025-08-12 14:37:53,591 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-12 14:37:53,736 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-12 14:37:53,740 - INFO - Serving on http://0.0.0.0:5000
+2025-08-12 14:38:01,843 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-08-12 14:38:02,931 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): g7g5 (from: [1,6], to: [3,6])
+2025-08-12 14:38:05,329 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=rnbqkbnr/pppppp1p/8/6N1/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-08-12 14:38:06,331 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): e7e5 (from: [1,4], to: [3,4])
+2025-08-12 14:38:09,447 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=rnbqkbnr/pppp1p1N/8/4p3/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-08-12 14:38:10,491 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): f8a3 (from: [0,5], to: [5,0])
+2025-08-12 14:38:13,241 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=rnbqk1nr/pppp1p2/5N2/4p3/8/b7/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-08-12 14:38:13,604 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): e8f8 (from: [0,4], to: [0,5])
+2025-08-12 14:38:15,473 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=rnbq1knr/pppN1p2/8/4p3/8/b7/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-08-12 14:38:15,880 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): d8d7 (from: [0,3], to: [1,3])
+2025-08-12 14:38:20,312 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=rnb2knr/pppq1p2/8/4p3/8/P7/P1PPPPPP/RNBQKB1R b KQkq - 0 1
+2025-08-12 14:38:21,227 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): g8f6 (from: [0,6], to: [2,5])
+2025-08-12 14:38:25,976 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=rnb2k1r/pppq1p2/5n2/4p3/8/P1N5/P1PPPPPP/R1BQKB1R b KQkq - 0 1
+2025-08-12 14:38:27,079 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): b8c6 (from: [0,1], to: [2,2])
+2025-08-12 14:38:28,912 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=r1b2k1r/pppq1p2/2n2n2/3Np3/8/P7/P1PPPPPP/R1BQKB1R b KQkq - 0 1
+2025-08-12 14:38:30,005 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): f8e8 (from: [0,5], to: [0,4])
+2025-08-12 14:38:31,315 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=r1b1k2r/pppq1p2/2n2N2/4p3/8/P7/P1PPPPPP/R1BQKB1R b KQkq - 0 1
+2025-08-12 14:38:31,561 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): e8e7 (from: [0,4], to: [1,4])
+2025-08-12 14:38:33,198 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=r1b4r/pppNkp2/2n5/4p3/8/P7/P1PPPPPP/R1BQKB1R b KQkq - 0 1
+2025-08-12 14:38:33,684 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h8d8 (from: [0,7], to: [0,3])
+2025-08-12 14:38:36,911 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=r1br4/ppp1kp2/1Nn5/4p3/8/P7/P1PPPPPP/R1BQKB1R b KQkq - 0 1
+2025-08-12 14:38:37,414 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): c7b6 (from: [1,2], to: [2,1])
+2025-08-12 14:38:40,744 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=r1br4/pp2kp2/1pn5/4p3/8/P7/PBPPPPPP/R2QKB1R b KQkq - 0 1
+2025-08-12 14:38:41,268 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): c8f5 (from: [0,2], to: [3,5])
+2025-08-12 14:38:46,061 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=r2r4/pp2kp2/1pn5/4pb2/8/P7/PBPPPPPP/RQ2KB1R b KQkq - 0 1
+2025-08-12 14:38:46,615 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): c6d4 (from: [2,2], to: [4,3])
+2025-08-12 14:38:54,778 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=r2r4/pp2kp2/1p6/4pb2/3n4/P3P3/PBPP1PPP/RQ2KB1R b KQkq - 0 1
+2025-08-12 14:38:55,359 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): d4c2 (from: [4,3], to: [6,2])
+2025-08-12 14:38:57,573 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=r2r4/pp2kp2/1p6/4pb2/8/P3P3/PBQP1PPP/R3KB1R b KQkq - 0 1
+2025-08-12 14:38:58,048 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): d8g8 (from: [0,3], to: [0,6])
+2025-08-12 14:39:01,653 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=r5r1/pp2kp2/1p6/4pb2/2B5/P3P3/PBQP1PPP/R3K2R b KQkq - 0 1
+2025-08-12 14:39:02,165 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): f5d7 (from: [3,5], to: [1,3])
+2025-08-12 14:39:04,556 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=r5r1/pp1bkp2/1p6/4p3/2B5/P3P3/PBQP1PPP/R4RK1 b KQkq - 0 1
+2025-08-12 14:39:05,342 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): g8b8 (from: [0,6], to: [0,1])
+2025-08-12 14:39:09,534 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=rr6/pp1bkp2/1p6/4p3/2B1Q3/P3P3/PB1P1PPP/R4RK1 b KQkq - 0 1
+2025-08-12 14:39:10,040 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): b8f8 (from: [0,1], to: [0,5])
+2025-08-12 14:39:11,871 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=r4r2/pQ1bkp2/1p6/4p3/2B5/P3P3/PB1P1PPP/R4RK1 b KQkq - 0 1
+2025-08-12 14:39:12,360 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): a7a5 (from: [1,0], to: [3,0])
+2025-08-12 14:39:13,569 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=Q4r2/3bkp2/1p6/p3p3/2B5/P3P3/PB1P1PPP/R4RK1 b KQkq - 0 1
+2025-08-12 14:39:14,133 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): d7g4 (from: [1,3], to: [4,6])
+2025-08-12 14:39:15,463 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=5Q2/4kp2/1p6/p3p3/2B3b1/P3P3/PB1P1PPP/R4RK1 b KQkq - 0 1
+2025-08-12 14:39:15,738 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): e7f8 (from: [1,4], to: [0,5])
+2025-08-12 14:39:21,806 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=5k2/5p2/1p6/p3B3/2B3b1/P3P3/P2P1PPP/R4RK1 b KQkq - 0 1
+2025-08-12 14:39:22,056 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): f7f6 (from: [1,5], to: [2,5])
+2025-08-12 14:39:23,859 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=5k2/8/1p3B2/p7/2B3b1/P3P3/P2P1PPP/R4RK1 b KQkq - 0 1
+2025-08-12 14:39:24,264 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): a5a4 (from: [3,0], to: [4,0])
+2025-08-12 14:39:27,977 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=5k2/8/1p3B2/8/p1B3b1/P3P3/P2P1PPP/1R3RK1 b KQkq - 0 1
+2025-08-12 14:39:28,341 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): g4h5 (from: [4,6], to: [3,7])
+2025-08-12 14:39:29,730 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=5k2/8/1R3B2/7b/p1B5/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:39:30,046 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h5g6 (from: [3,7], to: [2,6])
+2025-08-12 14:39:33,392 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=1R3k2/8/5Bb1/8/p1B5/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:39:33,665 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): g6e8 (from: [2,6], to: [0,4])
+2025-08-12 14:39:50,811 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=1R1Bbk2/8/8/8/p1B5/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:39:51,177 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): e8h5 (from: [0,4], to: [3,7])
+2025-08-12 14:39:53,921 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:39:53,951 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=1R1B1k2/8/4B3/7b/p7/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:39:54,272 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): f8g7 (from: [0,5], to: [1,6])
+2025-08-12 14:39:54,333 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:39:56,626 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:39:56,654 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=1R6/6k1/4B3/6Bb/p7/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:39:56,979 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h5g6 (from: [3,7], to: [2,6])
+2025-08-12 14:39:57,042 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:00,832 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:00,858 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=6R1/6k1/4B1b1/6B1/p7/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:01,117 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): g7h7 (from: [1,6], to: [1,7])
+2025-08-12 14:40:01,183 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:06,750 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:06,779 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=6R1/7k/4BBb1/8/p7/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:07,103 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): g6c2 (from: [2,6], to: [6,2])
+2025-08-12 14:40:07,167 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:10,517 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:10,542 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/6Rk/4BB2/8/p7/P3P3/P1bP1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:10,814 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h7h6 (from: [1,7], to: [2,7])
+2025-08-12 14:40:10,874 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:12,611 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:12,645 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/6R1/5B1k/8/p5B1/P3P3/P1bP1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:12,966 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): c2g6 (from: [6,2], to: [2,6])
+2025-08-12 14:40:13,029 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:15,313 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:15,341 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/8/5BRk/8/p5B1/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:15,615 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h6h7 (from: [2,7], to: [1,7])
+2025-08-12 14:40:15,680 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:17,151 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:17,185 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/6Rk/5B2/8/p5B1/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:17,462 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h7h6 (from: [1,7], to: [2,7])
+2025-08-12 14:40:17,523 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:19,015 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:19,042 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/6R1/5B1k/5B2/p7/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:19,298 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h6h5 (from: [2,7], to: [3,7])
+2025-08-12 14:40:19,364 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:22,584 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:22,613 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/8/5B2/5B1k/p5R1/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:22,888 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h5h6 (from: [3,7], to: [2,7])
+2025-08-12 14:40:22,946 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:25,894 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:25,930 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/8/7k/5BB1/p5R1/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:26,212 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h6g7 (from: [2,7], to: [1,6])
+2025-08-12 14:40:26,278 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:28,201 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:28,227 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/6k1/4B3/6B1/p5R1/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:28,514 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): g7h8 (from: [1,6], to: [0,7])
+2025-08-12 14:40:28,574 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:30,474 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:30,499 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=7k/8/4BB2/8/p5R1/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:30,762 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h8h7 (from: [0,7], to: [1,7])
+2025-08-12 14:40:30,828 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:32,860 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:32,885 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/7k/4BBR1/8/p7/P3P3/P2P1PPP/5RK1 b KQkq - 0 1
+2025-08-12 14:40:33,163 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h7g6 (from: [1,7], to: [2,6])
+2025-08-12 14:40:33,230 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:37,686 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:37,715 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/8/4BBk1/8/p5P1/P3P3/P2P1P1P/5RK1 b KQkq - 0 1
+2025-08-12 14:40:38,005 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): g6h7 (from: [2,6], to: [1,7])
+2025-08-12 14:40:38,069 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:39,433 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:39,461 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/7k/4BB2/6P1/p7/P3P3/P2P1P1P/5RK1 b KQkq - 0 1
+2025-08-12 14:40:39,725 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): h7g6 (from: [1,7], to: [2,6])
+2025-08-12 14:40:39,793 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:42,759 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:42,792 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/5B2/5Bk1/6P1/p7/P3P3/P2P1P1P/5RK1 b KQkq - 0 1
+2025-08-12 14:40:43,084 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): g6f5 (from: [2,6], to: [3,5])
+2025-08-12 14:40:43,156 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:45,064 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:45,100 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/5B2/5BP1/5k2/p7/P3P3/P2P1P1P/5RK1 b KQkq - 0 1
+2025-08-12 14:40:45,375 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): f5e4 (from: [3,5], to: [4,4])
+2025-08-12 14:40:45,443 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:46,135 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:46,163 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=8/5BP1/5B2/8/p3k3/P3P3/P2P1P1P/5RK1 b KQkq - 0 1
+2025-08-12 14:40:46,438 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): e4d3 (from: [4,4], to: [5,3])
+2025-08-12 14:40:46,500 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:47,691 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:47,724 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=6Q1/5B2/5B2/8/p7/P2kP3/P2P1P1P/5RK1 b KQkq - 0 1
+2025-08-12 14:40:47,995 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): d3c2 (from: [5,3], to: [6,2])
+2025-08-12 14:40:48,059 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:50,630 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:50,664 - INFO - Received AI move request for game b23c645b-e6bc-4d90-b7c1-138a90bae827: botPoints=300, fen=2Q5/5B2/5B2/8/p7/P3P3/P1kP1P1P/5RK1 b KQkq - 0 1
+2025-08-12 14:40:50,928 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): c2d2 (from: [6,2], to: [6,3])
+2025-08-12 14:40:50,993 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 14:40:54,446 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
