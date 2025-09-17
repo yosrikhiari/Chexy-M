@@ -8,7 +8,7 @@ from opening_detector import load_openings, detect_opening, Opening
 import chess
 import chess.engine
 from flask import Flask, request, jsonify
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 
 # Configure logging
 logging.basicConfig(
@@ -375,6 +375,56 @@ def debug_opening_endpoint():
         logger.error(f"Error in debug endpoint: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
+
+@app.route('/api/enemy-army', methods=['POST', 'OPTIONS'])
+@cross_origin()
+def generate_enemy_army():
+    try:
+        if request.method == 'OPTIONS':
+            # Preflight CORS
+            return ('', 204)
+
+        data = request.get_json(silent=True) or {}
+        round_num = int(data.get('round', 1))
+        board_size = int(data.get('boardSize', 8))
+
+        # Simple stub generation based on round/board size
+        def mk_piece(pid: str, ptype: str, color: str, name: str, atk: int, df: int, hp: int, rarity: str = 'COMMON'):
+            return {
+                'id': pid,
+                'type': ptype.upper(),
+                'color': color.lower(),
+                'name': name,
+                'description': f"{name} of round {round_num}",
+                'specialAbility': '',
+                'hp': hp,
+                'maxHp': hp,
+                'attack': atk,
+                'defense': df,
+                'rarity': rarity,
+                'isJoker': False,
+                'currentHp': hp,
+                'level': max(1, min(10, round_num // 2 + 1)),
+                'experience': 0,
+                'enhancedName': name
+            }
+
+        base = max(1, round_num)
+        pieces = [
+            mk_piece('e1', 'knight', 'black', 'Dark Rider', 2 + base, 1 + base // 2, 5 + base),
+            mk_piece('e2', 'bishop', 'black', 'Shadow Seer', 2 + base, 2 + base // 3, 4 + base),
+            mk_piece('e3', 'rook', 'black', 'Obsidian Guard', 3 + base, 3 + base // 2, 6 + base),
+        ]
+
+        # Scale count with board size modestly
+        if board_size >= 10:
+            pieces.append(mk_piece('e4', 'pawn', 'black', 'Thrall', 1 + base // 2, 1 + base // 3, 3 + base // 2))
+            pieces.append(mk_piece('e5', 'pawn', 'black', 'Thrall', 1 + base // 2, 1 + base // 3, 3 + base // 2))
+
+        return jsonify({ 'pieces': pieces })
+    except Exception as e:
+        logger.error(f"Error generating enemy army: {str(e)}", exc_info=True)
+        return jsonify({'error': 'Failed to generate enemy army'}), 500
 
 @app.route('/health', methods=['GET'])
 def health_check():
