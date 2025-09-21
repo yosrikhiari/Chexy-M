@@ -2798,3 +2798,478 @@ AttributeError: 'NoneType' object has no attribute 'piece_type'
 2025-08-12 14:40:50,928 - INFO - Bot move for game b23c645b-e6bc-4d90-b7c1-138a90bae827 (points: 300): c2d2 (from: [6,2], to: [6,3])
 2025-08-12 14:40:50,993 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
 2025-08-12 14:40:54,446 - WARNING - [Opening] Illegal move at move 53: {'from': {'row': 2, 'col': 5}, 'to': {'row': 0, 'col': 3}}. Stopping opening parsing.
+2025-08-12 16:48:09,935 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-12 16:48:09,939 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-12 16:48:09,947 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-12 16:48:09,950 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-12 16:48:09,953 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-12 16:48:09,953 - INFO - Total openings loaded: 3535
+2025-08-12 16:48:09,954 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-12 16:48:10,136 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-12 16:48:10,142 - INFO - Serving on http://0.0.0.0:5000
+2025-08-13 13:54:06,477 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-13 13:54:06,486 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-13 13:54:06,503 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-13 13:54:06,515 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-13 13:54:06,520 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-13 13:54:06,521 - INFO - Total openings loaded: 3535
+2025-08-13 13:54:06,521 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-13 13:54:06,738 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-13 13:54:06,748 - INFO - Serving on http://0.0.0.0:5000
+2025-08-13 13:54:41,636 - INFO - Received AI move request for game a1aa0f03-f58d-4f71-b4df-71347881e436: botPoints=400, fen=rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+2025-08-13 13:54:43,351 - INFO - Bot move for game a1aa0f03-f58d-4f71-b4df-71347881e436 (points: 400): g8h6 (from: [0,6], to: [2,7])
+2025-08-13 13:54:45,784 - INFO - Received AI move request for game a1aa0f03-f58d-4f71-b4df-71347881e436: botPoints=400, fen=rnbqkb1r/pppppppp/7n/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 1
+2025-08-13 13:54:46,849 - INFO - Bot move for game a1aa0f03-f58d-4f71-b4df-71347881e436 (points: 400): f7f6 (from: [1,5], to: [2,5])
+2025-08-14 10:04:08,308 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-14 10:04:08,314 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-14 10:04:08,324 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-14 10:04:08,328 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-14 10:04:08,332 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-14 10:04:08,332 - INFO - Total openings loaded: 3535
+2025-08-14 10:04:08,333 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-14 10:04:08,503 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-14 10:04:08,620 - INFO - Serving on http://0.0.0.0:5000
+2025-08-14 10:34:02,083 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-14 10:34:02,088 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-14 10:34:02,096 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-14 10:34:02,100 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-14 10:34:02,104 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-14 10:34:02,104 - INFO - Total openings loaded: 3535
+2025-08-14 10:34:02,104 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-14 10:34:02,261 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-14 10:34:02,266 - INFO - Serving on http://0.0.0.0:5000
+2025-08-14 16:53:48,523 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-14 16:53:48,528 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-14 16:53:48,535 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-14 16:53:48,539 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-14 16:53:48,542 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-14 16:53:48,542 - INFO - Total openings loaded: 3535
+2025-08-14 16:53:48,543 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-14 16:53:48,639 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-14 16:53:48,645 - INFO - Serving on http://0.0.0.0:5000
+2025-08-16 07:46:18,214 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-16 07:46:18,220 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-16 07:46:18,228 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-16 07:46:18,234 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-16 07:46:18,239 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-16 07:46:18,240 - INFO - Total openings loaded: 3535
+2025-08-16 07:46:18,240 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-16 07:46:18,379 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-16 07:46:18,386 - INFO - Serving on http://0.0.0.0:5000
+2025-08-17 08:32:34,203 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-17 08:32:34,209 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-17 08:32:34,217 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-17 08:32:34,221 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-17 08:32:34,225 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-17 08:32:34,225 - INFO - Total openings loaded: 3535
+2025-08-17 08:32:34,226 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-17 08:32:34,404 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-17 08:32:34,411 - INFO - Serving on http://0.0.0.0:5000
+2025-08-23 10:16:27,256 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-23 10:16:27,264 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-23 10:16:27,276 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-23 10:16:27,283 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-23 10:16:27,287 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-23 10:16:27,287 - INFO - Total openings loaded: 3535
+2025-08-23 10:16:27,288 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-23 10:16:27,418 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-23 10:16:27,425 - INFO - Serving on http://0.0.0.0:5000
+2025-08-23 11:36:47,267 - INFO - Received AI move request for game 5ee2d677-06ff-4ce9-8c4a-bcd7df4fd33b: botPoints=600, fen=rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-08-23 11:36:49,174 - INFO - Bot move for game 5ee2d677-06ff-4ce9-8c4a-bcd7df4fd33b (points: 600): f7f6 (from: [1,5], to: [2,5])
+2025-08-24 05:53:39,328 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-24 05:53:39,334 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-24 05:53:39,343 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-24 05:53:39,347 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-24 05:53:39,351 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-24 05:53:39,351 - INFO - Total openings loaded: 3535
+2025-08-24 05:53:39,352 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-24 05:53:39,632 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-24 05:53:39,638 - INFO - Serving on http://0.0.0.0:5000
+2025-08-24 06:07:08,720 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1
+2025-08-24 06:07:10,378 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): f7f6 (from: [1,5], to: [2,5])
+2025-08-24 06:07:14,201 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=rnbqkbnr/ppppp1pp/5p2/8/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 0 1
+2025-08-24 06:07:15,495 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): g8h6 (from: [0,6], to: [2,7])
+2025-08-24 06:07:18,254 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=rnbqkb1r/ppppp1pp/5p1n/4P3/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 0 1
+2025-08-24 06:07:18,515 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): f6f5 (from: [2,5], to: [3,5])
+2025-08-24 06:07:21,768 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=rnbqkb1r/ppppp1pp/7n/3NPp2/8/8/PPPP1PPP/R1BQKBNR b KQkq - 0 1
+2025-08-24 06:07:22,024 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): b8a6 (from: [0,1], to: [2,0])
+2025-08-24 06:07:24,773 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=r1bqkb1r/ppNpp1pp/n6n/4Pp2/8/8/PPPP1PPP/R1BQKBNR b KQkq - 0 1
+2025-08-24 06:07:25,107 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): d8c7 (from: [0,3], to: [1,2])
+2025-08-24 06:07:30,990 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=r1b1kb1r/ppqpp1pp/n6n/4Pp1Q/8/8/PPPP1PPP/R1B1KBNR b KQkq - 0 1
+2025-08-24 06:07:31,300 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): g7g6 (from: [1,6], to: [2,6])
+2025-08-24 06:07:33,101 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=r1b1kb1r/ppqpp2p/n5pQ/4Pp2/8/8/PPPP1PPP/R1B1KBNR b KQkq - 0 1
+2025-08-24 06:07:34,239 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): e7e6 (from: [1,4], to: [2,4])
+2025-08-24 06:07:39,382 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=r1b1kb1r/ppqp3p/n3p1p1/4Pp2/5Q2/8/PPPP1PPP/R1B1KBNR b KQkq - 0 1
+2025-08-24 06:07:41,000 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): c7c3 (from: [1,2], to: [5,2])
+2025-08-24 06:07:44,855 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=r1b1kb1r/pp1p3p/n3p1p1/4Pp2/5Q2/2P5/P1PP1PPP/R1B1KBNR b KQkq - 0 1
+2025-08-24 06:07:45,309 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): f8a3 (from: [0,5], to: [5,0])
+2025-08-24 06:07:47,092 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=r1b1k2r/pp1p3p/n3p1p1/4Pp2/5Q2/B1P5/P1PP1PPP/R3KBNR b KQkq - 0 1
+2025-08-24 06:07:47,464 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): a6b4 (from: [2,0], to: [4,1])
+2025-08-24 06:07:49,196 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=r1b1k2r/pp1p3p/4p1p1/4Pp2/1B3Q2/2P5/P1PP1PPP/R3KBNR b KQkq - 0 1
+2025-08-24 06:07:49,557 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): h7h6 (from: [1,7], to: [2,7])
+2025-08-24 06:07:57,665 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=r1b1k2r/pp1p4/4p1pp/4Pp2/1BQ5/2P5/P1PP1PPP/R3KBNR b KQkq - 0 1
+2025-08-24 06:07:58,037 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): a7a5 (from: [1,0], to: [3,0])
+2025-08-24 06:07:59,986 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=r1b1k2r/1p1p4/4p1pp/B3Pp2/2Q5/2P5/P1PP1PPP/R3KBNR b KQkq - 0 1
+2025-08-24 06:08:00,410 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): h8h7 (from: [0,7], to: [1,7])
+2025-08-24 06:08:04,727 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=r1b1k3/1pQp3r/4p1pp/B3Pp2/8/2P5/P1PP1PPP/R3KBNR b KQkq - 0 1
+2025-08-24 06:08:04,972 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): a8a5 (from: [0,0], to: [3,0])
+2025-08-24 06:08:06,657 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=2b1k3/1p1p3r/4p1pp/Q3Pp2/8/2P5/P1PP1PPP/R3KBNR b KQkq - 0 1
+2025-08-24 06:08:07,040 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): h7g7 (from: [1,7], to: [1,6])
+2025-08-24 06:08:10,730 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=Q1b1k3/1p1p2r1/4p1pp/4Pp2/8/2P5/P1PP1PPP/R3KBNR b KQkq - 0 1
+2025-08-24 06:08:11,115 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): e8d8 (from: [0,4], to: [0,3])
+2025-08-24 06:08:15,940 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=Q1bk4/1p1p2r1/4p1pp/4Pp2/8/2P5/P1PP1PPP/1R2KBNR b KQkq - 0 1
+2025-08-24 06:08:16,317 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): g7g8 (from: [1,6], to: [0,6])
+2025-08-24 06:08:19,466 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=1Qbk2r1/1p1p4/4p1pp/4Pp2/8/2P5/P1PP1PPP/1R2KBNR b KQkq - 0 1
+2025-08-24 06:08:19,839 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): h6h5 (from: [2,7], to: [3,7])
+2025-08-24 06:08:42,628 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:08:42,655 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=1Qbk2r1/1p1p4/4p2p/4Ppp1/2P5/8/P1PP1PPP/1R2KBNR b KQkq - 0 1
+2025-08-24 06:08:43,036 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): b7b6 (from: [1,1], to: [2,1])
+2025-08-24 06:08:43,103 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:08:46,082 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:08:46,108 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=1Qbk2r1/3p4/1R2p2p/4Ppp1/2P5/8/P1PP1PPP/4KBNR b KQkq - 0 1
+2025-08-24 06:08:46,480 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): d7d5 (from: [1,3], to: [3,3])
+2025-08-24 06:08:46,533 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:08:48,626 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:08:48,651 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=1Qbk2r1/8/4R2p/3pPpp1/2P5/8/P1PP1PPP/4KBNR b KQkq - 0 1
+2025-08-24 06:08:48,993 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): g8g7 (from: [0,6], to: [1,6])
+2025-08-24 06:08:49,054 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:08:52,257 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:08:52,279 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=1Qbk4/6r1/7R/3pPpp1/2P5/8/P1PP1PPP/4KBNR b KQkq - 0 1
+2025-08-24 06:08:52,669 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): g7c7 (from: [1,6], to: [1,2])
+2025-08-24 06:08:52,723 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:08:55,671 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:08:55,698 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=1Qbk4/2r5/7R/3PPpp1/8/8/P1PP1PPP/4KBNR b KQkq - 0 1
+2025-08-24 06:08:56,091 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): f5f4 (from: [3,5], to: [4,5])
+2025-08-24 06:08:56,154 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:09:00,027 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:09:00,052 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=1Qbk4/2r5/7R/3PP1p1/5p2/5N2/P1PP1PPP/4KB1R b KQkq - 0 1
+2025-08-24 06:09:00,446 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): c7h7 (from: [1,2], to: [1,7])
+2025-08-24 06:09:00,499 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:09:02,668 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:09:02,695 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=1Qbk4/7R/8/3PP1p1/5p2/5N2/P1PP1PPP/4KB1R b KQkq - 0 1
+2025-08-24 06:09:02,970 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): g5g4 (from: [3,6], to: [4,6])
+2025-08-24 06:09:03,033 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:09:06,416 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:09:06,441 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=1Qbk4/2R5/8/3PP3/5pp1/5N2/P1PP1PPP/4KB1R b KQkq - 0 1
+2025-08-24 06:09:06,702 - INFO - Bot move for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67 (points: 600): g4f3 (from: [4,6], to: [5,5])
+2025-08-24 06:09:06,760 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:09:08,820 - WARNING - [Opening] Illegal move at move 36: {'from': {'row': 2, 'col': 6}, 'to': {'row': 3, 'col': 6}}. Stopping opening parsing.
+2025-08-24 06:09:08,859 - INFO - Received AI move request for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: botPoints=600, fen=2Qk4/2R5/8/3PP3/5p2/5p2/P1PP1PPP/4KB1R b KQkq - 0 1
+2025-08-24 06:09:08,860 - INFO - Game over for game 7fc071d4-4cc9-4ff5-b1ce-355bd4071d67: Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+2025-08-24 09:34:55,810 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1
+2025-08-24 09:34:57,287 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): d7d5 (from: [1,3], to: [3,3])
+2025-08-24 09:35:06,714 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=rnbqkbnr/ppp1pppp/8/3p4/5P2/5N2/PPPPP1PP/RNBQKB1R b KQkq - 0 1
+2025-08-24 09:35:08,414 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): g7g6 (from: [1,6], to: [2,6])
+2025-08-24 09:35:09,866 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=rnbqkbnr/ppp1pp1p/6p1/3pN3/5P2/8/PPPPP1PP/RNBQKB1R b KQkq - 0 1
+2025-08-24 09:35:11,836 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): g6g5 (from: [2,6], to: [3,6])
+2025-08-24 09:35:13,427 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=rnbqkbnr/ppp1pp1p/8/3pN1P1/8/8/PPPPP1PP/RNBQKB1R b KQkq - 0 1
+2025-08-24 09:35:15,051 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): b8c6 (from: [0,1], to: [2,2])
+2025-08-24 09:35:16,518 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1bqkbnr/ppp1pp1p/2N5/3p2P1/8/8/PPPPP1PP/RNBQKB1R b KQkq - 0 1
+2025-08-24 09:35:17,202 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): d8d7 (from: [0,3], to: [1,3])
+2025-08-24 09:35:20,002 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1b1kbnr/pppqNp1p/8/3p2P1/8/8/PPPPP1PP/RNBQKB1R b KQkq - 0 1
+2025-08-24 09:35:21,198 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): d7e7 (from: [1,3], to: [1,4])
+2025-08-24 09:35:25,717 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1b1kbnr/ppp1qp1p/8/3p2P1/4P3/8/PPPP2PP/RNBQKB1R b KQkq - 0 1
+2025-08-24 09:35:28,256 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): h7h6 (from: [1,7], to: [2,7])
+2025-08-24 09:35:31,492 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1b1kbnr/ppp1qp2/7p/3p2P1/4P3/3B4/PPPP2PP/RNBQK2R b KQkq - 0 1
+2025-08-24 09:35:34,437 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): e7a3 (from: [1,4], to: [5,0])
+2025-08-24 09:35:36,090 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1b1kbnr/ppp2p2/7P/3p4/4P3/q2B4/PPPP2PP/RNBQK2R b KQkq - 0 1
+2025-08-24 09:35:38,349 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): a3c5 (from: [5,0], to: [3,2])
+2025-08-24 09:35:43,430 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1b1kbnr/ppp2p1P/8/2qp4/4P3/3B4/PPPP2PP/RNBQK2R b KQkq - 0 1
+2025-08-24 09:35:45,228 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): g8f6 (from: [0,6], to: [2,5])
+2025-08-24 09:35:53,046 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1b1kb1r/ppp2p1P/5n2/2qp4/2P1P3/3B4/PP1P2PP/RNBQK2R b KQkq - 0 1
+2025-08-24 09:35:56,251 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): h8h7 (from: [0,7], to: [1,7])
+2025-08-24 09:36:00,494 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1b1kb2/ppp2p1r/5n2/2qP4/2P5/3B4/PP1P2PP/RNBQK2R b KQkq - 0 1
+2025-08-24 09:36:02,728 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): h7h8 (from: [1,7], to: [0,7])
+2025-08-24 09:36:09,966 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1b1kb1r/ppp2p2/5n2/2qP4/2P5/2NB4/PP1P2PP/R1BQK2R b KQkq - 0 1
+2025-08-24 09:36:12,592 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): h8g8 (from: [0,7], to: [0,6])
+2025-08-24 09:36:15,674 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1b1kbr1/ppp2p2/5n2/1NqP4/2P5/3B4/PP1P2PP/R1BQK2R b KQkq - 0 1
+2025-08-24 09:36:18,182 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): e8d8 (from: [0,4], to: [0,3])
+2025-08-24 09:36:29,667 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1bk1br1/ppp2p2/5n2/1NqP4/2P5/3B1Q2/PP1P2PP/R1B1K2R b KQkq - 0 1
+2025-08-24 09:36:31,433 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): f8g7 (from: [0,5], to: [1,6])
+2025-08-24 09:36:50,737 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1bk2r1/ppp2pb1/5n2/1NqP4/2P5/3B1Q2/PP1P2PP/R1B1KR2 b KQkq - 0 1
+2025-08-24 09:36:52,481 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): g8e8 (from: [0,6], to: [0,4])
+2025-08-24 09:36:58,165 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1bkr3/ppp2pb1/5n2/1NqP4/2P1B3/5Q2/PP1P2PP/R1B1KR2 b KQkq - 0 1
+2025-08-24 09:36:59,723 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): c5d5 (from: [3,2], to: [3,3])
+2025-08-24 09:37:03,005 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1bkr3/ppp2pb1/5n2/1N1P4/4B3/5Q2/PP1P2PP/R1B1KR2 b KQkq - 0 1
+2025-08-24 09:37:03,668 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): f6e4 (from: [2,5], to: [4,4])
+2025-08-24 09:37:18,249 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1bkr3/ppp2Qb1/8/1N1P4/4n3/8/PP1P2PP/R1B1KR2 b KQkq - 0 1
+2025-08-24 09:37:18,966 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): g7b2 (from: [1,6], to: [6,1])
+2025-08-24 09:37:20,896 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1bkr3/ppp2Q2/8/1N1P4/4n3/8/PB1P2PP/R3KR2 b KQkq - 0 1
+2025-08-24 09:37:21,453 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): e4d6 (from: [4,4], to: [2,3])
+2025-08-24 09:37:23,789 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r1bkr3/ppp2Q2/3n4/1N1P4/8/8/PB1P2PP/R2K1R2 b KQkq - 0 1
+2025-08-24 09:37:24,297 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): c8g4 (from: [0,2], to: [4,6])
+2025-08-24 09:37:32,257 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r2kr3/ppp2Q2/3n4/1N1P4/6b1/5R2/PB1P2PP/R2K4 b KQkq - 0 1
+2025-08-24 09:37:32,884 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): e8e2 (from: [0,4], to: [6,4])
+2025-08-24 09:37:34,969 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r2k4/ppp2Q2/3n4/1N1P4/6b1/5R2/PB1PK1PP/R7 b KQkq - 0 1
+2025-08-24 09:37:35,387 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): d6f7 (from: [2,3], to: [1,5])
+2025-08-24 09:37:47,757 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r2k4/ppp2n2/8/1N1P4/6b1/5R2/PB1PK1PP/5R2 b KQkq - 0 1
+2025-08-24 09:37:48,279 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): a7a6 (from: [1,0], to: [2,0])
+2025-08-24 09:37:51,845 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r2k4/1pp2n2/p7/1N1P4/6b1/5R2/PB1P1KPP/5R2 b KQkq - 0 1
+2025-08-24 09:37:52,372 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): a6b5 (from: [2,0], to: [3,1])
+2025-08-24 09:37:56,477 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r2k4/1pp2R2/8/1p1P4/6b1/8/PB1P1KPP/5R2 b KQkq - 0 1
+2025-08-24 09:37:56,999 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): c7c6 (from: [1,2], to: [2,2])
+2025-08-24 09:38:01,696 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=r2k4/1p3R2/2p5/1p1P4/6b1/7P/PB1P1KP1/5R2 b KQkq - 0 1
+2025-08-24 09:38:02,242 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): a8a2 (from: [0,0], to: [6,0])
+2025-08-24 09:38:06,666 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=3k4/1p3R2/2p5/1p1P4/6P1/8/rB1P1KP1/5R2 b KQkq - 0 1
+2025-08-24 09:38:07,064 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): d8e8 (from: [0,3], to: [0,4])
+2025-08-24 09:38:11,614 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=4k3/1R6/2p5/1p1P4/6P1/8/rB1P1KP1/5R2 b KQkq - 0 1
+2025-08-24 09:38:11,996 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): a2a5 (from: [6,0], to: [3,0])
+2025-08-24 09:38:14,801 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=4k3/1R6/2p5/rp1P4/6P1/8/1B1P1KP1/4R3 b KQkq - 0 1
+2025-08-24 09:38:15,089 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): e8d8 (from: [0,4], to: [0,3])
+2025-08-24 09:38:17,950 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=3k4/1R2R3/2p5/rp1P4/6P1/8/1B1P1KP1/8 b KQkq - 0 1
+2025-08-24 09:38:18,213 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): a5a1 (from: [3,0], to: [7,0])
+2025-08-24 09:38:20,911 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=3k4/1R4R1/2p5/1p1P4/6P1/8/1B1P1KP1/r7 b KQkq - 0 1
+2025-08-24 09:38:21,177 - INFO - Bot move for game 166f3e3b-6175-4839-acf7-e552065acd68 (points: 600): a1a6 (from: [7,0], to: [2,0])
+2025-08-24 09:38:22,670 - INFO - Received AI move request for game 166f3e3b-6175-4839-acf7-e552065acd68: botPoints=600, fen=3k2R1/1R6/r1p5/1p1P4/6P1/8/1B1P1KP1/8 b KQkq - 0 1
+2025-08-24 09:38:22,670 - INFO - Game over for game 166f3e3b-6175-4839-acf7-e552065acd68: Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+2025-08-24 11:17:00,668 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-08-24 11:17:01,939 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): g7g5 (from: [1,6], to: [3,6])
+2025-08-24 11:17:13,799 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnbqkbnr/pppppp1p/8/6p1/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:14,900 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): g5g4 (from: [3,6], to: [4,6])
+2025-08-24 11:17:16,542 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnbqkbnr/pppppp1p/8/6N1/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:18,242 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): h7h6 (from: [1,7], to: [2,7])
+2025-08-24 11:17:19,590 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnbqkbnr/pppppN2/7p/8/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:20,206 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): c7c6 (from: [1,2], to: [2,2])
+2025-08-24 11:17:21,599 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnbNkbnr/pp1pp3/2p4p/8/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:22,007 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): b7b6 (from: [1,1], to: [2,1])
+2025-08-24 11:17:24,485 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnb1kbnr/p2ppN2/1pp4p/8/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:24,910 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): a7a6 (from: [1,0], to: [2,0])
+2025-08-24 11:17:26,259 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnb1kbnN/3pp3/ppp4p/8/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:26,659 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): e7e6 (from: [1,4], to: [2,4])
+2025-08-24 11:17:28,885 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnb1kbn1/3p1N2/ppp1p2p/8/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:29,383 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): f8a3 (from: [0,5], to: [5,0])
+2025-08-24 11:17:31,881 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnb1k1n1/3p4/ppp1p2N/8/3P2p1/b7/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:32,312 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): a3f8 (from: [5,0], to: [0,5])
+2025-08-24 11:17:33,443 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnb1kbN1/3p4/ppp1p3/8/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:33,881 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): c6c5 (from: [2,2], to: [3,2])
+2025-08-24 11:17:35,466 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnb1kb2/3p4/pp2pN2/2p5/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:35,782 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): e8f7 (from: [0,4], to: [1,5])
+2025-08-24 11:17:37,168 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rnb2b2/3N1k2/pp2p3/2p5/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:37,600 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): f8g7 (from: [0,5], to: [1,6])
+2025-08-24 11:17:38,851 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=rNb5/5kb1/pp2p3/2p5/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:39,299 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): e6e5 (from: [2,4], to: [3,4])
+2025-08-24 11:17:40,558 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=r1b5/5kb1/Np6/2p1p3/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:41,050 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): f7f8 (from: [1,5], to: [0,5])
+2025-08-24 11:17:42,252 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=r1b2k2/6b1/1p6/2N1p3/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:42,742 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): g7h6 (from: [1,6], to: [2,7])
+2025-08-24 11:17:44,745 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=r1b2k2/3N4/1p5b/4p3/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:45,062 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): f8e7 (from: [0,5], to: [1,4])
+2025-08-24 11:17:46,761 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=r1b5/4k3/1N5b/4p3/3P2p1/8/PPP1PPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 11:17:47,271 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): h6c1 (from: [2,7], to: [7,2])
+2025-08-24 11:17:50,061 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=r1b5/4k3/1N6/4p3/3P2p1/8/PPP1PPPP/RNQ1KB1R b KQkq - 0 1
+2025-08-24 11:17:50,541 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): a8a2 (from: [0,0], to: [6,0])
+2025-08-24 11:17:52,113 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=2b5/4k3/1N6/4p3/3P2p1/8/RPP1PPPP/1NQ1KB1R b KQkq - 0 1
+2025-08-24 11:17:52,527 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): e7d8 (from: [1,4], to: [0,3])
+2025-08-24 11:17:56,269 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=2bk4/8/1N6/4p1Q1/3P2p1/8/RPP1PPPP/1N2KB1R b KQkq - 0 1
+2025-08-24 11:17:56,545 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): d8e8 (from: [0,3], to: [0,4])
+2025-08-24 11:17:59,140 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=2b1k3/8/1N6/4Q3/3P2p1/8/RPP1PPPP/1N2KB1R b KQkq - 0 1
+2025-08-24 11:17:59,431 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): c8e6 (from: [0,2], to: [2,4])
+2025-08-24 11:18:05,912 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=4k3/8/1N2Q3/8/3P2p1/8/RPP1PPPP/1N2KB1R b KQkq - 0 1
+2025-08-24 11:18:06,186 - INFO - Bot move for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e (points: 400): e8d8 (from: [0,4], to: [0,3])
+2025-08-24 11:18:08,969 - WARNING - [Opening] Illegal move at move 43: {'from': {'row': 3, 'col': 4}, 'to': {'row': 2, 'col': 4}}. Stopping opening parsing.
+2025-08-24 11:18:09,007 - INFO - Received AI move request for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: botPoints=400, fen=3k4/3Q4/1N6/8/3P2p1/8/RPP1PPPP/1N2KB1R b KQkq - 0 1
+2025-08-24 11:18:09,009 - INFO - Game over for game 3ee8c551-978f-43fb-bfc7-d1926ae4cc4e: Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+2025-08-24 11:30:26,497 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1
+2025-08-24 11:30:27,820 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): d7d5 (from: [1,3], to: [3,3])
+2025-08-24 11:30:34,376 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=rnbqkbnr/ppp1pppp/8/3p4/5P2/2N5/PPPPP1PP/R1BQKBNR b KQkq - 0 1
+2025-08-24 11:30:35,218 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): d5d4 (from: [3,3], to: [4,3])
+2025-08-24 11:30:37,868 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=rnbqkbnr/ppp1pppp/8/3N4/3p1P2/8/PPPPP1PP/R1BQKBNR b KQkq - 0 1
+2025-08-24 11:30:38,488 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): d8d5 (from: [0,3], to: [3,3])
+2025-08-24 11:30:41,692 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=rnb1kbnr/ppp1pppp/8/3q4/3p1P2/2P5/PP1PP1PP/R1BQKBNR b KQkq - 0 1
+2025-08-24 11:30:42,369 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): g8f6 (from: [0,6], to: [2,5])
+2025-08-24 11:30:46,731 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=rnb1kb1r/ppp1pppp/5n2/3q4/3p1P2/2P1P3/PP1P2PP/R1BQKBNR b KQkq - 0 1
+2025-08-24 11:30:47,510 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): c8g4 (from: [0,2], to: [4,6])
+2025-08-24 11:30:52,212 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=rn2kb1r/ppp1pppp/5n2/3q4/3p1Pb1/2P1P3/PPQP2PP/R1B1KBNR b KQkq - 0 1
+2025-08-24 11:30:52,774 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): d4e3 (from: [4,3], to: [5,4])
+2025-08-24 11:30:54,573 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=rn2kb1r/ppp1pppp/5n2/3q4/5Pb1/2P1P3/PPQ3PP/R1B1KBNR b KQkq - 0 1
+2025-08-24 11:30:55,353 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): b8c6 (from: [0,1], to: [2,2])
+2025-08-24 11:30:57,347 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=r3kb1r/ppp1pppp/2n2n2/3q4/2P2Pb1/4P3/PPQ3PP/R1B1KBNR b KQkq - 0 1
+2025-08-24 11:30:58,335 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): d5h5 (from: [3,3], to: [3,7])
+2025-08-24 11:31:09,133 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=r3kb1r/ppp1pppp/2n2n2/7q/2P1QPb1/4P3/PP4PP/R1B1KBNR b KQkq - 0 1
+2025-08-24 11:31:09,605 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): f6e4 (from: [2,5], to: [4,4])
+2025-08-24 11:31:12,243 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=r3kb1r/ppp1pppp/2n5/7q/2P1nPb1/4PN2/PP4PP/R1B1KB1R b KQkq - 0 1
+2025-08-24 11:31:12,686 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): h5a5 (from: [3,7], to: [3,0])
+2025-08-24 11:31:22,142 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=r3kb1r/ppp1pppp/2n5/q7/2P1nPb1/4PN2/PP4PP/R1BK1B1R b KQkq - 0 1
+2025-08-24 11:31:22,530 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): a8d8 (from: [0,0], to: [0,3])
+2025-08-24 11:31:26,571 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=3rkb1r/ppp1pppp/2n5/q7/2P1nPb1/4PN2/PPK3PP/R1B2B1R b KQkq - 0 1
+2025-08-24 11:31:26,888 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): c6b4 (from: [2,2], to: [4,1])
+2025-08-24 11:31:28,641 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=3rkb1r/ppp1pppp/8/q7/1nP1nPb1/1K2PN2/PP4PP/R1B2B1R b KQkq - 0 1
+2025-08-24 11:31:28,969 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): e4c5 (from: [4,4], to: [3,2])
+2025-08-24 11:31:32,571 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=3rkb1r/ppp1pppp/8/q1n5/1nP2Pb1/2K1PN2/PP4PP/R1B2B1R b KQkq - 0 1
+2025-08-24 11:31:32,898 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): b4a2 (from: [4,1], to: [6,0])
+2025-08-24 11:31:38,269 - WARNING - [Opening] Illegal move at move 27: {'from': {'row': 5, 'col': 1}, 'to': {'row': 5, 'col': 2}}. Stopping opening parsing.
+2025-08-24 11:31:38,307 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=3rkb1r/ppp1pppp/8/q1n5/2P2Pb1/4PN2/nPK3PP/R1B2B1R b KQkq - 0 1
+2025-08-24 11:31:38,624 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): a5a4 (from: [3,0], to: [4,0])
+2025-08-24 11:31:38,704 - WARNING - [Opening] Illegal move at move 27: {'from': {'row': 5, 'col': 1}, 'to': {'row': 5, 'col': 2}}. Stopping opening parsing.
+2025-08-24 11:31:40,794 - WARNING - [Opening] Illegal move at move 27: {'from': {'row': 5, 'col': 1}, 'to': {'row': 5, 'col': 2}}. Stopping opening parsing.
+2025-08-24 11:31:40,832 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=3rkb1r/ppp1pppp/8/2n5/q1P2Pb1/4PN2/nP4PP/RKB2B1R b KQkq - 0 1
+2025-08-24 11:31:41,150 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): g4f5 (from: [4,6], to: [3,5])
+2025-08-24 11:31:41,218 - WARNING - [Opening] Illegal move at move 27: {'from': {'row': 5, 'col': 1}, 'to': {'row': 5, 'col': 2}}. Stopping opening parsing.
+2025-08-24 11:31:48,696 - WARNING - [Opening] Illegal move at move 27: {'from': {'row': 5, 'col': 1}, 'to': {'row': 5, 'col': 2}}. Stopping opening parsing.
+2025-08-24 11:31:48,737 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=3rkb1r/ppp1pppp/8/2n2b2/q1P1PP2/5N2/nP4PP/RKB2B1R b KQkq - 0 1
+2025-08-24 11:31:49,034 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): f5e4 (from: [3,5], to: [4,4])
+2025-08-24 11:31:49,100 - WARNING - [Opening] Illegal move at move 27: {'from': {'row': 5, 'col': 1}, 'to': {'row': 5, 'col': 2}}. Stopping opening parsing.
+2025-08-24 11:31:55,934 - WARNING - [Opening] Illegal move at move 27: {'from': {'row': 5, 'col': 1}, 'to': {'row': 5, 'col': 2}}. Stopping opening parsing.
+2025-08-24 11:31:57,716 - WARNING - [Opening] Illegal move at move 27: {'from': {'row': 5, 'col': 1}, 'to': {'row': 5, 'col': 2}}. Stopping opening parsing.
+2025-08-24 11:31:57,756 - INFO - Received AI move request for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd: botPoints=2400, fen=3rkb1r/ppp1pppp/8/2n5/q1P1bP2/3B1N2/nP4PP/RKB4R b KQkq - 0 1
+2025-08-24 11:31:58,044 - INFO - Bot move for game 21ad5193-7384-42f1-b96d-2dfb5dc622fd (points: 2400): e4d3 (from: [4,4], to: [5,3])
+2025-08-24 11:31:58,112 - WARNING - [Opening] Illegal move at move 27: {'from': {'row': 5, 'col': 1}, 'to': {'row': 5, 'col': 2}}. Stopping opening parsing.
+2025-08-24 14:31:33,709 - INFO - Received AI move request for game 1cdff180-f7ac-4386-8d8d-14c56b0094dd: botPoints=2400, fen=rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 14:31:34,654 - INFO - Bot move for game 1cdff180-f7ac-4386-8d8d-14c56b0094dd (points: 2400): d7d5 (from: [1,3], to: [3,3])
+2025-08-24 14:31:49,250 - INFO - Received AI move request for game 1cdff180-f7ac-4386-8d8d-14c56b0094dd: botPoints=2400, fen=rnbqkbnr/ppp1pppp/8/3pN3/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 14:31:50,529 - INFO - Bot move for game 1cdff180-f7ac-4386-8d8d-14c56b0094dd (points: 2400): f7f6 (from: [1,5], to: [2,5])
+2025-08-24 14:31:56,473 - INFO - Received AI move request for game 1cdff180-f7ac-4386-8d8d-14c56b0094dd: botPoints=2400, fen=rnbqkbnr/ppp1p1pp/5p2/3p4/2N5/8/PPPPPPPP/RNBQKB1R b KQkq - 0 1
+2025-08-24 14:31:57,832 - INFO - Bot move for game 1cdff180-f7ac-4386-8d8d-14c56b0094dd (points: 2400): d5c4 (from: [3,3], to: [4,2])
+2025-08-24 18:55:48,605 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-24 18:55:48,611 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-24 18:55:48,619 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-24 18:55:48,624 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-24 18:55:48,628 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-24 18:55:48,628 - INFO - Total openings loaded: 3535
+2025-08-24 18:55:48,629 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-24 18:55:48,822 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-24 18:55:48,829 - INFO - Serving on http://0.0.0.0:5000
+2025-08-25 10:49:46,853 - INFO - Received AI move request for game 82139373-4dee-4d33-95a0-57701fcfd6f3: botPoints=400, fen=rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1
+2025-08-25 10:49:48,655 - INFO - Bot move for game 82139373-4dee-4d33-95a0-57701fcfd6f3 (points: 400): g7g5 (from: [1,6], to: [3,6])
+2025-08-25 10:50:01,206 - INFO - Received AI move request for game 82139373-4dee-4d33-95a0-57701fcfd6f3: botPoints=400, fen=rnbqkbnr/pppppp1p/8/6p1/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq - 0 1
+2025-08-25 10:50:01,496 - INFO - Bot move for game 82139373-4dee-4d33-95a0-57701fcfd6f3 (points: 400): b7b6 (from: [1,1], to: [2,1])
+2025-08-26 06:41:24,538 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-08-26 06:41:24,544 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-08-26 06:41:24,551 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-08-26 06:41:24,555 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-08-26 06:41:24,559 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-08-26 06:41:24,559 - INFO - Total openings loaded: 3535
+2025-08-26 06:41:24,560 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-08-26 06:41:24,778 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-08-26 06:41:24,785 - INFO - Serving on http://0.0.0.0:5000
+2025-09-01 15:09:55,596 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-09-01 15:09:55,603 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-09-01 15:09:55,613 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-09-01 15:09:55,618 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-09-01 15:09:55,623 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-09-01 15:09:55,623 - INFO - Total openings loaded: 3535
+2025-09-01 15:09:55,624 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-09-01 15:09:55,859 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-09-01 15:09:55,867 - INFO - Serving on http://0.0.0.0:5000
+2025-09-02 14:17:40,663 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-09-02 14:17:40,668 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-09-02 14:17:40,676 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-09-02 14:17:40,680 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-09-02 14:17:40,683 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-09-02 14:17:40,684 - INFO - Total openings loaded: 3535
+2025-09-02 14:17:40,684 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-09-02 14:17:40,773 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-09-02 14:17:40,778 - INFO - Serving on http://0.0.0.0:5000
+2025-09-02 14:21:08,559 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-09-02 14:21:10,101 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): d7d5 (from: [1,3], to: [3,3])
+2025-09-02 14:21:14,930 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=rnbqkbnr/ppp1pppp/8/3p4/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 1
+2025-09-02 14:21:16,528 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): d5e4 (from: [3,3], to: [4,4])
+2025-09-02 14:21:18,392 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=rnbqkbnr/ppp1pppp/8/8/3Pp3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 1
+2025-09-02 14:21:19,316 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): e4f3 (from: [4,4], to: [5,5])
+2025-09-02 14:21:20,506 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=rnbqkbnr/ppp1pppp/8/8/3P4/5P2/PPP2P1P/RNBQKB1R b KQkq - 0 1
+2025-09-02 14:21:22,605 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): b8d7 (from: [0,1], to: [1,3])
+2025-09-02 14:21:27,682 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r1bqkbnr/pppnpppp/8/8/3P4/3Q1P2/PPP2P1P/RNB1KB1R b KQkq - 0 1
+2025-09-02 14:21:29,778 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): d7b6 (from: [1,3], to: [2,1])
+2025-09-02 14:21:32,140 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r1bqkbnr/ppp1pppp/1n6/1Q6/3P4/5P2/PPP2P1P/RNB1KB1R b KQkq - 0 1
+2025-09-02 14:21:33,307 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): c7c6 (from: [1,2], to: [2,2])
+2025-09-02 14:21:44,006 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r1bqkbnr/pp2pppp/1np5/4Q3/3P4/5P2/PPP2P1P/RNB1KB1R b KQkq - 0 1
+2025-09-02 14:21:46,689 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): g8f6 (from: [0,6], to: [2,5])
+2025-09-02 14:21:56,648 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r1bqkb1r/pp2pppp/1np2n2/1B2Q3/3P4/5P2/PPP2P1P/RNB1K2R b KQkq - 0 1
+2025-09-02 14:21:58,192 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): c6b5 (from: [2,2], to: [3,1])
+2025-09-02 14:21:59,690 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r1bqkb1r/pp2pppp/1n3n2/1Q6/3P4/5P2/PPP2P1P/RNB1K2R b KQkq - 0 1
+2025-09-02 14:22:00,329 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): c8d7 (from: [0,2], to: [1,3])
+2025-09-02 14:22:06,513 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r2qkb1r/pp1bpppp/1n3n2/2Q5/3P4/5P2/PPP2P1P/RNB1K2R b KQkq - 0 1
+2025-09-02 14:22:07,551 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): b6d5 (from: [2,1], to: [3,3])
+2025-09-02 14:22:14,967 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r2qkb1r/pp1bpppp/5n2/2Qn4/3P4/5P2/PPP2P1P/RNB1K1R1 b KQkq - 0 1
+2025-09-02 14:22:15,932 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): e7e6 (from: [1,4], to: [2,4])
+2025-09-02 14:22:20,944 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r2qkb1r/pp1b1ppp/4pn2/2Qn2R1/3P4/5P2/PPP2P1P/RNB1K3 b KQkq - 0 1
+2025-09-02 14:22:21,605 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): b7b5 (from: [1,1], to: [3,1])
+2025-09-02 14:22:35,109 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r2qkb1r/p2b1ppp/4pn2/1Q1n2R1/3P4/5P2/PPP2P1P/RNB1K3 b KQkq - 0 1
+2025-09-02 14:22:35,788 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): d7b5 (from: [1,3], to: [3,1])
+2025-09-02 14:22:46,660 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r2qkb1r/p4ppp/4pn2/1b1nR3/3P4/5P2/PPP2P1P/RNB1K3 b KQkq - 0 1
+2025-09-02 14:22:47,331 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): d8b6 (from: [0,3], to: [2,1])
+2025-09-02 14:22:49,136 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r3kb1r/p4ppp/1q2Rn2/1b1n4/3P4/5P2/PPP2P1P/RNB1K3 b KQkq - 0 1
+2025-09-02 14:22:49,660 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): b6e6 (from: [2,1], to: [2,4])
+2025-09-02 14:22:53,424 - INFO - Received AI move request for game 004d97be-c5b0-4759-9f86-a9a50b159c5d: botPoints=1800, fen=r3kb1r/p4ppp/4qn2/1b1n4/3P4/5P2/PPP2P1P/RNBK4 b KQkq - 0 1
+2025-09-02 14:22:53,858 - INFO - Bot move for game 004d97be-c5b0-4759-9f86-a9a50b159c5d (points: 1800): e6e2 (from: [2,4], to: [6,4])
+2025-09-17 09:38:08,475 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-09-17 09:38:08,492 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-09-17 09:38:08,511 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-09-17 09:38:08,521 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-09-17 09:38:08,528 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-09-17 09:38:08,528 - INFO - Total openings loaded: 3535
+2025-09-17 09:38:08,529 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-09-17 09:38:08,852 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-09-17 09:38:08,864 - INFO - Serving on http://0.0.0.0:5000
+2025-09-17 09:45:46,053 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-09-17 09:45:46,068 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-09-17 09:45:46,106 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-09-17 09:45:46,118 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-09-17 09:45:46,134 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-09-17 09:45:46,135 - INFO - Total openings loaded: 3535
+2025-09-17 09:45:46,135 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-09-17 09:45:47,013 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-09-17 09:45:47,089 - INFO - Serving on http://0.0.0.0:5000
+2025-09-17 16:41:27,730 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-09-17 16:41:27,735 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-09-17 16:41:27,743 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-09-17 16:41:27,748 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-09-17 16:41:27,752 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-09-17 16:41:27,753 - INFO - Total openings loaded: 3535
+2025-09-17 16:41:27,753 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-09-17 16:41:27,937 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-09-17 16:41:27,943 - INFO - Serving on http://0.0.0.0:5000
+2025-09-18 17:33:39,889 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-09-18 17:33:39,905 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-09-18 17:33:39,940 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-09-18 17:33:39,949 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-09-18 17:33:39,953 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-09-18 17:33:39,953 - INFO - Total openings loaded: 3535
+2025-09-18 17:33:39,953 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-09-18 17:33:40,773 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-09-18 17:33:40,886 - INFO - Serving on http://0.0.0.0:5000
+2025-09-19 08:27:26,248 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-09-19 08:27:26,255 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-09-19 08:27:26,267 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-09-19 08:27:26,273 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-09-19 08:27:26,277 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-09-19 08:27:26,277 - INFO - Total openings loaded: 3535
+2025-09-19 08:27:26,278 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-09-19 08:27:26,406 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-09-19 08:27:26,412 - INFO - Serving on http://0.0.0.0:5000
+2025-09-20 09:56:01,134 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-09-20 09:56:01,141 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-09-20 09:56:01,151 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-09-20 09:56:01,157 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-09-20 09:56:01,162 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-09-20 09:56:01,163 - INFO - Total openings loaded: 3535
+2025-09-20 09:56:01,163 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-09-20 09:56:01,411 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-09-20 09:56:01,422 - INFO - Serving on http://0.0.0.0:5000
+2025-09-20 10:37:44,020 - INFO - Received AI move request for game 397d1f0c-1136-4dc1-b077-f0fe3632d7c6: botPoints=400, fen=rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1
+2025-09-20 10:37:45,761 - INFO - Bot move for game 397d1f0c-1136-4dc1-b077-f0fe3632d7c6 (points: 400): f7f5 (from: [1,5], to: [3,5])
+2025-09-20 10:37:48,129 - WARNING - [Opening] Illegal move at move 1: {'from': {'row': 6, 'col': 5}, 'to': {'row': 4, 'col': 5}}. Stopping opening parsing.
+2025-09-20 10:37:48,175 - INFO - Received AI move request for game 397d1f0c-1136-4dc1-b077-f0fe3632d7c6: botPoints=400, fen=rnbqkbnr/ppppp1pp/8/5p2/2P2P2/8/PP1PP1PP/RNBQKBNR b KQkq - 0 1
+2025-09-20 10:37:49,063 - INFO - Bot move for game 397d1f0c-1136-4dc1-b077-f0fe3632d7c6 (points: 400): e7e6 (from: [1,4], to: [2,4])
+2025-09-20 10:37:49,161 - WARNING - [Opening] Illegal move at move 1: {'from': {'row': 6, 'col': 5}, 'to': {'row': 4, 'col': 5}}. Stopping opening parsing.
+2025-09-20 11:02:33,252 - INFO - Received AI move request for game 45203ec2-1806-46aa-a9e3-2926b63941f0: botPoints=400, fen=rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1
+2025-09-20 11:02:33,691 - INFO - Bot move for game 45203ec2-1806-46aa-a9e3-2926b63941f0 (points: 400): h7h5 (from: [1,7], to: [3,7])
+2025-09-20 11:02:37,071 - INFO - Received AI move request for game 45203ec2-1806-46aa-a9e3-2926b63941f0: botPoints=400, fen=rnbqkbnr/ppppppp1/8/7p/3P3P/8/PPP1PPP1/RNBQKBNR b KQkq - 0 1
+2025-09-20 11:02:38,578 - INFO - Bot move for game 45203ec2-1806-46aa-a9e3-2926b63941f0 (points: 400): f7f5 (from: [1,5], to: [3,5])
+2025-09-20 11:02:40,125 - INFO - Received AI move request for game 45203ec2-1806-46aa-a9e3-2926b63941f0: botPoints=400, fen=rnbqkbnr/ppppp1p1/8/5p1p/3P3P/5N2/PPP1PPP1/RNBQKB1R b KQkq - 0 1
+2025-09-20 11:02:41,099 - INFO - Bot move for game 45203ec2-1806-46aa-a9e3-2926b63941f0 (points: 400): g7g6 (from: [1,6], to: [2,6])
+2025-09-20 11:02:44,119 - INFO - Received AI move request for game 45203ec2-1806-46aa-a9e3-2926b63941f0: botPoints=400, fen=rnbqkbnr/ppppp3/6p1/5p1p/3P3P/2N2N2/PPP1PPP1/R1BQKB1R b KQkq - 0 1
+2025-09-20 11:02:45,295 - INFO - Bot move for game 45203ec2-1806-46aa-a9e3-2926b63941f0 (points: 400): g6g5 (from: [2,6], to: [3,6])
+2025-09-20 11:02:58,493 - WARNING - [Opening] Illegal move at move 8: {'from': {'row': 3, 'col': 5}, 'to': {'row': 4, 'col': 5}}. Stopping opening parsing.
+2025-09-20 11:02:58,527 - INFO - Received AI move request for game 45203ec2-1806-46aa-a9e3-2926b63941f0: botPoints=400, fen=rnbqkbnr/ppppp3/6p1/4N2p/3P1p1P/2N5/PPP1PPP1/R1BQKB1R b KQkq - 0 1
+2025-09-20 11:02:59,158 - INFO - Bot move for game 45203ec2-1806-46aa-a9e3-2926b63941f0 (points: 400): b7b6 (from: [1,1], to: [2,1])
+2025-09-20 11:02:59,277 - WARNING - [Opening] Illegal move at move 8: {'from': {'row': 3, 'col': 5}, 'to': {'row': 4, 'col': 5}}. Stopping opening parsing.
+2025-09-21 16:48:29,440 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-09-21 16:48:29,447 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-09-21 16:48:29,457 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-09-21 16:48:29,461 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-09-21 16:48:29,465 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-09-21 16:48:29,465 - INFO - Total openings loaded: 3535
+2025-09-21 16:48:29,465 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-09-21 16:48:29,624 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-09-21 16:48:29,631 - INFO - Serving on http://0.0.0.0:5000
