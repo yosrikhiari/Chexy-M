@@ -3,12 +3,15 @@ import os
 import random
 import sys
 from functools import lru_cache
+
+from RPG import RPGAIModel
 from opening_detector import load_openings, detect_opening, Opening
 
 import chess
 import chess.engine
 from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
+from RPG import RPGAIModel
 
 # Configure logging
 logging.basicConfig(
@@ -436,6 +439,147 @@ def health_check():
         'openings_loaded': len(openings),
         'stockfish_path': STOCKFISH_PATH
     })
+
+
+# --- RPG AI endpoints ---
+
+@app.route('/api/ai-strategy', methods=['POST', 'OPTIONS'])
+@cross_origin()
+def rpg_ai_strategy():
+    try:
+        if request.method == 'OPTIONS':
+            return ('', 204)
+
+        data = request.get_json(silent=True) or {}
+        round_num = int(data.get('round', 1))
+        player_army_size = int(data.get('playerArmySize', 8))
+
+        if round_num <= 3:
+            strategy = 'defensive'
+        elif round_num <= 7:
+            strategy = 'balanced'
+        else:
+            strategy = 'aggressive'
+
+        # Simple adjustment by army size
+        if player_army_size >= 12 and strategy != 'aggressive':
+            strategy = 'balanced'
+
+        return jsonify({'strategy': strategy})
+    except Exception as e:
+        logger.error(f"Error in rpg_ai_strategy: {str(e)}", exc_info=True)
+        return jsonify({'error': 'Failed to get AI strategy'}), 500
+
+
+@app.route('/api/ai-move', methods=['POST', 'OPTIONS'])
+@cross_origin()
+def rpg_ai_move():
+    try:
+        if request.method == 'OPTIONS':
+            return ('', 204)
+
+        data = request.get_json(silent=True) or {}
+
+        board_state = data.get('board', [])
+        enemy_pieces = data.get('enemyPieces', [])
+        player_pieces = data.get('playerPieces', [])
+        strategy = data.get('strategy', 'balanced')
+        board_size = int(data.get('boardSize', 8))
+        round_num = int(data.get('round', 1))
+        game_id = data.get('gameId', '')
+
+        # Difficulty scaling: start 300, +50 per round
+        difficulty = max(300, 300 + (round_num - 1) * 50)
+
+        ai = RPGAIModel(difficulty=difficulty)
+        move = ai.calculate_move(board_state, enemy_pieces, player_pieces, strategy, board_size, round_num)
+
+        if not move:
+            return jsonify({'move': None, 'difficulty': difficulty})
+
+        return jsonify({
+            'move': {
+                'from': {'row': move.from_pos[0], 'col': move.from_pos[1]},
+                'to': {'row': move.to_pos[0], 'col': move.to_pos[1]}
+            },
+            'pieceType': move.piece_type,
+            'pieceName': move.piece_name,
+            'moveType': move.move_type,
+            'confidence': move.confidence,
+            'reasoning': move.reasoning,
+            'difficulty': difficulty,
+            'gameId': game_id
+        })
+    except Exception as e:
+        logger.error(f"Error in rpg_ai_move: {str(e)}", exc_info=True)
+        return jsonify({'error': 'Failed to calculate RPG AI move'}), 500
+
+
+@app.route('/api/rpg/ai-move', methods=['POST'])
+@cross_origin()
+def rpg_ai_move():
+    try:
+        data = request.get_json()
+
+        board = data.get('board', [])
+        enemy_pieces = data.get('enemyPieces', [])
+        player_pieces = data.get('playerPieces', [])
+        strategy = data.get('strategy', 'balanced')
+        board_size = data.get('boardSize', 8)
+        round_num = data.get('round', 1)
+        game_id = data.get('gameId', '')
+
+        # Calculate difficulty based on round
+        difficulty = 300 + (round_num - 1) * 50  # Start at 300, increase by 50 each round
+
+        ai_model = RPGAIModel(difficulty)
+        ai_move = ai_model.calculate_move(
+            board, enemy_pieces, player_pieces, strategy, board_size, round_num
+        )
+
+        if ai_move:
+            return jsonify({
+                'move': {
+                    'from': {'row': ai_move.from_pos[0], 'col': ai_move.from_pos[1]},
+                    'to': {'row': ai_move.to_pos[0], 'col': ai_move.to_pos[1]}
+                },
+                'pieceType': ai_move.piece_type,
+                'pieceName': ai_move.piece_name,
+                'moveType': ai_move.move_type,
+                'confidence': ai_move.confidence,
+                'reasoning': ai_move.reasoning,
+                'difficulty': difficulty
+            })
+        else:
+            return jsonify({'move': None})
+
+    except Exception as e:
+        logger.error(f"Error in RPG AI move: {str(e)}", exc_info=True)
+        return jsonify({'error': 'Failed to calculate RPG AI move'}), 500
+
+
+@app.route('/api/rpg/ai-strategy', methods=['POST'])
+@cross_origin()
+def rpg_ai_strategy():
+    try:
+        data = request.get_json()
+        round_num = data.get('round', 1)
+        player_army_size = data.get('playerArmySize', 8)
+
+        # Strategy selection based on round and army size
+        if round_num <= 3:
+            strategy = 'defensive'
+        elif round_num <= 7:
+            strategy = 'balanced'
+        else:
+            strategy = 'aggressive'
+
+        return jsonify({'strategy': strategy})
+
+    except Exception as e:
+        logger.error(f"Error in RPG AI strategy: {str(e)}", exc_info=True)
+        return jsonify({'error': 'Failed to get AI strategy'}), 500
+
 
 
 def main():

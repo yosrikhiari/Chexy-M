@@ -3273,3 +3273,12 @@ AttributeError: 'NoneType' object has no attribute 'piece_type'
 2025-09-21 16:48:29,465 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
 2025-09-21 16:48:29,624 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
 2025-09-21 16:48:29,631 - INFO - Serving on http://0.0.0.0:5000
+2025-09-22 11:53:24,769 - INFO - Loaded 740 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\a.tsv
+2025-09-22 11:53:24,774 - INFO - Loaded 744 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\b.tsv
+2025-09-22 11:53:24,781 - INFO - Loaded 1200 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\c.tsv
+2025-09-22 11:53:24,786 - INFO - Loaded 530 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\d.tsv
+2025-09-22 11:53:24,789 - INFO - Loaded 321 openings from C:\Users\yosri\Desktop\projects for me\projet Chexy\PythonProject\Models\Openings\e.tsv
+2025-09-22 11:53:24,789 - INFO - Total openings loaded: 3535
+2025-09-22 11:53:24,789 - INFO - Stockfish found at C:\Users\yosri\Desktop\projects for me\projet Chexy\stockfish-windows-x86-64-avx2\stockfish\stockfish.exe
+2025-09-22 11:53:24,946 - INFO - Starting AI Chess Game Server with Waitress on http://localhost:5000
+2025-09-22 11:53:24,952 - INFO - Serving on http://0.0.0.0:5000
