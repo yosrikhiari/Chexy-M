@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91402c40-b942-4a4c-8b53-f6fbf1945b18" name="Changes" comment="started implementing the ai for the RPG">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/RPG.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/RPG.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/chess_ai.log" beforeDir="false" afterPath="$PROJECT_DIR$/Models/chess_ai.log" afterDir="false" />
     </list>
@@ -63,30 +62,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Flask server.Flask (Models/app.py).executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.RPG.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.classic_chess_ai.executor": "Run",
-    "Python.engine.executor": "Run",
-    "Python.opening_detector.executor": "Run",
-    "Python.waitress.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/yosri/Desktop/projects for me/projet Chexy/PythonProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Flask server.Flask (Models/app.py).executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.RPG.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classic_chess_ai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.engine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.opening_detector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.waitress.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yosri/Desktop/projects for me/projet Chexy/PythonProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -220,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758478081507</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="started implementing the ai for the RPG">
+      <option name="closed" value="true" />
+      <created>1758543403729</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1758543403729</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
